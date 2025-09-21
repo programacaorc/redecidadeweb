@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Rede Cidade WEB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rede Cidade WEB - Rádio online de BH e Pará de Minas. Notícias, esportes, música brasileira e internacional sem falação e sem comerciais abusivos.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo-cidade.png" alt="Logo Rede Cidade WEB" class="logo">
+            <div>
+                <h1>Rede Cidade WEB</h1>
+                <p class="subtitle">Atuante em <b>Belo Horizonte</b> e <b>Pará de Minas</b> <span class="em-breve">(em breve novas filiais!)</span></p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="active" data-section="inicio">Início</li>
+                <li data-section="ouca">Ouça-nos</li>
+                <li data-section="noticias">Notícias</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Início -->
+        <section id="inicio" class="section active-section">
+            <h2>Bem-vindo ao site da Rádio Cidade WEB!</h2>
+            <p>
+                Aqui você fica informado sobre tudo o que acontece em Belo Horizonte, Minas Gerais, no Brasil e no mundo.<br>
+                Diariamente, também trazemos notícias sobre o universo dos esportes para os amantes do futebol! Atlético, Cruzeiro, América e outros times, com exclusividade para você.
+            </p>
+            <p>
+                Nossa rádio tem como objetivo, sem muita falação, oferecer o melhor da música brasileira e internacional para o ouvinte que deseja curtir suas músicas preferidas sem interrupções exageradas e sem comerciais abusivos, como acontece em outras emissoras.
+            </p>
+            <p>
+                Parceira da <b>Rede Itasat</b>, a Rádio Cidade WEB traz jornalismo e esportes em primeira mão, 24 horas por dia. Se o fato virar notícia, você vai ficar sabendo primeiro aqui!
+            </p>
+            <p>
+                Também somos parceiros do canal <b>Rankeando Jogos</b>, onde publicamos diariamente vídeos com as melhores edições de games lançados em nossas plataformas. Além disso, você confere as principais notícias sobre o mundo dos games no Brasil e no exterior.
+            </p>
+            <p>
+                <b>A Rede Cidade WEB está presente em Belo Horizonte e Pará de Minas (em breve com novas filiais!).</b>
+            </p>
+            <div class="parceiros">
+                <h3>Ouça também no Rádios Net:</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.radios.com.br/aovivo/radio-cidade-pa/239473" target="_blank">Rádio Cidade PA</a>
+                    </li>
+                    <li>
+                        <a href="https://www.radios.com.br/aovivo/radio-cidade-bh/239839" target="_blank">Rádio Cidade BH</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Ouça-nos -->
+        <section id="ouca" class="section">
+            <h2>Ouça-nos</h2>
+            <div class="players-select">
+                <button id="btn-bh" class="player-btn active">Rádio Cidade BH</button>
+                <button id="btn-pa" class="player-btn">Rádio Cidade PA</button>
+            </div>
+            <div id="player-bh" class="player-container active">
+                <h3>Rádio Cidade BH</h3>
+                <audio controls src="https://stream.zeno.fm/9hmzagl0vcatv"></audio>
+            </div>
+            <div id="player-pa" class="player-container">
+                <h3>Rádio Cidade PA</h3>
+                <audio controls src="https://stream.zeno.fm/jrznwa68wxtvv"></audio>
+            </div>
+            <div class="redes-sociais">
+                <h3>Siga a Rede Cidade WEB:</h3>
+                <a href="https://www.instagram.com/redecidadeweb2024/" target="_blank" class="social-link instagram">Instagram</a>
+                <a href="https://www.youtube.com/@RedeCidadeWEB" target="_blank" class="social-link youtube">YouTube</a>
+                <a href="https://zeno.fm/radio/radio-cidade-web-bh" target="_blank" class="social-link zeno">Zeno Media</a>
+            </div>
+        </section>
+
+        <!-- Notícias -->
+        <section id="noticias" class="section">
+            <h2>Notícias</h2>
+            <div id="noticias-list">
+                <!-- Notícias serão colocadas aqui -->
+            </div>
+            <p class="news-info">Para publicar novas notícias, edite o arquivo <b>noticias.json</b> (veja instrução no README).</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rede Cidade WEB. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
