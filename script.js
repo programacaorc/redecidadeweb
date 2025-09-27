@@ -80,7 +80,7 @@ const placares = [
         hora: "19:00",
         time_casa: "Cruzeiro",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Escudo_Cruzeiro.png",
-        gols_casa: null,
+        gols_casa: 1,
         time_fora: "Bragantino",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Red_Bull_Bragantino_logo.svg",
         gols_fora: null
