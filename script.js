@@ -80,7 +80,7 @@ const placares = [
         hora: "18:30",
         time_casa: "Juventude",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Internacional",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
         gols_fora: 1
