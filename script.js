@@ -51,14 +51,14 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO", // "ENCERRADO", "AO VIVO", "A SEGUIR"
-        data: "20/09",
-        hora: "21:30",
-        time_casa: "Botafogo",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Escudo_Botafogo.png",
+        status: "A SEGUIR", // "ENCERRADO", "AO VIVO", "A SEGUIR"
+        data: "27/09",
+        hora: "21:00",
+        time_casa: "Atlético",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
         gols_casa: 1,
-        time_fora: "Atlético-MG",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Clube_Atl%C3%A9tico_Mineiro_logo.svg",
+        time_fora: "Mirassol",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
         gols_fora: 0
     },
     {
