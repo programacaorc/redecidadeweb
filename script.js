@@ -80,7 +80,7 @@ const placares = [
         hora: "16:00",
         time_casa: "Fluminense",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Botafogo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
         gols_fora: 0
