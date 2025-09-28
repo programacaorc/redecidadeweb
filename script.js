@@ -95,7 +95,7 @@ const placares = [
         gols_casa: 1,
         time_fora: "Santos",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/0/03/Escudo_do_Santos_Futebol_Clube.png/250px-Escudo_do_Santos_Futebol_Clube.png",
-        gols_fora: 1
+        gols_fora: 2
     },
     {
         campeonato: "Brasileirão Série A",
