@@ -87,7 +87,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "28/09",
         hora: "18:30",
         time_casa: "Bragantino",
