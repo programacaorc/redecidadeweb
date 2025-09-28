@@ -75,7 +75,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "28/09",
         hora: "16:00",
         time_casa: "Fluminense",
