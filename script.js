@@ -92,7 +92,7 @@ const placares = [
         hora: "18:30",
         time_casa: "Bragantino",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "Santos",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/0/03/Escudo_do_Santos_Futebol_Clube.png/250px-Escudo_do_Santos_Futebol_Clube.png",
         gols_fora: 2
