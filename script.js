@@ -63,7 +63,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "28/09",
         hora: "16:00",
         time_casa: "Bahia",
@@ -87,15 +87,15 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "28/09",
         hora: "18:30",
         time_casa: "Bragantino",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Santos",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/0/03/Escudo_do_Santos_Futebol_Clube.png/250px-Escudo_do_Santos_Futebol_Clube.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
