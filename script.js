@@ -56,7 +56,7 @@ const placares = [
         hora: "19:00",
         time_casa: "Ámérica",
         escudo_casa: "https://irp.cdn-website.com/05448cb5/files/uploaded/afc-escudos-site-branco-1.png",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "Volta Redonda",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/b/ba/Volta%C3%A7oFC.png",
         gols_fora: 0
