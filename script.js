@@ -107,7 +107,7 @@ const placares = [
         gols_casa: 1,
         time_fora: "Flamengo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_fora: 1
+        gols_fora: 2
     }
 ];
 
