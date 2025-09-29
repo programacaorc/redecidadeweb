@@ -99,7 +99,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "28/09",
         hora: "20:30",
         time_casa: "Corinthians",
