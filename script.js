@@ -54,7 +54,7 @@ const placares = [
         status: "A SEGUIR", // "ENCERRADO", "AO VIVO", "A SEGUIR"
         data: "29/09",
         hora: "19:00",
-        time_casa: "Ämérica MG",
+        time_casa: "Ámérica",
         escudo_casa: "https://irp.cdn-website.com/05448cb5/files/uploaded/afc-escudos-site-branco-1.png",
         gols_casa: null,
         time_fora: "Volta Redonda",
