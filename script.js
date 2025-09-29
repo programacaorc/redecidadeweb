@@ -51,15 +51,15 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO", // "ENCERRADO", "AO VIVO", "A SEGUIR"
-        data: "28/09",
-        hora: "11:00",
-        time_casa: "Grêmio",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_casa: 3,
-        time_fora: "EC VITÓRIA",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png/120px-Esporte_Clube_Vit%C3%B3ria_logo.png",
-        gols_fora: 1
+        status: "A SEGUIR", // "ENCERRADO", "AO VIVO", "A SEGUIR"
+        data: "29/09",
+        hora: "19:00",
+        time_casa: "Ämérica MG",
+        escudo_casa: "https://irp.cdn-website.com/05448cb5/files/uploaded/afc-escudos-site-branco-1.png",
+        gols_casa: null,
+        time_fora: "Volta Redonda",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/b/ba/Volta%C3%A7oFC.png",
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
