@@ -59,7 +59,7 @@ const placares = [
         gols_casa: 2,
         time_fora: "Volta Redonda",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/b/ba/Volta%C3%A7oFC.png",
-        gols_fora: 0
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
