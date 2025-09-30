@@ -87,7 +87,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
+        status: "A SEGUIR",
         data: "01/10",
         hora: "19:00",
         time_casa: "Mirassol",
@@ -99,7 +99,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
+        status: "A SEGUIR",
         data: "01/10",
         hora: "19:00",
         time_casa: "Sport",
