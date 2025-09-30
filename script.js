@@ -76,7 +76,7 @@ const placares = [
     {
         campeonato: "Brasileirão Série A",
         status: "A SEGUIR",
-        data: "30/09",
+        data: "01/10",
         hora: "19:00",
         time_casa: "Palmeiras",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
@@ -88,7 +88,7 @@ const placares = [
     {
         campeonato: "Brasileirão Série A",
         status: "ENCERRADO",
-        data: "28/09",
+        data: "01/10",
         hora: "19:00",
         time_casa: "Mirassol",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
@@ -100,7 +100,7 @@ const placares = [
     {
         campeonato: "Brasileirão Série A",
         status: "ENCERRADO",
-        data: "28/09",
+        data: "01/10",
         hora: "19:00",
         time_casa: "Sport",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
