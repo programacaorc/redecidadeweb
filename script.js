@@ -51,7 +51,7 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Brasileirão Série B",
-        status: "Encerrado", // "ENCERRADO", "AO VIVO", "A SEGUIR"
+        status: "ENCERRADO", // "ENCERRADO", "AO VIVO", "A SEGUIR"
         data: "29/09",
         hora: "19:00",
         time_casa: "Ámérica",
@@ -63,51 +63,51 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "28/09",
-        hora: "16:00",
-        time_casa: "Bahia",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
+        status: "A SEGUIR",
+        data: "30/09",
+        hora: "21:30",
+        time_casa: "Atlético",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
         gols_casa: 1,
-        time_fora: "Palmeiras",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
+        time_fora: "Juventude",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
         gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "28/09",
-        hora: "16:00",
-        time_casa: "Fluminense",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
-        gols_casa: 2,
-        time_fora: "Botafogo",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-        gols_fora: 0
+        status: "A SEGUIR",
+        data: "30/09",
+        hora: "19:00",
+        time_casa: "Palmeiras",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
+        gols_casa: null,
+        time_fora: "Vasco",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
         status: "ENCERRADO",
         data: "28/09",
-        hora: "18:30",
-        time_casa: "Bragantino",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_casa: 2,
-        time_fora: "Santos",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/0/03/Escudo_do_Santos_Futebol_Clube.png/250px-Escudo_do_Santos_Futebol_Clube.png",
-        gols_fora: 2
+        hora: "19:00",
+        time_casa: "Mirassol",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
+        gols_casa: null,
+        time_fora: "Bragantino",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
         status: "ENCERRADO",
         data: "28/09",
-        hora: "20:30",
-        time_casa: "Corinthians",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
-        gols_casa: 1,
-        time_fora: "Flamengo",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_fora: 2
+        hora: "19:00",
+        time_casa: "Sport",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
+        gols_casa: null,
+        time_fora: "Fluminense",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
+        gols_fora: null
     }
 ];
 
