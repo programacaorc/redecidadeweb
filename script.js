@@ -68,10 +68,10 @@ const placares = [
         hora: "21:30",
         time_casa: "Atlético",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Juventude",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
