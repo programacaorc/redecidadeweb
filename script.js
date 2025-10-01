@@ -63,7 +63,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRRADO",
         data: "30/09",
         hora: "21:30",
         time_casa: "Atlético",
