@@ -75,39 +75,39 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "ENCERRADO",
         data: "01/10",
         hora: "19:00",
         time_casa: "Palmeiras",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
-        gols_casa: null,
+        gols_casa: 3,
         time_fora: "Vasco",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "ENCERRADO",
         data: "01/10",
         hora: "19:00",
         time_casa: "Mirassol",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
-        gols_casa: null,
+        gols_casa: 1,
         time_fora: "Bragantino",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_fora: null
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "ENCERRADO",
         data: "01/10",
         hora: "19:00",
         time_casa: "Sport",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
-        gols_casa: null,
+        gols_casa: 2,
         time_fora: "Fluminense",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
-        gols_fora: null
+        gols_fora: 2
     }
 ];
 
