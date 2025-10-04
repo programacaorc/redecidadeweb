@@ -124,7 +124,7 @@ const placares = [
         campeonato: "Brasileirão Série A",
         status: "A SEGUIR",
         data: "04/10",
-        hora: "19:00",
+        hora: "21:00",
         time_casa: "Corinthians",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
         gols_casa: null,
