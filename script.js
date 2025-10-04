@@ -67,10 +67,10 @@ const placares = [
         data: "04/10",
         hora: "18:30",
         time_casa: "Fluminense",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
         gols_casa: null,
         time_fora: "Atlético",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
         gols_fora: null
     },
     {
@@ -105,7 +105,7 @@ const placares = [
         time_casa: "Vasco",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
         gols_casa: null,
-        time_fora: "Fluminense",
+        time_fora: "Vitória",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png/120px-Esporte_Clube_Vit%C3%B3ria_logo.png",
         gols_fora: null
     }
