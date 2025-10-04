@@ -86,39 +86,39 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Brasileirão Série B",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "04/10",
         hora: "18:30",
         time_casa: "Internacional",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Botafogo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "04/10",
         hora: "18:30",
         time_casa: "Fluminense",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Atlético",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "04/10",
         hora: "18:30",
         time_casa: "Bragantino",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Grêmio",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
