@@ -91,7 +91,7 @@ const placares = [
         hora: "18:30",
         time_casa: "Internacional",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "Botafogo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
         gols_fora: 0
