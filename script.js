@@ -110,7 +110,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "05/10",
         hora: "18:30",
         time_casa: "Bahia",
