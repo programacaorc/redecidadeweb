@@ -127,10 +127,10 @@ const placares = [
         hora: "18:30",
         time_casa: "Juventude",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Fortaleza",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
-        gols_fora: 0
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
