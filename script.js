@@ -103,7 +103,7 @@ const placares = [
         hora: "16:00",
         time_casa: "São Paulo",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/250px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Palmeiras",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
         gols_fora: 0
