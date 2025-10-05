@@ -86,7 +86,7 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "05/10",
         hora: "16:00",
         time_casa: "Vasco",
