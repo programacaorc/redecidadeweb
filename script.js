@@ -130,7 +130,7 @@ const placares = [
         gols_casa: 1,
         time_fora: "Fortaleza",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
-        gols_fora: 1
+        gols_fora: 2
     },
     {
         campeonato: "Brasileirão Série A",
