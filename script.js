@@ -91,14 +91,14 @@ const placares = [
         hora: "16:00",
         time_casa: "Vasco",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
-        gols_casa: 3,
+        gols_casa: 4,
         time_fora: "Vitória",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png/120px-Esporte_Clube_Vit%C3%B3ria_logo.png",
         gols_fora: 3
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "05/10",
         hora: "16:00",
         time_casa: "São Paulo",
