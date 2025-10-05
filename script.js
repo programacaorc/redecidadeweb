@@ -139,10 +139,10 @@ const placares = [
         hora: "20:30",
         time_casa: "Cruzeiro",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Sport",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
-        gols_fora: null
+        gols_fora: 0
     }
 ];
 
