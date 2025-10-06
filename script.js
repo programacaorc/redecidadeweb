@@ -134,7 +134,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "05/10",
         hora: "20:30",
         time_casa: "Cruzeiro",
