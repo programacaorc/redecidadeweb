@@ -91,7 +91,7 @@ const placares = [
         hora: "19:00",
         time_casa: "Palmeiras",
         escudo_casa: "https://pt.wikipedia.org/wiki/Ficheiro:Palmeiras_logo.svg",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "Bragantino",
         escudo_fora: "https://pt.wikipedia.org/wiki/Ficheiro:RedBullBragantino.png",
         gols_fora: 1
