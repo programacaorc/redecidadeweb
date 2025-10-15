@@ -115,7 +115,7 @@ const placares = [
         hora: "20:00",
         time_casa: "Mirassol EC",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "SC Internacional",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
         gols_fora: 0
@@ -134,7 +134,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
+        status: "A SEGUIR",
         data: "15/10",
         hora: "21:30",
         time_casa: "Atlético MG",
