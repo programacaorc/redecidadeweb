@@ -89,10 +89,10 @@ const placares = [
         status: "AO VIVO",
         data: "15/10",
         hora: "19:00",
-        time_casa: "SE Palmeiras",
+        time_casa: "Palmeiras",
         escudo_casa: "https://pt.wikipedia.org/wiki/Ficheiro:Palmeiras_logo.svg",
         gols_casa: 1,
-        time_fora: "RB Bragantino",
+        time_fora: "Bragantino",
         escudo_fora: "https://pt.wikipedia.org/wiki/Ficheiro:RedBullBragantino.png",
         gols_fora: 1
     },
@@ -101,10 +101,10 @@ const placares = [
         status: "AO VIVO",
         data: "15/10",
         hora: "19:30",
-        time_casa: "Botafogo FR",
+        time_casa: "Botafogo",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
         gols_casa: 0,
-        time_fora: "CR Flamengo",
+        time_fora: "Flamengo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
         gols_fora: 0
     },
@@ -114,10 +114,10 @@ const placares = [
         data: "15/10",
         hora: "20:00",
         time_casa: "Mirassol EC",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
         gols_casa: 0,
         time_fora: "SC Internacional",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
         gols_fora: 0
     },
     {
@@ -125,7 +125,7 @@ const placares = [
         status: "AO VIVO",
         data: "15/10",
         hora: "20:00",
-        time_casa: "Sport CR",
+        time_casa: "Sport",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
         gols_casa: 0,
         time_fora: "Fortaleza",
@@ -140,7 +140,7 @@ const placares = [
         time_casa: "Atlético MG",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
         gols_casa: null,
-        time_fora: "Cruzeiro EC",
+        time_fora: "Cruzeiro",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
         gols_fora: null
     }
