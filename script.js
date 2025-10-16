@@ -98,7 +98,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "15/10",
         hora: "19:30",
         time_casa: "Botafogo",
