@@ -142,7 +142,7 @@ const placares = [
         gols_casa: 0,
         time_fora: "Cruzeiro",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_fora: 0
+        gols_fora: 1
     }
 ];
 
