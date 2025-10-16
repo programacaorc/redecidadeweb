@@ -86,12 +86,12 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "15/10",
         hora: "19:00",
         time_casa: "Palmeiras",
         escudo_casa: "https://pt.wikipedia.org/wiki/Ficheiro:Palmeiras_logo.svg",
-        gols_casa: 2,
+        gols_casa: 5,
         time_fora: "Bragantino",
         escudo_fora: "https://pt.wikipedia.org/wiki/Ficheiro:RedBullBragantino.png",
         gols_fora: 1
@@ -106,7 +106,7 @@ const placares = [
         gols_casa: 0,
         time_fora: "Flamengo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_fora: 1
+        gols_fora: 3
     },
     {
         campeonato: "Brasileirão Série A",
@@ -115,10 +115,10 @@ const placares = [
         hora: "20:00",
         time_casa: "Mirassol EC",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "SC Internacional",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
-        gols_fora: 0
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
