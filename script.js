@@ -86,63 +86,63 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "15/10",
-        hora: "19:00",
-        time_casa: "Palmeiras",
-        escudo_casa: "https://pt.wikipedia.org/wiki/Ficheiro:Palmeiras_logo.svg",
-        gols_casa: 5,
-        time_fora: "Bragantino",
-        escudo_fora: "https://pt.wikipedia.org/wiki/Ficheiro:RedBullBragantino.png",
-        gols_fora: 1
+        status: "A SEGUIR",
+        data: "18/10",
+        hora: "18:30",
+        time_casa: "Corinthians",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
+        gols_casa: null,
+        time_fora: "Atlético",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "15/10",
-        hora: "19:30",
-        time_casa: "Botafogo",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-        gols_casa: 0,
-        time_fora: "Flamengo",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_fora: 3
+        status: "A SEGUIR",
+        data: "18/10",
+        hora: "21:00",
+        time_casa: "Cruzeiro",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
+        gols_casa: null,
+        time_fora: "Fortaleza",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "15/10",
+        status: "A SEGUIR",
+        data: "19/10",
+        hora: "16:00",
+        time_casa: "Flamengo",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
+        gols_casa: null,
+        time_fora: "Palmeiras",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
+        gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "19/10",
         hora: "20:00",
         time_casa: "Mirassol",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
-        gols_casa: 3,
-        time_fora: "Internacional",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
-        gols_fora: 1
-    },
-    {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "15/10",
-        hora: "20:00",
-        time_casa: "Sport",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
-        gols_casa: 1,
-        time_fora: "Ceará",
+        gols_casa: null,
+        time_fora: "São Paulo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cear%C3%A1_Sporting_Club_logo.svg/120px-Cear%C3%A1_Sporting_Club_logo.svg.png",
-        gols_fora: 1
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
-        data: "15/10",
-        hora: "21:30",
-        time_casa: "Atlético MG",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: 0,
+        status: "A SEGUIR",
+        data: "18/10",
+        hora: "20:30",
+        time_casa: "Grêmio",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
+        gols_casa: null,
         time_fora: "Cruzeiro",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_fora: 1
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
+        gols_fora: null
     }
 ];
 
