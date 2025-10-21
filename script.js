@@ -50,16 +50,16 @@ fetch('noticias.json')
 // ========= PLACARES MANUAIS =========
 const placares = [
     {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "18/10",
-        hora: "18:30",
-        time_casa: "Corinthians",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
-        gols_casa: 1,
+        campeonato: "Copa Sul-Americana",
+        status: "A SEGUIR",
+        data: "21/10",
+        hora: "21:30",
+        time_casa: "Indepediente D. Vale",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Escudoindependientedelvalle2023.png/250px-Escudoindependientedelvalle2023.png",
+        gols_casa: null,
         time_fora: "Atlético",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_fora: 0
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
@@ -86,27 +86,27 @@ const placares = [
         gols_fora: 2
     },
     {
-        campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
-        data: "19/10",
-        hora: "20:00",
-        time_casa: "Mirassol",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
+        campeonato: null,
+        status: null,
+        data: null,
+        hora: null,
+        time_casa: null,
+        escudo_casa: null,
         gols_casa: null,
-        time_fora: "São Paulo",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/250px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
+        time_fora: null,
+        escudo_fora: null
         gols_fora: null
     },
     {
-        campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
-        data: "18/10",
-        hora: "20:30",
-        time_casa: "Grêmio",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
+        campeonato: null,
+        status: null,
+        data: null,
+        hora: null,
+        time_casa: null,
+        escudo_casa: null,
         gols_casa: null,
-        time_fora: "Bahia",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
+        time_fora: null,
+        escudo_fora: null
         gols_fora: null
     }
 ];
