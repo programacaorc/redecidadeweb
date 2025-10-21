@@ -54,7 +54,7 @@ const placares = [
         status: "A SEGUIR",
         data: "21/10",
         hora: "21:30",
-        time_casa: "Indepediente D. Vale",
+        time_casa: "Del Vale",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Escudoindependientedelvalle2023.png/250px-Escudoindependientedelvalle2023.png",
         gols_casa: null,
         time_fora: "Atlético",
