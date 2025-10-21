@@ -86,28 +86,16 @@ const placares = [
         gols_fora: null
     },
     {
-        campeonato: "Brasileirão Série A",
+        campeonato: "Brasileirão",
         status: "A SEGUIR",
-        data: "22/10,
-        hora: 19:00,
+        data: "22/10",
+        hora: "19:00",
         time_casa: "Bahia",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
         gols_casa: null,
         time_fora: "Internacional",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png"
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
         gols_fora: null
-    },
-    {
-        campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
-        data: "A Definir",
-        hora: "A Definir",
-        time_casa: "A Definir",
-        escudo_casa: "A Definir",
-        gols_casa: "A Definir",
-        time_fora: "A Definir",
-        escudo_fora: "A Definir"
-        gols_fora: "A Definir"
     }
 ];
 
