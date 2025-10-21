@@ -62,52 +62,52 @@ const placares = [
         gols_fora: null
     },
     {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "18/10",
-        hora: "21:00",
-        time_casa: "Cruzeiro",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_casa: 1,
-        time_fora: "Fortaleza",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
-        gols_fora: 0
+        campeonato: "Copa Libertadores",
+        status: "A SEGUIR",
+        data: "22/10",
+        hora: "21:30",
+        time_casa: "FLAMENGO",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
+        gols_casa: null,
+        time_fora: "RACING",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/120px-Escudo_de_Racing_Club_%282014%29.svg.png",
+        gols_fora: null
     },
     {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "19/10",
-        hora: "16:00",
-        time_casa: "Flamengo",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_casa: 3,
+        campeonato: "Copa Libertadores",
+        status: "A SEGUIR",
+        data: "23/10",
+        hora: "21:30",
+        time_casa: "LDU Quito",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Liga_de_Quito_deportiva.png/250px-Liga_de_Quito_deportiva.png",
+        gols_casa: null,
         time_fora: "Palmeiras",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
-        gols_fora: 2
-    },
-    {
-        campeonato: null,
-        status: null,
-        data: null,
-        hora: null,
-        time_casa: null,
-        escudo_casa: null,
-        gols_casa: null,
-        time_fora: null,
-        escudo_fora: null
         gols_fora: null
     },
     {
-        campeonato: null,
-        status: null,
-        data: null,
-        hora: null,
-        time_casa: null,
-        escudo_casa: null,
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "22/10,
+        hora: 19:00,
+        time_casa: "Bahia",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
         gols_casa: null,
-        time_fora: null,
-        escudo_fora: null
+        time_fora: "Internacional",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png"
         gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "A Definir",
+        hora: "A Definir",
+        time_casa: "A Definir",
+        escudo_casa: "A Definir",
+        gols_casa: "A Definir",
+        time_fora: "A Definir",
+        escudo_fora: "A Definir"
+        gols_fora: "A Definir"
     }
 ];
 
