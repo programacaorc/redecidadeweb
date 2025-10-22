@@ -87,15 +87,15 @@ const placares = [
     },
     {
         campeonato: "Brasileirão",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "22/10",
         hora: "19:00",
         time_casa: "Bahia",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Internacional",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_do_Sport_Club_Internacional.svg/960px-Escudo_do_Sport_Club_Internacional.svg.png",
-        gols_fora: null
+        gols_fora: 0
     }
 ];
 
