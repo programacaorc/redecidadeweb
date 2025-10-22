@@ -51,15 +51,15 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Copa Sul-Americana",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "21/10",
         hora: "21:30",
         time_casa: "Del Vale",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Escudoindependientedelvalle2023.png/250px-Escudoindependientedelvalle2023.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Atlético",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Copa Libertadores",
