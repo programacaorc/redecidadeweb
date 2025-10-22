@@ -51,7 +51,7 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Copa Sul-Americana",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "21/10",
         hora: "21:30",
         time_casa: "Del Vale",
