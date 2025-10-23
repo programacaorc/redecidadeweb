@@ -87,7 +87,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão",
-        status: "ECNERRADO",
+        status: "ENCERRADO",
         data: "22/10",
         hora: "19:00",
         time_casa: "Bahia",
