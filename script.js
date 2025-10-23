@@ -63,7 +63,7 @@ const placares = [
     },
     {
         campeonato: "Copa Libertadores",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "22/10",
         hora: "21:30",
         time_casa: "FLAMENGO",
