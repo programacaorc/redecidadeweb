@@ -68,7 +68,7 @@ const placares = [
         hora: "21:30",
         time_casa: "FLAMENGO",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "RACING",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/120px-Escudo_de_Racing_Club_%282014%29.svg.png",
         gols_fora: 0
