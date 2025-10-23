@@ -63,15 +63,15 @@ const placares = [
     },
     {
         campeonato: "Copa Libertadores",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "22/10",
         hora: "21:30",
         time_casa: "FLAMENGO",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "RACING",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/120px-Escudo_de_Racing_Club_%282014%29.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Copa Libertadores",
@@ -87,12 +87,12 @@ const placares = [
     },
     {
         campeonato: "Brasileirão",
-        status: "AO VIVO",
+        status: "ECNERRADO",
         data: "22/10",
         hora: "19:00",
         time_casa: "Bahia",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Internacional",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_do_Sport_Club_Internacional.svg/960px-Escudo_do_Sport_Club_Internacional.svg.png",
         gols_fora: 0
