@@ -50,52 +50,88 @@ fetch('noticias.json')
 // ========= PLACARES MANUAIS =========
 const placares = [
     {
-        campeonato: "Copa Sul-Americana",
-        status: "ENCERRADO",
-        data: "21/10",
-        hora: "21:30",
-        time_casa: "Del Vale",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Escudoindependientedelvalle2023.png/250px-Escudoindependientedelvalle2023.png",
-        gols_casa: 1,
-        time_fora: "Atlético",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_fora: 1
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "25/10",
+        hora: "16:00",
+        time_casa: "Atlético",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
+        gols_casa: null,
+        time_fora: "Ceará",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cear%C3%A1_Sporting_Club_logo.svg/120px-Cear%C3%A1_Sporting_Club_logo.svg.png",
+        gols_fora: null
     },
     {
-        campeonato: "Copa Libertadores",
-        status: "ENCERRADO",
-        data: "22/10",
-        hora: "21:30",
-        time_casa: "FLAMENGO",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_casa: 1,
-        time_fora: "RACING",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/120px-Escudo_de_Racing_Club_%282014%29.svg.png",
-        gols_fora: 0
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "25/10",
+        hora: "16:00",
+        time_casa: "Vitória",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png/120px-Esporte_Clube_Vit%C3%B3ria_logo.png",
+        gols_casa: null,
+        time_fora: "Corinthians",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
+        gols_fora: null
     },
     {
-        campeonato: "Copa Libertadores",
-        status: "ENCERRADO",
-        data: "23/10",
-        hora: "21:30",
-        time_casa: "LDU Quito",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Liga_de_Quito_deportiva.png/250px-Liga_de_Quito_deportiva.png",
-        gols_casa: 3,
-        time_fora: "Palmeiras",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
-        gols_fora: 0
-    },
-    {
-        campeonato: "Brasileirão",
-        status: "ENCERRADO",
-        data: "22/10",
-        hora: "19:00",
-        time_casa: "Bahia",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
-        gols_casa: 1,
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "25/10",
+        hora: "17:30",
+        time_casa: "Fluminense",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
+        gols_casa: null,
         time_fora: "Internacional",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_do_Sport_Club_Internacional.svg/960px-Escudo_do_Sport_Club_Internacional.svg.png",
-        gols_fora: 0
+        gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "25/10",
+        hora: "18:30",
+        time_casa: "Sport",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
+        gols_casa: null,
+        time_fora: "Mirassol",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
+        gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "25/10",
+        hora: "19:30",
+        time_casa: "Fortaleza",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
+        gols_casa: null,
+        time_fora: "Flamengo",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.pn",
+        gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "25/10",
+        hora: "21:30",
+        time_casa: "São Paulo",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/250px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
+        gols_casa: null,
+        time_fora: "Palmeiras",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
+        gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "26/10",
+        hora: "16:00",
+        time_casa: "Grêmio",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
+        gols_casa: null,
+        time_fora: "Juventude",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
+        gols_fora: null
     }
 ];
 
