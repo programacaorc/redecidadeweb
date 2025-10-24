@@ -80,7 +80,7 @@ const placares = [
         hora: "21:30",
         time_casa: "LDU Quito",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Liga_de_Quito_deportiva.png/250px-Liga_de_Quito_deportiva.png",
-        gols_casa: 2,
+        gols_casa: 3,
         time_fora: "Palmeiras",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
         gols_fora: 0
