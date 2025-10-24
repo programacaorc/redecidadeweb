@@ -75,15 +75,15 @@ const placares = [
     },
     {
         campeonato: "Copa Libertadores",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "23/10",
         hora: "21:30",
         time_casa: "LDU Quito",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Liga_de_Quito_deportiva.png/250px-Liga_de_Quito_deportiva.png",
-        gols_casa: null,
+        gols_casa: 2,
         time_fora: "Palmeiras",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão",
