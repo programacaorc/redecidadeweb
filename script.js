@@ -95,7 +95,7 @@ const placares = [
         gols_casa: 0,
         time_fora: "Mirassol",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
-        gols_fora: 0
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
