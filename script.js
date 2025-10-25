@@ -43,7 +43,7 @@ fetch('noticias.json')
         });
     })
     .catch(() => {
-        document.getElementById('noticias-list').innerHTML = '<p>Erro ao carregar notícias.</p>';
+        document.getElementById('noticias-list').innerHTML = '<p>Ops! Parece que houve algum erro está impedindo o site de carregar as noticias, mas calma, a Rádio Cidade está trabalhando para resolver!</p>';
     });
 
 
@@ -117,7 +117,7 @@ const placares = [
         time_casa: "São Paulo",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/250px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
         gols_casa: null,
-        time_fora: "Palmeiras",
+        time_fora: "Bahia",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
         gols_fora: null
     },
