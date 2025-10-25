@@ -92,7 +92,7 @@ const placares = [
         hora: "18:30",
         time_casa: "Sport",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Mirassol",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
         gols_fora: 1
