@@ -128,7 +128,7 @@ const placares = [
         hora: "16:00",
         time_casa: "Grêmio",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_casa: 2,
+        gols_casa: 3,
         time_fora: "Juventude",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
         gols_fora: 0
