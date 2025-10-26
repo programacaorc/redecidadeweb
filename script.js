@@ -123,7 +123,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "26/10",
         hora: "16:00",
         time_casa: "Grêmio",
