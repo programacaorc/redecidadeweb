@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Rede Cidade WEB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rede Cidade WEB - Rádio online de BH e Pará de Minas. Notícias, esportes, música brasileira e internacional sem falação e sem comerciais abusivos.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo-cidade.png">
+    <style>
+        /* Pequenos ajustes para o embed caso style.css não trate */
+        .cstrEmbed { width: 100%; display: block; min-height: 90px; margin-top: .5rem; }
+        .load-player-btn { display: inline-block; margin-top: .5rem; padding: .45rem .8rem; border-radius: 6px; border: 1px solid #ddd; background:#222; color:#fff; cursor:pointer; }
+        .players-select .player-btn { cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo-cidade.png" alt="Logo Rede Cidade WEB" class="logo">
+            <div>
+                <h1>Rede Cidade WEB</h1>
+                <p class="subtitle">A Rede das Grandes Novidades!</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="active" data-section="inicio">Início</li>
+                <li data-section="ouca">Ouça-nos</li>
+                <li data-section="noticias">Notícias</li>
+                <li data-section="programacao">Programação</li>
+                <li data-section="quem-somos">Quem Somos</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- INÍCIO - Com placares -->
+        <section id="inicio" class="section active-section">
+            <div class="placares-container">
+                <h2><span style="color:#ffd369;">⚽ Placar AO VIVO</span></h2>
+                <p class="placar-caption">Resultados do Brasileirão, Sul-Americana e Libertadores</p>
+                <div id="placares-list" class="placares-list">
+                    <div class="loading-placar">Carregando placares...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ouça-nos -->
+        <section id="ouca" class="section">
+            <h2><span style="color:#ffd369;">🎧 Ouça-nos</span></h2>
+            <div class="players-select">
+                <button id="btn-bh" class="player-btn active">Rádio Cidade BH</button>
+                <button id="btn-pa" class="player-btn">Rádio Cidade PA</button>
+                <button id="btn-sp" class="player-btn">Rádio Cidade SP</button>
+            </div>
+            <div id="player-bh" class="player-container active">
+                <h3>Rádio Cidade BH</h3>
+                <audio controls src="https://stream.zeno.fm/9hmzagl0vcatv"></audio>
+            </div>
+            <div id="player-pa" class="player-container">
+                <h3>Rádio Cidade PA</h3>
+                <audio controls src="https://stream.zeno.fm/jrznwa68wxtvv"></audio>
+            </div>
+
+            <!-- SUBSTITUÍDO: Player Rádio Cidade SP (novo embed fornecido) -->
+            <div id="player-sp" class="player-container" style="display:none;">
+                <h3>Rádio Cidade SP</h3>
+
+                <!-- NOVO EMBED (fornecido por você) -->
+                <div data-type="newStreamPlayer"
+                     data-publicToken="e35bb27b-eea5-49ec-98eb-908684ded76c"
+                     data-theme="dark"
+                     data-color="e81e4d"
+                     data-channelId=""
+                     data-rendered="false"
+                     class="cstrEmbed" aria-label="Player Rádio Cidade SP">
+                    <a href="https://www.caster.fm">Shoutcast Hosting</a>
+                    <a href="https://www.caster.fm">Stream Hosting</a>
+                    <a href="https://www.caster.fm">Radio Server Hosting</a>
+                </div>
+
+                <!-- Botão manual caso queira forçar o carregamento do widget -->
+                <button id="load-player-sp" class="load-player-btn" type="button">Carregar player</button>
+
+                <noscript>
+                    <p>Para ouvir a Rádio Cidade SP, habilite o JavaScript ou acesse:
+                        <a href="https://www.caster.fm" target="_blank" rel="noopener">caster.fm</a>
+                    </p>
+                </noscript>
+            </div>
+
+            <div class="redes-sociais">
+                <h3>Siga a Rede Cidade WEB:</h3>
+                <a href="https://www.instagram.com/redecidadeweb2024/" target="_blank" class="social-link instagram">Instagram</a>
+                <a href="https://www.youtube.com/@RedeCidadeWEB" target="_blank" class="social-link youtube">YouTube</a>
+                <a href="https://zeno.fm/radio/radio-cidade-web-bh" target="_blank" class="social-link zeno">Zeno Media</a>
+            </div>
+        </section>
+
+        <!-- Notícias -->
+        <section id="noticias" class="section">
+            <h2><span style="color:#ffd369;">📰 Notícias</span></h2>
+            <div id="noticias-list">
+                <!-- Notícias serão carregadas aqui -->
+            </div>
+        </section>
+
+        <!-- Programação -->
+        <section id="programacao" class="section">
+            <h2><span style="color:#ffd369;">📺 PROGRAMAÇÃO!</span></h2>
+            <h3>Segunda a Sexta:</h3>
+            <ul>
+                <li>00:00 Itatiaia é a Dona da Noite</li>
+                <li>04:00 Café com Noticias</li>
+                <li>06:00 Horário Livre</li>
+                <li>07:00 Jornal da Itatiaia</li>
+                <li>09:00 Horário Livre 2ªEdição</li>
+                <li>11:30 Rádio Esportes</li>
+                <li>13:00 Horário Livre</li>
+                <li>14:00 Chamada Geral</li>
+                <li>16:00 Paradão Sertanejo</li>
+                <li>17:00 Cidade Não Para</li>
+                <li>18:00 Oração da Tarde</li>
+                <li>18:02 Cidade Não Para</li>
+                <li>19:00 A VOZ DO BRASIL</li>
+                <li>20:00 Conversa de Redação</li>
+                <li>20:20 Jornal da Itatiaia (Noite)</li>
+                <li>21:00 Assunto Federal</li>
+                <li>22:00 Noite Livre</li>
+                <li>23:00 Show da Noite</li>
+            </ul>
+            <h3>Sábado:</h3>
+            <ul>
+                <li>00:00 Itatiaia é a Dona da Noite</li>
+                <li>04:00 Café com Noticias</li>
+                <li>06:00 Horário Livre</li>
+                <li>07:00 Jornal da Itatiaia</li>
+                <li>09:00 Horário Livre</li>
+                <li>10:00 Horário Livre (LOCAL)</li>
+                <li>11:00 Horário Livre (REDE)</li>
+                <li>11:30 Rádio Esportes</li>
+                <li>13:00 Horário Livre (BH)</li>
+                <li>13:00 Itatiaia Agora (PA)</li>
+                <li>14:00 Sábado Retrô</li>
+                <li>16:00 Paradão Sertanejo</li>
+                <li>17:00 Cidade Não Para</li>
+                <li>18:00 Oração da Tarde</li>
+                <li>18:02 Turma do Bate Bola</li>
+                <li>20:00 Conversa de Redação</li>
+                <li>20:20 Jornal da Itatiaia (Noite)</li>
+                <li>21:00 Noite Livre</li>
+                <li>23:00 Show da Noite</li>
+            </ul>
+            <h3>Domingo:</h3>
+            <ul>
+                <li>00:00 Itatiaia é a Dona da Noite</li>
+                <li>04:00 Parada no Rádio</li>
+                <li>06:00 Horário Livre</li>
+                <li>07:00 Jornal da Itatiaia</li>
+                <li>09:00 Horário Livre</li>
+                <li>10:00 Horário Livre (LOCAL)</li>
+                <li>11:00 Horário Livre (REDE)</li>
+                <li>12:00 Paradão Sertanejo</li>
+                <li>13:00 Domingão Esportivo</li>
+                <li>15:00 Jornada Esportiva/Cidade Não Para</li>
+                <li>19:00 Horário Livre</li>
+                <li>20:00, 20:45 Noite Livre</li>
+                <li>23:00 Show da Noite</li>
+            </ul>
+        </section>
+
+        <!-- Quem Somos -->
+        <section id="quem-somos" class="section">
+            <h2><span style="color:#ffd369;">🙋 Quem Somos</span></h2>
+            <div class="quem-somos-content">
+                <p>
+                    A Rádio Cidade WEB trás pra você diariamente, tudo do mundo dos Esportes, Entreterimento, Jornalismo e Politica! Aqui você fica informado sobre tudo o que acontece em Belo Horizonte, Minas Gerais, no Brasil e no mundo.<br>
+                    Diariamente, também trazemos notícias sobre o universo dos esportes para os amantes do futebol! Atlético, Cruzeiro, América e outros times, com exclusividade para você.
+                </p>
+                <p>
+                    Nossa rádio tem como objetivo, sem muita falação, oferecer o melhor da música brasileira e internacional para o ouvinte que deseja curtir suas músicas preferidas sem interrupções exageradas e sem comerciais abusivos, como acontece em outras emissoras.
+                </p>
+                <p>
+                    Parceira da <b>Rede Itasat</b>, a Rádio Cidade WEB traz jornalismo e esportes em primeira mão, 24 horas por dia. Se o fato virar notícia, você vai ficar sabendo primeiro aqui!
+                </p>
+                <p>
+                    Também somos parceiros do canal <b>Rankeando Jogos</b>, onde publicamos diariamente vídeos com as melhores edições de games lançados em nossas plataformas. Além disso, você confere as principais notícias sobre o mundo dos games no Brasil e no exterior.
+                </p>
+                <p>
+                    <b>Com cobertura em Belo Horizonte e Pará de Minas, a Rádio Cidade vem buscando se expandir por esse Brasil, trazendo o melhor da música para seus ouvintes).</b>
+                    </p>
+                    <p>
+                        <b>Rede Cidade, a Rede das grandes novidades!</b>
+                    </p>
+                </p>
+                <div class="parceiros">
+                    <h3>Ouça também no Rádios Net:</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.radios.com.br/aovivo/radio-cidade-pa/239473" target="_blank">Rádio Cidade PA</a>
+                        </li>
+                        <li>
+                            <a href="https://www.radios.com.br/aovivo/radio-cidade-bh/239839" target="_blank">Rádio Cidade BH</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rede Cidade WEB. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
