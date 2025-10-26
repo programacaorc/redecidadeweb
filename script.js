@@ -111,7 +111,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "25/10",
         hora: "21:30",
         time_casa: "São Paulo",
