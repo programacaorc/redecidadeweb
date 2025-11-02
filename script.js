@@ -152,15 +152,15 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "02/11",
         hora: "18:30",
         time_casa: "Internacional",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Atlético",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
