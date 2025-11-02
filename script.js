@@ -133,7 +133,7 @@ const placares = [
         hora: "21:00",
         time_casa: "Flamengo",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "Sport",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
         gols_fora: 0
