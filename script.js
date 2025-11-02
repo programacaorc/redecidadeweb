@@ -128,7 +128,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "01/11",
         hora: "21:00",
         time_casa: "Flamengo",
