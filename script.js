@@ -97,10 +97,10 @@ const placares = [
         hora: "20:00",
         time_casa: "Grêmio",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Cruzeiro",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
@@ -109,10 +109,10 @@ const placares = [
         hora: "20:00",
         time_casa: "Atlético",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Bahia",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
