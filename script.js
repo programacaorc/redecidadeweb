@@ -128,15 +128,15 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "02/11",
-        hora: "20:30",
-        time_casa: "São Paulo",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/250px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
-        gols_casa: 2,
-        time_fora: "Vasco",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
-        gols_fora: 0
+        status: "A SEGYUR",
+        data: "06/11",
+        hora: "21:30",
+        time_casa: "Palmeiras",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
+        gols_casa: null,
+        time_fora: "Santos",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
