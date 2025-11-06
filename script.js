@@ -109,7 +109,7 @@ const placares = [
         hora: "20:00",
         time_casa: "Atlético",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Bahia",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
         gols_fora: 0
