@@ -109,7 +109,7 @@ const placares = [
         hora: "20:00",
         time_casa: "Atlético",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: 1,
+        gols_casa: 3,
         time_fora: "Bahia",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
         gols_fora: 0
@@ -122,8 +122,8 @@ const placares = [
         time_casa: "Corinthians",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
         gols_casa: 1,
-        time_fora: "Mirassol",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Escudo_de_2022_do_Mirassol_Futebol_Clube.png/250px-Escudo_de_2022_do_Mirassol_Futebol_Clube.png",
+        time_fora: "Bragantino",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/9/9e/RedBullBragantino.png",
         gols_fora: 2
     },
     {
