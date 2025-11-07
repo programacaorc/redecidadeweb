@@ -128,15 +128,15 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGYUR",
+        status: "AO VIVO",
         data: "06/11",
         hora: "21:30",
         time_casa: "Palmeiras",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Santos",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
