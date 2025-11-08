@@ -104,7 +104,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "07/11",
         hora: "18:00",
         time_casa: "Vasco",
