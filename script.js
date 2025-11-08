@@ -104,14 +104,14 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "05/11",
-        hora: "20:00",
-        time_casa: "Atlético",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: 3,
-        time_fora: "Bahia",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
+        status: "AO VIVO",
+        data: "08/11",
+        hora: "16:00",
+        time_casa: "Sport",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
+        gols_casa: 0,
+        time_fora: "Atlético",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
         gols_fora: 0
     },
     {
