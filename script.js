@@ -112,7 +112,7 @@ const placares = [
         gols_casa: 1,
         time_fora: "Juventude",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
-        gols_fora: 1
+        gols_fora: 2
     },
     {
         campeonato: "Brasileirão Série A",
