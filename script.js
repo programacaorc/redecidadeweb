@@ -148,7 +148,7 @@ const placares = [
         gols_casa: null,
         time_fora: "Fluminense",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
-        gols_fora: 0
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
