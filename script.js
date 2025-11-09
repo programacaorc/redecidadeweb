@@ -141,8 +141,8 @@ const placares = [
     {
         campeonato: "Brasileirão Série A",
         status: "A SEGUIR",
-        data: "02/11",
-        hora: "18:30",
+        data: "09/11",
+        hora: "16:00",
         time_casa: "Cruzeiro",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
         gols_casa: null,
