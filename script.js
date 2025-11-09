@@ -136,7 +136,7 @@ const placares = [
         gols_casa: 0,
         time_fora: "Red Bull",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_fora: 0
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
