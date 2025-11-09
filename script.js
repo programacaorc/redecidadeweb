@@ -105,14 +105,14 @@ const placares = [
     {
         campeonato: "Brasileirão Série A",
         status: "ENCERRADO",
-        data: "07/11",
+        data: "08/11",
         hora: "18:00",
         time_casa: "Vasco",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
         gols_casa: 1,
         time_fora: "Juventude",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
-        gols_fora: 2
+        gols_fora: 3
     },
     {
         campeonato: "Brasileirão Série A",
