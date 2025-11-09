@@ -124,7 +124,7 @@ const placares = [
         gols_casa: 2,
         time_fora: "Bahia",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
-        gols_fora: 0
+        gols_fora: 2
     },
     {
         campeonato: "Brasileirão Série A",
