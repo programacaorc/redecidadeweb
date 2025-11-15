@@ -139,28 +139,28 @@ const placares = [
         gols_fora: null
     },
     {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "09/11",
-        hora: "16:00",
-        time_casa: "Cruzeiro",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_casa: 0,
-        time_fora: "Fluminense",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/250px-FFC_crest.svg.png",
-        gols_fora: 0
+        campeonato: "Amistosos da Seleção",
+        status: "A SEGUIR",
+        data: "18/11",
+        hora: "16:30",
+        time_casa: "Brasil",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/150px-Brazilian_Football_Confederation_logo.svg.png",
+        gols_casa: null,
+        time_fora: "Tunísia",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/88/F%C3%A9d%C3%A9ration_Tunisienne_de_Football.png/250px-F%C3%A9d%C3%A9ration_Tunisienne_de_Football.png",
+        gols_fora: null
     },
     {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "09/11",
-        hora: "16:00",
-        time_casa: "Vitória",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png/120px-Esporte_Clube_Vit%C3%B3ria_logo.png",
-        gols_casa: 0,
-        time_fora: "Botafogo",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-        gols_fora: 0
+        campeonato: "Copa Sul-Americana",
+        status: "A SEGUIR",
+        data: "22/11",
+        hora: "17:00",
+        time_casa: "Atlético",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
+        gols_casa: null,
+        time_fora: "Lanús",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Escudo_del_Club_Lan%C3%BAs.png/120px-Escudo_del_Club_Lan%C3%BAs.png",
+        gols_fora: null
     }
 ];
 
