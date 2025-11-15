@@ -92,7 +92,7 @@ fetch('noticias.json')
 const placares = [
     {
         campeonato: "Amistosos da Seleção",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "15/11",
         hora: "13:00",
         time_casa: "Brasil",
