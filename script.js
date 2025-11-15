@@ -104,15 +104,15 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "15/11",
         hora: "18:30",
         time_casa: "Sport",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Flamengo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
