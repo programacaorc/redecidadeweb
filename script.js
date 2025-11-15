@@ -91,52 +91,52 @@ fetch('noticias.json')
 // ========= PLACARES MANUAIS =========
 const placares = [
     {
+        campeonato: "Amistosos da Seleção",
+        status: "AO VIVO",
+        data: "15/11",
+        hora: "13:00",
+        time_casa: "Brasil",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/150px-Brazilian_Football_Confederation_logo.svg.png",
+        gols_casa: 2,
+        time_fora: "Senegal",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/7/7c/FSenegalaiseF.png/250px-FSenegalaiseF.png",
+        gols_fora: 0
+    },
+    {
         campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "08/11",
-        hora: "16:00",
+        status: "A SEGUIR",
+        data: "15/11",
+        hora: "18:30",
         time_casa: "Sport",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Sport_Club_do_Recife.png/120px-Sport_Club_do_Recife.png",
-        gols_casa: 2,
+        gols_casa: null,
+        time_fora: "Flamengo",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
+        gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "15/11",
+        hora: "21:00",
+        time_casa: "Santos",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
+        gols_casa: null,
+        time_fora: "Palmeiras",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
+        gols_fora: null
+    },
+    {
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "16/11",
+        hora: "19:00",
+        time_casa: "Red Bull",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
+        gols_casa: null,
         time_fora: "Atlético",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_fora: 4
-    },
-    {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "08/11",
-        hora: "18:00",
-        time_casa: "Vasco",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
-        gols_casa: 1,
-        time_fora: "Juventude",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/EC_Juventude.svg/140px-EC_Juventude.svg.png",
-        gols_fora: 3
-    },
-    {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "08/11",
-        hora: "18:30",
-        time_casa: "Internacional",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
-        gols_casa: 2,
-        time_fora: "Bahia",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/ECBahia.png/250px-ECBahia.png",
-        gols_fora: 2
-    },
-    {
-        campeonato: "Brasileirão Série A",
-        status: "ENCERRADO",
-        data: "08/11",
-        hora: "21:00",
-        time_casa: "São Paulo",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/250px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
-        gols_casa: 0,
-        time_fora: "Red Bull",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_fora: 1
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
