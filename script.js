@@ -116,7 +116,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "15/11",
         hora: "21:00",
         time_casa: "Santos",
