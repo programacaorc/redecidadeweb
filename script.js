@@ -121,7 +121,7 @@ const placares = [
         hora: "21:00",
         time_casa: "Santos",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
-        gols_casa: 100000000000,
+        gols_casa: 1,
         time_fora: "Palmeiras",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png",
         gols_fora: 0
