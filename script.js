@@ -128,15 +128,15 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "16/11",
         hora: "19:00",
         time_casa: "Red Bull",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_casa: null,
+        gols_casa: 1,
         time_fora: "Atlético",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Amistosos da Seleção",
