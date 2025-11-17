@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>Rede Cidade WEB — Ouça-nos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo-cidade.png" alt="Logo" class="logo" />
+            <div class="brand">
+                <h1>Rede Cidade WEB</h1>
+                <p class="subtitle">Ouça nossas rádios</p>
+            </div>
+            <nav aria-label="Principal">
+                <ul>
+                    <li><a href="index.html" id="nav-inicio">Início</a></li>
+                    <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
+                    <li><a href="noticias.html" id="nav-noticias">Notícias</a></li>
+                    <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
+                    <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="ouca-section">
+            <h2>Ouça-nos</h2>
+            <p class="lead">Escolha a estação desejada. O player de São Paulo carrega quando solicitado (lazy-load).</p>
+
+            <div class="players-select" role="tablist" aria-label="Estacoes">
+                <button id="btn-bh" class="player-btn active" aria-pressed="true" title="Rádio Cidade BH">
+                    <!-- icon: radio tower -->
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3L12 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M18 6L12 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M6 6L12 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="15" r="2" fill="currentColor"/></svg>
+                    <span>BH</span>
+                </button>
+
+                <button id="btn-pa" class="player-btn" aria-pressed="false" title="Rádio Cidade PA">
+                    <!-- icon: headphones -->
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12v6a2 2 0 0 0 2 2h1V10a7 7 0 0 1 14 0v10h1a2 2 0 0 0 2-2v-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <span>PA</span>
+                </button>
+
+                <button id="btn-sp" class="player-btn" aria-pressed="false" title="Rádio Cidade SP">
+                    <!-- icon: broadcast / waves -->
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="2" fill="currentColor"/><path d="M16.24 7.76a6 6 0 0 1 0 8.48" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M7.76 7.76a6 6 0 0 0 0 8.48" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                    <span>SP</span>
+                </button>
+            </div>
+
+            <div id="player-bh" class="player-container active" role="tabpanel">
+                <h3>Rádio Cidade BH</h3>
+                <audio controls src="https://stream.zeno.fm/9hmzagl0vcatv"></audio>
+            </div>
+
+            <div id="player-pa" class="player-container" role="tabpanel" aria-hidden="true">
+                <h3>Rádio Cidade PA</h3>
+                <audio controls src="https://stream.zeno.fm/jrznwa68wxtvv"></audio>
+            </div>
+
+            <div id="player-sp" class="player-container" role="tabpanel" aria-hidden="true" style="display:none;">
+                <h3>Rádio Cidade SP</h3>
+                <div id="sp-controls" style="margin-bottom:8px;">
+                    <button id="load-player-sp" class="player-btn">Carregar player SP</button>
+                </div>
+
+                <!-- placeholder: o script irá injetar o widget Caster.fm (dark theme) quando necessário -->
+                <div id="sp-embed-placeholder" class="cstrEmbed-placeholder"></div>
+
+                <noscript>
+                    <p>Se o player não carregar automaticamente, visite <a href="https://www.caster.fm" target="_blank" rel="noopener">caster.fm</a>.</p>
+                </noscript>
+            </div>
+
+            <div class="redes-sociais">
+                <h3>Siga a Rede Cidade WEB:</h3>
+                <a href="https://www.instagram.com/redecidadeweb2024/" target="_blank" class="social-link instagram">Instagram</a>
+                <a href="https://www.youtube.com/@RedeCidadeWEB" target="_blank" class="social-link youtube">YouTube</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rede Cidade WEB. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
