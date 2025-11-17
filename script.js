@@ -128,7 +128,7 @@ const placares = [
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "16/11",
         hora: "19:00",
         time_casa: "Red Bull",
