@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>Rede Cidade WEB — Programação</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo-cidade.png" alt="Logo" class="logo" />
+            <div class="brand">
+                <h1>Rede Cidade WEB</h1>
+                <p class="subtitle">Programação</p>
+            </div>
+            <nav aria-label="Principal">
+                <ul>
+                    <li><a href="index.html" id="nav-inicio">Início</a></li>
+                    <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
+                    <li><a href="noticias.html" id="nav-noticias">Notícias</a></li>
+                    <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
+                    <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Programação</h2>
+            <p class="lead">Escolha a cidade e o dia para ver a grade completa.</p>
+
+            <div id="programacao-root" class="programacao-root">
+                <!-- O script.js irá renderizar aqui as abas de estação, dias e a lista -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rede Cidade WEB. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
