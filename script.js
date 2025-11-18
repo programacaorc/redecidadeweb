@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 0,
         time_fora: "Tunísia",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/88/F%C3%A9d%C3%A9ration_Tunisienne_de_Football.png/250px-F%C3%A9d%C3%A9ration_Tunisienne_de_Football.png",
-        gols_fora: 0
+        gols_fora: 1
     },
     {
         campeonato: "Copa Sul-Americana",
