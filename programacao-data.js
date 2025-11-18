@@ -27,6 +27,7 @@ window.PROGRAMACAO = {
     ],
     sab: [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00 - 06:00', title: 'Café com Noticia' },
       { time: '06:00 - 07:00', title: 'Bom dia Cidade' },
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
       { time: '09:00 - 10:00', title: 'Horário Livre 1ª Edição (REDE)' },
@@ -53,7 +54,7 @@ window.PROGRAMACAO = {
       { time: '13:00 - 14:00', title: 'Domingão Esportivo' },
       { time: '15:00 - 16:00', title: 'Jornada Esportiva / Cidade Não Para' },
       { time: '19:00 - 20:00', title: 'Horário Livre' },
-      { time: '20:00 - 23:00', title: 'Noite Livre (blocos às 20:00 e 20:45)' },
+      { time: '20:00 - 23:00', title: 'Noite Livre' },
       { time: '23:00 - 00:00', title: 'Show da Noite' }
     ]
   },
@@ -61,7 +62,7 @@ window.PROGRAMACAO = {
   bh: {
     'seg-sex': [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Café com Notícias' },
+      { time: '04:00 - 06:00', title: 'Café com Notícia' },
       { time: '06:00 - 07:00', title: 'Bom Dia Cidade' },
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
       { time: '09:00 - 11:30', title: 'Horário Livre' },
@@ -167,7 +168,7 @@ window.PROGRAMACAO = {
       { time: '13:00 - 14:00', title: 'Domingão Esportivo' },
       { time: '15:00 - 16:00', title: 'Jornada Esportiva / Cidade Não Para' },
       { time: '19:00 - 20:00', title: 'Horário Livre' },
-      { time: '20:00 - 23:00', title: 'Noite Livre (blocos às 20:00 e 20:45)' },
+      { time: '20:00 - 23:00', title: 'Noite Livre' },
       { time: '23:00 - 00:00', title: 'Show da Noite' }
     ]
   }
