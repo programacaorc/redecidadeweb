@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "16:30",
         time_casa: "Brasil",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/150px-Brazilian_Football_Confederation_logo.svg.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Tunísia",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/88/F%C3%A9d%C3%A9ration_Tunisienne_de_Football.png/250px-F%C3%A9d%C3%A9ration_Tunisienne_de_Football.png",
         gols_fora: 1
