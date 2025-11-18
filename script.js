@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         campeonato: "Amistosos da Seleção",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "18/11",
         hora: "16:30",
         time_casa: "Brasil",
