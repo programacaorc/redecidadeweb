@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         campeonato: "Amistosos da Seleção",
-        status: "ENCERRADO",
+        status: "A SEGUIR",
         data: "19/11",
         hora: "21:30",
         time_casa: "Grêmio",
