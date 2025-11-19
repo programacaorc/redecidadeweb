@@ -235,6 +235,18 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_fora: 1
     },
     {
+        campeonato: "Amistosos da Seleção",
+        status: "ENCERRADO",
+        data: "19/11",
+        hora: "21:30",
+        time_casa: "Grêmio",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
+        gols_casa: null,
+        time_fora: "Vasco",
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
+        gols_fora: null
+    },
+    {
         campeonato: "Copa Sul-Americana",
         status: "A SEGUIR",
         data: "22/11",
