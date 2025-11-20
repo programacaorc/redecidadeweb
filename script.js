@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_fora: 1
     },
     {
-        campeonato: "Amistosos da Seleção",
+        campeonato: "Brasileirão Série A",
         status: "A SEGUIR",
         data: "19/11",
         hora: "21:30",
