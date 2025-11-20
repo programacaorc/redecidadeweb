@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "19/11",
         hora: "21:30",
         time_casa: "Grêmio",
