@@ -236,15 +236,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "19/11",
         hora: "21:30",
         time_casa: "Grêmio",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Vasco",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Copa Sul-Americana",
