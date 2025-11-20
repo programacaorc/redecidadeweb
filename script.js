@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "21:30",
         time_casa: "Grêmio",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "Vasco",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
         gols_fora: 0
