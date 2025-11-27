@@ -253,10 +253,10 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "17:00",
         time_casa: "Atlético",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: 0 (4),
+        gols_casa: 4,
         time_fora: "Lanús",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Escudo_del_Club_Lan%C3%BAs.png/120px-Escudo_del_Club_Lan%C3%BAs.png",
-        gols_fora: 0 (5)
+        gols_fora: 5
     }
   ];
 
