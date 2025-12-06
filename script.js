@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 2,
         time_fora: "Flamengo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_fora: 2
+        gols_fora: 3
     },
     {
         campeonato: "Brasileirão Série A",
