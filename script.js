@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
         time_casa: "Mirassol",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/250px-Mirassol_FC_logo.png",
         gols_casa: null,
-        time_fora: "Senegal",
+        time_fora: "Flamengo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
         gols_fora: null
     },
