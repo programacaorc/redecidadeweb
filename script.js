@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const placares = [
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "06/12",
         hora: "18:30",
         time_casa: "Mirassol",
