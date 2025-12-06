@@ -218,16 +218,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- PLACARES (dados manuais) ----------
   const placares = [
     {
-        campeonato: "Amistosos da Seleção",
-        status: "ENCERRADO",
-        data: "15/11",
-        hora: "13:00",
-        time_casa: "Brasil",
-        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/150px-Brazilian_Football_Confederation_logo.svg.png",
-        gols_casa: 2,
+        campeonato: "Brasileirão Série A",
+        status: "A SEGUIR",
+        data: "06/12",
+        hora: "18:30",
+        time_casa: "Mirassol",
+        escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/250px-Mirassol_FC_logo.png",
+        gols_casa: null,
         time_fora: "Senegal",
-        escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/7/7c/FSenegalaiseF.png/250px-FSenegalaiseF.png",
-        gols_fora: 0
+        escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
+        gols_fora: null
     },
     {
         campeonato: "Brasileirão Série A",
