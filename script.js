@@ -219,15 +219,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const placares = [
     {
         campeonato: "Brasileirão Série A",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "06/12",
         hora: "18:30",
         time_casa: "Mirassol",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/250px-Mirassol_FC_logo.png",
-        gols_casa: null,
+        gols_casa: 1,
         time_fora: "Flamengo",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/250px-Flamengo_braz_logo.svg.png",
-        gols_fora: null
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
