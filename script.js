@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 0,
         time_fora: "Grêmio",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_fora: 0
+        gols_fora: 1
     },
     {
         campeonato: "Brasileirão Série A",
