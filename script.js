@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "16:00",
         time_casa: "Santos",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
-        gols_casa: 2,
+        gols_casa: 3,
         time_fora: "Cruzeiro",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
         gols_fora: 0
