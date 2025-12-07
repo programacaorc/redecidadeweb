@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "16:00",
         time_casa: "BOT",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-        gols_casa: 2,
+        gols_casa: 3,
         time_fora: "FOR",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
         gols_fora: 1
