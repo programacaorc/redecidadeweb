@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
         time_casa: "Santos",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
         gols_casa: 2,
-        time_fora: "Palmeiras",
+        time_fora: "Cruzeiro",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
         gols_fora: 0
     },
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 0,
         time_fora: "Grêmio",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_fora: 1
+        gols_fora: 2
     },
     {
         campeonato: "Brasileirão Série A",
