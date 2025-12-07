@@ -231,19 +231,19 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "07/12",
         hora: "16:00",
         time_casa: "Atlético",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: 4,
+        gols_casa: 5,
         time_fora: "Vasco",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
         gols_fora: 0
     },
     {
         campeonato: "Brasileirão Série A",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "07/12",
         hora: "16:00",
         time_casa: "Santos",
