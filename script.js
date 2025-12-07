@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 0,
         time_fora: "Inter",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
-        gols_fora: 1
+        gols_fora: 2
     },
     {
         campeonato: "Brasileirão Série A",
