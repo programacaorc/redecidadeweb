@@ -1,4 +1,4 @@
-/* script.js — substituição recomendada
+4/* script.js — substituição recomendada
    Suporte a players: BH, PA, SP e Canoas (Canoas adicionado).
    SP e Canoas usam embeds caster.fm (lazy-load). Mantém fallback por stream direta se configurado.
 */
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 0,
         time_fora: "Grêmio",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_fora: 3
+        gols_fora: 4
     },
     {
         campeonato: "Brasileirão Série A",
