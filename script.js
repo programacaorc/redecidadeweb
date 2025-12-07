@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "16:00",
         time_casa: "Atlético",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-        gols_casa: 1,
+        gols_casa: 2,
         time_fora: "Vasco",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/120px-EscudoDoVascoDaGama.svg.png",
         gols_fora: 0
@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 0,
         time_fora: "FOR",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
-        gols_fora: 0
+        gols_fora: 1
     }
   ];
 
