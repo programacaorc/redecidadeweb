@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
         time_casa: "Red Bull",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
         gols_casa: null,
-        time_fora: "Internacional",
+        time_fora: "Inter",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
         gols_fora: null
     },
