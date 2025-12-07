@@ -260,10 +260,10 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "16:00",
         time_casa: "Red Bull",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Inter",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/SC_Internacional_Brazil_Logo.svg/250px-SC_Internacional_Brazil_Logo.svg.png",
-        gols_fora: 4
+        gols_fora: 3
     },
     {
         campeonato: "Brasileirão Série A",
@@ -296,10 +296,10 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "16:00",
         time_casa: "BOT",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-        gols_casa: 2,
+        gols_casa: 3,
         time_fora: "FOR",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
-        gols_fora: 1
+        gols_fora: 2
     }
   ];
 
