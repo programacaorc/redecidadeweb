@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_fora: null
     },
     {
-        campeonato: "Amistosos da Seleção",
+        campeonato: "Brasileirão Série A",
         status: "A SEGUIR",
         data: "07/12",
         hora: "16:00",
@@ -290,14 +290,14 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_fora: null
     },
     {
-        campeonato: "Copa Sul-Americana",
+        campeonato: "Brasileirão Série A",
         status: "A SEGUIR",
         data: "07/12",
         hora: "16:00",
-        time_casa: "Botafogo",
+        time_casa: "Bot",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/250px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
         gols_casa: null,
-        time_fora: "Fortaleza",
+        time_fora: "For",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fortaleza_EC_2018.png/120px-Fortaleza_EC_2018.png",
         gols_fora: null
     }
