@@ -6,6 +6,7 @@ window.PROGRAMACAO = {
   sp: {
     'seg-sex': [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00 - 06:00', title: 'Café com Noticia' },
       { time: '06:00 - 07:00', title: 'Bom dia Cidade' },
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
       { time: '09:00 - 11:30', title: 'Horário Livre' },
@@ -67,8 +68,8 @@ window.PROGRAMACAO = {
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
       { time: '09:00 - 11:30', title: 'Horário Livre' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
-      { time: '13:00 - 14:00', title: 'Itatiaia Agora' },
-      { time: '14:00 - 16:00', title: 'Chamada Geral' },
+      { time: '13:00 - 15:00', title: 'Sala de Redação' },
+      { time: '15:00 - 16:00', title: 'Chamada Geral' },
       { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
       { time: '17:00 - 18:00', title: 'Cidade Não Para' },
       { time: '18:00 - 18:02', title: 'Oração da Tarde' },
@@ -124,7 +125,7 @@ window.PROGRAMACAO = {
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
       { time: '09:00 - 11:30', title: 'Horário Livre' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
-      { time: '13:00 - 14:00', title: 'Itatiaia Agora' },
+      { time: '13:00 - 14:00', title: 'Sala de Redação' },
       { time: '14:00 - 16:00', title: 'Chamada Geral' },
       { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
       { time: '17:00 - 18:00', title: 'Cidade Não Para' },
