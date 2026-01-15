@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Rede Cidade WEB — Notícias</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Notícias da Rede Cidade WEB" />
+  <meta name="theme-color" content="#232526" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo-cidade.png" />
+  <style>
+    body { font-family: 'Poppins', Arial, sans-serif; background: #0f0f11; color:#efecec; margin:0; padding:18px; }
+    .container { max-width:1100px; margin:0 auto; }
+    header { display:flex; align-items:center; gap:12px; margin-bottom:18px; }
+    .logo-mini { width:60px; height:60px; border-radius:10px; border:3px solid #ffd369; object-fit:cover; }
+    nav ul { list-style:none; display:flex; gap:12px; padding:0; margin:0; }
+    nav a { color:var(--cor-principal, #ffd369); text-decoration:none; padding:6px 10px; border-radius:8px; font-weight:700; }
+    nav a.active { background:var(--cor-principal, #ffd369); color:#232526; }
+    main h2 { color:var(--cor-principal, #ffd369); }
+    .noticias-list { display:flex; flex-direction:column; gap:14px; margin-top:12px; }
+    .noticia { background: rgba(255,255,255,0.02); padding:18px; border-radius:12px; border:1px solid #222; }
+    .noticia h4 { margin:0 0 6px 0; color:var(--cor-principal,#ffd369); }
+    .noticia .data { display:block; color:#ffd369; margin-bottom:10px; font-weight:700; }
+    .news-info p { color:#e8e8e8; line-height:1.5; margin:8px 0; }
+    footer { margin-top:28px; color:#bdbdbd; text-align:center; }
+
+    .skip-link { position:absolute; left:-999px; }
+    .skip-link:focus { left:12px; top:12px; background:var(--cor-principal); color:#232526; padding:8px 12px; border-radius:6px; z-index:1000; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#noticias-list">Pular para as notícias</a>
+  <div class="container">
+    <header>
+      <img src="logo-cidade.png" alt="Logo Rede Cidade WEB" class="logo-mini" loading="lazy" />
+      <div>
+        <h1 style="margin:0;color:var(--cor-principal,#ffd369)">Rede Cidade WEB</h1>
+        <p style="margin:4px 0 0;color:#bfbfbf">Notícias</p>
+      </div>
+      <nav style="margin-left:auto" aria-label="Principal">
+        <ul>
+          <li><a href="index.html" id="nav-inicio">Início</a></li>
+          <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
+          <li><a href="noticias.html" id="nav-noticias" class="active">Notícias</a></li>
+          <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
+          <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Últimas Notícias</h2>
+
+        <div id="noticias-list" class="noticias-list" aria-live="polite">
+          <!-- Conteúdo será carregado via script.js -->
+          <noscript><p>Para ver as últimas notícias, ative o JavaScript.</p></noscript>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Rede Cidade WEB. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script defer src="script.js"></script>
+</body>
+</html>
