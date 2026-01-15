@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const placares = [
     {
         campeonato: "Campeonato Mineiro",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "14/01",
         hora: "18:30",
         time_casa: "North",
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         campeonato: "Campeonato Mineiro",
-        status: "AO VIVO",
+        status: "ENCERRADO",
         data: "07/12",
         hora: "19:00",
         time_casa: "Athletic",
@@ -243,27 +243,27 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         campeonato: "Campeonato Mineiro",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "14/01",
         hora: "21:30",
         time_casa: "Tomb.",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "Cruzeiro",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_fora: null
+        gols_fora: 0
     },
     {
         campeonato: "Campeonato Gaúcho",
-        status: "A SEGUIR",
+        status: "AO VIVO",
         data: "14/01",
         hora: "21:30",
         time_casa: "Grêmio",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-        gols_casa: null,
+        gols_casa: 0,
         time_fora: "São José",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png/120px-Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png",
-        gols_fora: null
+        gols_fora: 0
     }
   ];
 
