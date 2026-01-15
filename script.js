@@ -85,7 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
     { r: /\b(polícia|policia|investiga|investigação|delegacia)\b/i, c: 'Segurança Pública' },
     { r: /\b(cidade|bairro|prefeitura|moradores|interditadas|local)\b/i, c: 'Cidades' }
   ];
-
   function guessCategory(text) {
     if (!text) return 'Geral';
     for (let i = 0; i < CATEGORY_RULES.length; i++) {
