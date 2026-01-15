@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
         status: "A SEGUIR",
         data: "14/01",
         hora: "21:30",
-        time_casa: "Tombense",
+        time_casa: "Tomb.",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
         gols_casa: null,
         time_fora: "Cruzeiro",
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: null,
         time_fora: "São José",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png/120px-Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png",
-        gols_fora: 3
+        gols_fora: null
     }
   ];
 
