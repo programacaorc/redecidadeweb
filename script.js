@@ -248,10 +248,10 @@ document.addEventListener('DOMContentLoaded', () => {
         hora: "21:30",
         time_casa: "Tomb.",
         escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
-        gols_casa: 0,
+        gols_casa: 1,
         time_fora: "Cruzeiro",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-        gols_fora: 0
+        gols_fora: 2
     },
     {
         campeonato: "Campeonato Gaúcho",
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gols_casa: 0,
         time_fora: "São José",
         escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png/120px-Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png",
-        gols_fora: 0
+        gols_fora: 1
     }
   ];
 
