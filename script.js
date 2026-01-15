@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- CATEGORIAS: heurística melhorada ----------
   const CATEGORY_RULES = [
     { r: /\b(enem|enem 2025|vestibular|prova|cartão de confirmação|instituto nacional|inep)\b/i, c: 'Educação' },
-    { r: /\b(Atlético|Galo|Flamengo|Corinthians|Vitória do Brasil|Seleção|amistoso|partida|jogo|rodada|Brasileirão|Libertadores|Série A|placar|gol|gols|lance|VIRADA|plantão esportivo)\b/i, c: 'Esportes' },
+    { r: /\b(Atlético|Galo|Flamengo|Corinthians|Vitória do Brasil|Seleção|amistoso|partida|jogo|rodada|Brasileirão|Libertadores|Série A|placar|gol|gols|lance|VIRADA|plantão esportivo)\b/i c: 'Esportes' },
     { r: /\b(ibge|desemprego|economia|rendimento|informalidade|pnad|taxa de desocupação|rendimento médio)\b/i, c: 'Economia' },
     { r: /\b(explosão|explosões|explodiu|detonação|bomba|incêndio|incêndios|deposito clandestino|fogos de artifício)\b/i, c: 'Segurança Pública' },
     { r: /\b(acidente|tragédia|ônibus|ônibus de turismo|vítimas|feridos|BR-)\b/i, c: 'Trânsito' },
