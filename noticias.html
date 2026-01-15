@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Rede Cidade WEB — Notícias</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Notícias da Rede Cidade WEB" />
+  <meta name="theme-color" content="#232526" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo-cidade.png" />
+  <style>
+    /* Pequenas regras para garantir boa apresentação caso style.css não carregue */
+    body { font-family: 'Poppins', Arial, sans-serif; background: #0f0f11; color:#efecec; margin:0; padding:18px; }
+    .container { max-width:1100px; margin:0 auto; }
+    header { display:flex; align-items:center; gap:12px; margin-bottom:18px; }
+    .logo-mini { width:60px; height:60px; border-radius:10px; border:3px solid #ffd369; object-fit:cover; }
+    nav ul { list-style:none; display:flex; gap:12px; padding:0; margin:0; }
+    nav a { color:var(--cor-principal, #ffd369); text-decoration:none; padding:6px 10px; border-radius:8px; font-weight:700; }
+    nav a.active { background:var(--cor-principal, #ffd369); color:#232526; }
+    main h2 { color:var(--cor-principal, #ffd369); }
+    .noticias-list { display:flex; flex-direction:column; gap:14px; margin-top:12px; }
+    .noticia { background: rgba(255,255,255,0.02); padding:18px; border-radius:12px; border:1px solid #222; }
+    .noticia h4 { margin:0 0 6px 0; color:var(--cor-principal,#ffd369); }
+    .noticia .data { display:block; color:#ffd369; margin-bottom:10px; font-weight:700; }
+    .news-info p { color:#e8e8e8; line-height:1.5; margin:8px 0; }
+    footer { margin-top:28px; color:#bdbdbd; text-align:center; }
+
+    .skip-link { position:absolute; left:-999px; }
+    .skip-link:focus { left:12px; top:12px; background:var(--cor-principal); color:#232526; padding:8px 12px; border-radius:6px; z-index:1000; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#noticias-list">Pular para as notícias</a>
+  <div class="container">
+    <header>
+      <img src="logo-cidade.png" alt="Logo Rede Cidade WEB" class="logo-mini" loading="lazy" />
+      <div>
+        <h1 style="margin:0;color:var(--cor-principal,#ffd369)">Rede Cidade WEB</h1>
+        <p style="margin:4px 0 0;color:#bfbfbf">Notícias</p>
+      </div>
+      <nav style="margin-left:auto" aria-label="Principal">
+        <ul>
+          <li><a href="index.html" id="nav-inicio">Início</a></li>
+          <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
+          <li><a href="noticias.html" id="nav-noticias" class="active">Notícias</a></li>
+          <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
+          <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Últimas Notícias</h2>
+
+        <div id="noticias-list" class="noticias-list" aria-live="polite">
+
+          <article class="noticia">
+            <h4>REDE CBN | Explosão causa estragos no Tatuapé, em São Paulo</h4>
+            <span class="data">15/11/2025</span>
+            <div class="news-info">
+              <p>A Polícia de São Paulo investiga as causas de uma explosão que matou uma pessoa e deixou dez feridos na Zona Leste da cidade. A detonação num depósito clandestino de fogos de artifício também danificou várias casas e prédios, um posto de gasolina e carros estacionados no entorno.</p>
+              <p>O barulho da explosão foi ouvido em vários bairros e assustou moradores e motoristas. Por causa da destruição, dezenas de pessoas passaram a madrugada fora de suas residências, que foram interditadas.</p>
+              <p>Segundo o Corpo de Bombeiros, quatro pessoas foram levadas a hospitais da região, uma delas com traumatismo craniano; seis tiveram ferimentos leves e foram atendidas no local. Peritos analisam o local para investigar as causas da explosão.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>REDE ITATIAIA | VITÓRIA DO BRASIL</h4>
+            <span class="data">15/11/2025</span>
+            <div class="news-info">
+              <p>A Seleção Brasileira venceu o Senegal por 2 a 0, em amistoso disputado no Emirates Stadium, em Londres. Estêvão e Casemiro marcaram os gols da vitória.</p>
+              <p>O Brasil volta a campo na terça-feira (18), às 16h30 (de Brasília), contra a Tunísia, em Lille, na França.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>PRÉ-JOGO: Brasil x Senegal — Ancelotti testa novo esquema</h4>
+            <span class="data">14/11/2025</span>
+            <div class="news-info">
+              <p>Carlo Ancelotti deve testar mudança na defesa para o amistoso contra o Senegal. A partida terá transmissão pelas principais redes esportivas e promete ajustes táticos visando a Copa de 2026.</p>
+              <p>Provável Brasil: Ederson; Éder Militão, Marquinhos, Gabriel Magalhães e Alex Sandro; Casemiro, Bruno Guimarães; Estêvão, Rodrygo, Matheus Cunha e Vini Jr.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>IBGE | Desemprego cai para 5,6% no 3º trimestre</h4>
+            <span class="data">14/11/2025</span>
+            <div class="news-info">
+              <p>A taxa de desocupação no Brasil caiu para 5,6% no terceiro trimestre de 2025, segundo a Pnad Contínua Trimestral divulgada pelo IBGE. Foi o menor índice desde o início da série histórica.</p>
+              <p>O recuo foi registrado em algumas unidades da federação, enquanto em outras a taxa ficou estável. A informalidade atinge 37,8% dos ocupados.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>ENEM 2025: orientações para candidatos</h4>
+            <span class="data">09/11/2025</span>
+            <div class="news-info">
+              <p>O primeiro dia do ENEM acontece hoje em todo o país. Os candidatos devem levar documento com foto e caneta esferográfica preta e transparente. Os portões abrem à tarde e fecham no horário previsto.</p>
+              <p>Consulte o Cartão de Confirmação de Inscrição para confirmar local e horário.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>VIRADA DO ATLÉTICO: Galo vence na Ilha do Retiro</h4>
+            <span class="data">08/11/2025</span>
+            <div class="news-info">
+              <p>Com gols no segundo tempo, o Atlético venceu o Sport por 4 a 2 na Ilha do Retiro. Rony e Hulk foram decisivos na reação da equipe. O time agora foca na próxima partida pelo Brasileirão.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>Plantão Esportivo: jogos decisivos na reta final</h4>
+            <span class="data">07/11/2025</span>
+            <div class="news-info">
+              <p>A reta final do Brasileirão traz confrontos decisivos entre equipes que brigam por vaga na Libertadores e pela permanência na Série A. Fique ligado na programação da Rádio Cidade para cobertura completa.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>Caso local: paciente relata demora por cirurgia em BH</h4>
+            <span class="data">03/11/2025</span>
+            <div class="news-info">
+              <p>Uma paciente internada em Belo Horizonte relata espera por cirurgia ortopédica e descreve dificuldades com marcação de procedimento. A fundação de saúde local informou que a paciente recebe assistência rotineira.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>LUTO NA MÚSICA: morre Lô Borges</h4>
+            <span class="data">03/11/2025</span>
+            <div class="news-info">
+              <p>O cantor e compositor Lô Borges, um dos fundadores do Clube da Esquina, faleceu aos 73 anos. O artista estava internado e vinha tratando um quadro de intoxicação medicamentosa.</p>
+              <p>Lô Borges deixa legado importante na MPB e será lembrado por clássicos como 'O Trem Azul'.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>Atlético: empate fora traz decisões para semifinal</h4>
+            <span class="data">22/10/2025</span>
+            <div class="news-info">
+              <p>Em partida com polêmica, o Atlético empatou e mantém decisão das semifinais para o jogo de volta. A partida teve lance revisado pelo VAR, que gerou debate entre torcedores e especialistas.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>Tragédia na BR-423: acidente com ônibus de turismo</h4>
+            <span class="data">18/10/2025</span>
+            <div class="news-info">
+              <p>Um grave acidente envolvendo um ônibus de turismo deixou várias vítimas e dezenas de feridos na BR-423. As autoridades trabalham no atendimento às vítimas e na investigação das causas do acidente.</p>
+            </div>
+          </article>
+
+          <article class="noticia">
+            <h4>Resumo: rodada do Brasileirão e destaques locais</h4>
+            <span class="data">18/10/2025</span>
+            <div class="news-info">
+              <p>Resumo dos principais resultados da rodada do Brasileirão e manchetes locais sobre saúde, política e eventos culturais. Consulte o site e ouça a Rádio Cidade para comentários e análises.</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rede Cidade WEB. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script defer src="script.js"></script>
+</body>
+</html>
