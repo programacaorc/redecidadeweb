@@ -186,7 +186,7 @@ window.PROGRAMACAO = {
       { time: '10:05 - 11:00', title: 'Timeline' },
       { time: '11:00 - 11:05', title: 'Noticia na Hora Certa' },
       { time: '11:05 - 11:30', title: 'Horário Livre' },
-      { time: '11:30 - 12:50', title: 'Rádio Esportes },
+      { time: '11:30 - 12:50', title: 'Rádio Esportes' },
       { time: '12:50 - 13:00', title: 'Correspondente Gaúcha Postos SIM' },
       { time: '13:00 - 14:00', title: 'Sala de Redação' },
       { time: '14:00 - 14:05', title: 'Noticia na Hora Certa' },
