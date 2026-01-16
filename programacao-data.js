@@ -11,20 +11,20 @@ window.PROGRAMACAO = {
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
       { time: '09:00 - 11:30', title: 'Horário Livre' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
-      { time: '13:00 - 14:00', title: 'Itatiaia Agora' },
-      { time: '14:00 - 16:00', title: 'Chamada Geral' },
+      { time: '13:00 - 14:00', title: 'Sala de Redação' },
+      { time: '14:00 - 14:05', title: 'Noticia na Hora Certa' },
+      { time: '14:00 - 15:00', title: 'Sala de Redação' },
+      { time: '15:00 - 16:00', title: 'Chamada Geral' },
       { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
       { time: '17:00 - 17:03', title: 'Repórter CBN' },
-      { time: '17:03 - 18:00', title: 'Cidade Não Para' },
+      { time: '17:03 - 18:00', title: 'Ponto Final CBN' },
       { time: '18:00 - 18:02', title: 'Oração da Ave Maria' },
-      { time: '18:02 - 18:30', title: 'Cidade Não Para' },
-      { time: '18:30 - 18:33', title: 'Repórter CBN' },
-      { time: '18:33 - 19:00', title: 'Cidade Não Para' },
+      { time: '18:02 - 19:00', title: 'Ponto Final CBN' },
       { time: '19:00 - 20:00', title: 'A VOZ DO BRASIL' },
       { time: '20:00 - 21:00', title: 'QUATRO EM CAMPO' },
       { time: '21:00 - 22:00', title: 'ASSUNTO FEDERAL' },
       { time: '22:00 - 23:00', title: 'NOITE LIVRE' },
-      { time: '23:00 - 00:00', title: 'Show da Noite' }
+      { time: '23:00 - 00:00', title: 'Love Songs' }
     ],
     sab: [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
@@ -41,7 +41,65 @@ window.PROGRAMACAO = {
       { time: '14:00 - 15:00', title: 'Sábado Retrô' },
       { time: '15:00 - 21:00', title: 'CBN Show da Notícia' },
       { time: '21:00 - 23:00', title: 'Noite Livre' },
-      { time: '23:00 - 00:00', title: 'Show da Noite' }
+      { time: '23:00 - 00:00', title: 'Love Songs' }
+    ],
+    dom: [
+      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00 - 06:00', title: 'Parada no Rádio' },
+      { time: '06:00 - 07:00', title: 'Bom Dia Cidade' },
+      { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00 - 10:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00 - 11:00', title: 'Horário Livre 2ª Edição (LOCAL)' },
+      { time: '11:00 - 12:00', title: 'Horário Livre 3ª Edição (REDE)' },
+      { time: '12:00 - 13:00', title: 'Paradão Sertanejo' },
+      { time: '13:00 - 14:00', title: 'Domingão Esportivo' },
+      { time: '15:00 - 16:00', title: 'Futebol Globo CBN / Cidade Não Para' },
+      { time: '19:00 - 20:00', title: 'Horário Livre' },
+      { time: '20:00 - 23:00', title: 'Noite Livre' },
+      { time: '23:00 - 00:00', title: 'Love Songs' }
+    ]
+  },
+
+  bh: {
+    'seg-sex': [
+      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00 - 06:00', title: 'Café com Notícia' },
+      { time: '06:00 - 07:00', title: 'Bom Dia Cidade' },
+      { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00 - 11:30', title: 'Horário Livre' },
+      { time: '11:30 - 13:00', title: 'Rádio Esportes' },
+      { time: '13:00 - 14:00', title: 'Sala de Redação' },
+      { time: '14:00 - 14:05', title: 'Noticia na Hora Certa' },
+      { time: '14:00 - 15:00', title: 'Sala de Redação' },
+      { time: '15:00 - 16:00', title: 'Chamada Geral' },
+      { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
+      { time: '17:00 - 18:00', title: 'Cidade Não Para' },
+      { time: '18:00 - 18:02', title: 'Oração da Tarde' },
+      { time: '18:02 - 19:00', title: 'Cidade Não Para' },
+      { time: '19:00 - 20:00', title: 'A VOZ DO BRASIL' },
+      { time: '20:00 - 20:20', title: 'Conversa de Redação' },
+      { time: '20:20 - 21:00', title: 'Jornal da Itatiaia (Noite)' },
+      { time: '21:00 - 22:00', title: 'Assunto Federal' },
+      { time: '22:00 - 23:00', title: 'Noite Livre' },
+      { time: '23:00 - 00:00', title: 'Love Songs' }
+    ],
+    sab: [
+      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00 - 06:00', title: 'Café com Notícia' },
+      { time: '06:00 - 07:00', title: 'Bom Dia Cidade' },
+      { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00 - 10:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00 - 11:00', title: 'Horário Livre 2ª Edição (LOCAL)' },
+      { time: '11:00 - 11:30', title: 'Horário Livre 3ª Edição (REDE)' },
+      { time: '11:30 - 13:00', title: 'Rádio Esportes' },
+      { time: '13:00 - 14:00', title: 'Horário Livre' },
+      { time: '14:00 - 16:00', title: 'Sábado Retrô' },
+      { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
+      { time: '17:00 - 18:00', title: 'Cidade Não Para' },
+      { time: '18:00 - 18:02', title: 'Oração da Tarde' },
+      { time: '18:02 - 20:00', title: 'Turma do Bate Bola' },
+      { time: '20:00 - 23:00', title: 'Noite Livre' },
+      { time: '23:00 - 00:00', title: 'Love Songs' }
     ],
     dom: [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
@@ -55,20 +113,23 @@ window.PROGRAMACAO = {
       { time: '13:00 - 14:00', title: 'Domingão Esportivo' },
       { time: '15:00 - 16:00', title: 'Jornada Esportiva / Cidade Não Para' },
       { time: '19:00 - 20:00', title: 'Horário Livre' },
-      { time: '20:00 - 23:00', title: 'Noite Livre' },
-      { time: '23:00 - 00:00', title: 'Show da Noite' }
+      { time: '20:00 / 20:45 - 23:00', title: 'Noite Livre' },
+      { time: '23:00 - 00:00', title: 'Love Songs' }
     ]
   },
 
-  bh: {
+  pa: {
+    // Pará de Minas tem a mesma grade de Belo Horizonte na maior parte dos dias, com pequenas diferenças anotadas onde aplicável.
     'seg-sex': [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Café com Notícia' },
+      { time: '04:00 - 06:00', title: 'Café com Notícias' },
       { time: '06:00 - 07:00', title: 'Bom Dia Cidade' },
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
       { time: '09:00 - 11:30', title: 'Horário Livre' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
-      { time: '13:00 - 15:00', title: 'Sala de Redação' },
+      { time: '13:00 - 14:00', title: 'Sala de Redação' },
+      { time: '14:00 - 14:05', title: 'Noticia na Hora Certa' },
+      { time: '14:00 - 15:00', title: 'Sala de Redação' },
       { time: '15:00 - 16:00', title: 'Chamada Geral' },
       { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
       { time: '17:00 - 18:00', title: 'Cidade Não Para' },
@@ -90,7 +151,8 @@ window.PROGRAMACAO = {
       { time: '10:00 - 11:00', title: 'Horário Livre 2ª Edição (LOCAL)' },
       { time: '11:00 - 11:30', title: 'Horário Livre 3ª Edição (REDE)' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
-      { time: '13:00 - 14:00', title: 'Horário Livre (BH)' },
+      // No sábado PA: 13:00 - 14:00 Itatiaia Agora (conforme fornecido)
+      { time: '13:00 - 14:00', title: 'Itatiaia Agora' },
       { time: '14:00 - 16:00', title: 'Sábado Retrô' },
       { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
       { time: '17:00 - 18:00', title: 'Cidade Não Para' },
@@ -111,22 +173,27 @@ window.PROGRAMACAO = {
       { time: '13:00 - 14:00', title: 'Domingão Esportivo' },
       { time: '15:00 - 16:00', title: 'Jornada Esportiva / Cidade Não Para' },
       { time: '19:00 - 20:00', title: 'Horário Livre' },
-      { time: '20:00 - 23:00', title: 'Noite Livre (blocos às 20:00 e 20:45)' },
+      { time: '20:00 - 23:00', title: 'Noite Livre' },
       { time: '23:00 - 00:00', title: 'Show da Noite' }
-    ]
-  },
-
-  pa: {
+    
+  canoas: {
     // Pará de Minas tem a mesma grade de Belo Horizonte na maior parte dos dias, com pequenas diferenças anotadas onde aplicável.
     'seg-sex': [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
       { time: '04:00 - 06:00', title: 'Café com Notícias' },
       { time: '06:00 - 07:00', title: 'Bom Dia Cidade' },
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
-      { time: '09:00 - 11:30', title: 'Horário Livre' },
-      { time: '11:30 - 13:00', title: 'Rádio Esportes' },
+      { time: '09:00 - 10:00', title: 'Horário Livre' },
+      { time: '10:00 - 10:05', title: 'Noticia na Hora Certa' },
+      { time: '10:05 - 11:00', title: 'Timeline' },
+      { time: '11:00 - 11:05', title: 'Noticia na Hora Certa' },
+      { time: '11:05 - 11:30', title: 'Horário Livre' },
+      { time: '11:30 - 12:50', title: 'Rádio Esportes' },
+      { time: '12:50 - 13:00', title: 'Correspondente Gaúcha Postos SIM' },
       { time: '13:00 - 14:00', title: 'Sala de Redação' },
-      { time: '14:00 - 16:00', title: 'Chamada Geral' },
+      { time: '14:00 - 14:05', title: 'Noticia na Hora Certa' },
+      { time: '14:00 - 15:00', title: 'Sala de Redação' },
+      { time: '15:00 - 16:00', title: 'Chamada Geral' },
       { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
       { time: '17:00 - 18:00', title: 'Cidade Não Para' },
       { time: '18:00 - 18:02', title: 'Oração da Tarde' },
@@ -148,7 +215,7 @@ window.PROGRAMACAO = {
       { time: '11:00 - 11:30', title: 'Horário Livre 3ª Edição (REDE)' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
       // No sábado PA: 13:00 - 14:00 Itatiaia Agora (conforme fornecido)
-      { time: '13:00 - 14:00', title: 'Itatiaia Agora (PA)' },
+      { time: '13:00 - 14:00', title: 'Itatiaia Agora' },
       { time: '14:00 - 16:00', title: 'Sábado Retrô' },
       { time: '16:00 - 17:00', title: 'Paradão Sertanejo' },
       { time: '17:00 - 18:00', title: 'Cidade Não Para' },
@@ -166,11 +233,11 @@ window.PROGRAMACAO = {
       { time: '10:00 - 11:00', title: 'Horário Livre 2ª Edição (LOCAL)' },
       { time: '11:00 - 12:00', title: 'Horário Livre 3ª Edição (REDE)' },
       { time: '12:00 - 13:00', title: 'Paradão Sertanejo' },
-      { time: '13:00 - 14:00', title: 'Domingão Esportivo' },
+      { time: '13:00 - 14:00', title: 'Domingão Esportivo / Pré Jornada' },
       { time: '15:00 - 16:00', title: 'Jornada Esportiva / Cidade Não Para' },
       { time: '19:00 - 20:00', title: 'Horário Livre' },
       { time: '20:00 - 23:00', title: 'Noite Livre' },
-      { time: '23:00 - 00:00', title: 'Show da Noite' }
+      { time: '23:00 - 00:00', title: 'Love Songs' }
     ]
   }
 };
