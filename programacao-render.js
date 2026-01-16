@@ -12,7 +12,8 @@
   var stations = [
     { key: 'sp', label: 'São Paulo' },
     { key: 'bh', label: 'Belo Horizonte' },
-    { key: 'pa', label: 'Pará de Minas' }
+    { key: 'pa', label: 'Pará de Minas' },
+    { key: 'canoas', label: 'Canoas' } // <-- Canoas adicionado!
   ];
   var days = [
     { key: 'seg-sex', label: 'Segunda a Sexta' },

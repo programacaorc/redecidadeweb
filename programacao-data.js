@@ -1,6 +1,5 @@
 // programacao-data.js
 // Dados das programações para SP (São Paulo), BH (Belo Horizonte), PA (Pará de Minas) e Canoas.
-// Estrutura: window.PROGRAMACAO[stationKey][dayKey] = [ { time: 'HH:MM - HH:MM', title: '...' }, ... ]
 
 window.PROGRAMACAO = {
   sp: {
@@ -119,7 +118,6 @@ window.PROGRAMACAO = {
   },
 
   pa: {
-    // Pará de Minas tem a mesma grade de Belo Horizonte na maior parte dos dias, com pequenas diferenças anotadas onde aplicável.
     'seg-sex': [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
       { time: '04:00 - 06:00', title: 'Café com Notícias' },
