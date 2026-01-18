@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa Itatiaia",
-      status: "eNCERRADO",
+      status: "ENCERRADO",
       data: "18/01",
       hora: "14:00",
       time_casa: "Ver.",
