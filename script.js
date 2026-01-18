@@ -289,15 +289,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Mineiro",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "18/01",
       hora: "18:00",
       time_casa: "Atlético",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Tomb.",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Campeonato Gaúcho",
