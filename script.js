@@ -280,10 +280,10 @@ document.addEventListener('DOMContentLoaded', () => {
       status: "A SEGUIR",
       data: "18/12",
       hora: "14:00",
-      time_casa: "Verona",
+      time_casa: "Ver.",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4kVU9_yNgBWJx_EZA8d2mdAL0fdW58LhAQ&s",
       gols_casa: null,
-      time_fora: "Cruzeirinho",
+      time_fora: "Cru.",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFU_Glj2TS50FqdK4Gt87tc44h_ZiHHuQ0rQ&s",
       gols_fora: null
     },
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
       time_casa: "Atlético",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
       gols_casa: null,
-      time_fora: "Tombense",
+      time_fora: "Tomb.",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
       gols_fora: null
     },
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
       time_casa: "Ypiranga",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ypiranga_FC_%28Erechim%29_%28Logo%29.png/120px-Ypiranga_FC_%28Erechim%29_%28Logo%29.png",
       gols_casa: null,
-      time_fora: "Internacional",
+      time_fora: "Inter",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png/120px-Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png",
       gols_fora: null
     }
