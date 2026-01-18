@@ -282,10 +282,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "14:00",
       time_casa: "Ver.",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4kVU9_yNgBWJx_EZA8d2mdAL0fdW58LhAQ&s",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Cru.",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFU_Glj2TS50FqdK4Gt87tc44h_ZiHHuQ0rQ&s",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Campeonato Mineiro",
