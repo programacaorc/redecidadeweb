@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ypiranga_FC_%28Erechim%29_%28Logo%29.png/120px-Ypiranga_FC_%28Erechim%29_%28Logo%29.png",
       gols_casa: null,
       time_fora: "Inter",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png/120px-Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/250px-Sport_Club_Internacional_logo.svg.png",
       gols_fora: null
     }
   ];
