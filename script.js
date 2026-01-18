@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       campeonato: "Copa Itatiaia",
       status: "A SEGUIR",
-      data: "18/12",
+      data: "18/01",
       hora: "14:00",
       time_casa: "Ver.",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4kVU9_yNgBWJx_EZA8d2mdAL0fdW58LhAQ&s",
