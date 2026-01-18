@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 1,
       time_fora: "América",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Escudo_Am%C3%A9rica_de_Minas.png/250px-Escudo_Am%C3%A9rica_de_Minas.png",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Copa Itatiaia",
