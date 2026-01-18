@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa Itatiaia",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "18/01",
       hora: "14:00",
       time_casa: "Ver.",
