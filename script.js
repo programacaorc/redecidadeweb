@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "11:00",
       time_casa: "Iabirito",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/94/Logo_Itabirito.png/120px-Logo_Itabirito.png",
-      gols_casa: 0,
+      gols_casa: 1,
       time_fora: "América",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Escudo_Am%C3%A9rica_de_Minas.png/250px-Escudo_Am%C3%A9rica_de_Minas.png",
       gols_fora: 0
