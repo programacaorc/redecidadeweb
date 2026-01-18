@@ -306,10 +306,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "18:00",
       time_casa: "Ypiranga",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ypiranga_FC_%28Erechim%29_%28Logo%29.png/120px-Ypiranga_FC_%28Erechim%29_%28Logo%29.png",
-      gols_casa: 0,
+      gols_casa: 2,
       time_fora: "Inter",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/250px-Sport_Club_Internacional_logo.svg.png",
-      gols_fora: 0
+      gols_fora: 1
     }
   ];
 
