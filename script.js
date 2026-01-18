@@ -265,51 +265,51 @@ document.addEventListener('DOMContentLoaded', () => {
   const placares = [
     {
       campeonato: "Campeonato Mineiro",
-      status: "ENCERRADO",
-      data: "14/01",
-      hora: "18:30",
-      time_casa: "North",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8d/Logo_do_North_Esporte_Clube.png/120px-Logo_do_North_Esporte_Clube.png",
-      gols_casa: 1,
-      time_fora: "Atlético",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_fora: 1
-    },
-    {
-      campeonato: "Campeonato Mineiro",
-      status: "ENCERRADO",
-      data: "07/12",
-      hora: "19:00",
-      time_casa: "Athletic",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Athletic_Club_%28Minas_Gerais%29.svg/120px-Athletic_Club_%28Minas_Gerais%29.svg.png",
+      status: "AO VIVO",
+      data: "18/01",
+      hora: "11:00",
+      time_casa: "Iabirito",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/94/Logo_Itabirito.png/120px-Logo_Itabirito.png",
       gols_casa: 0,
-      time_fora: "URT",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/d/d2/URTmg.png/120px-URTmg.png",
-      gols_fora: 1
+      time_fora: "América",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Escudo_Am%C3%A9rica_de_Minas.png/250px-Escudo_Am%C3%A9rica_de_Minas.png",
+      gols_fora: 0
+    },
+    {
+      campeonato: "Copa Itatiaia",
+      status: "A SEGUIR",
+      data: "18/12",
+      hora: "14:00",
+      time_casa: "Verona",
+      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4kVU9_yNgBWJx_EZA8d2mdAL0fdW58LhAQ&s",
+      gols_casa: null,
+      time_fora: "Cruzeirinho",
+      escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFU_Glj2TS50FqdK4Gt87tc44h_ZiHHuQ0rQ&s",
+      gols_fora: null
     },
     {
       campeonato: "Campeonato Mineiro",
-      status: "ENCERRADO",
-      data: "14/01",
-      hora: "21:30",
-      time_casa: "Tomb.",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
-      gols_casa: 1,
-      time_fora: "Cruzeiro",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-      gols_fora: 2
+      status: "A SEGUIR",
+      data: "18/01",
+      hora: "18:00",
+      time_casa: "Atlético",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
+      gols_casa: null,
+      time_fora: "Tombense",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
+      gols_fora: null
     },
     {
       campeonato: "Campeonato Gaúcho",
-      status: "ENCERRADO",
-      data: "14/01",
-      hora: "21:30",
-      time_casa: "Grêmio",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-      gols_casa: 0,
-      time_fora: "São José",
+      status: "A SEGUIR",
+      data: "18/01",
+      hora: ":30",
+      time_casa: "Ypiranga",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ypiranga_FC_%28Erechim%29_%28Logo%29.png/120px-Ypiranga_FC_%28Erechim%29_%28Logo%29.png",
+      gols_casa: null,
+      time_fora: "Internacional",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png/120px-Esporte_Clube_S%C3%A3o_Jos%C3%A9_logo.png",
-      gols_fora: 1
+      gols_fora: null
     }
   ];
 
