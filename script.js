@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
       campeonato: "Campeonato Gaúcho",
       status: "A SEGUIR",
       data: "18/01",
-      hora: ":30",
+      hora: "18:00",
       time_casa: "Ypiranga",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ypiranga_FC_%28Erechim%29_%28Logo%29.png/120px-Ypiranga_FC_%28Erechim%29_%28Logo%29.png",
       gols_casa: null,
