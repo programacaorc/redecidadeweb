@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 0,
       time_fora: "Cru.",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFU_Glj2TS50FqdK4Gt87tc44h_ZiHHuQ0rQ&s",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Campeonato Mineiro",
