@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const placares = [
     {
       campeonato: "Campeonato Mineiro",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "18/01",
       hora: "11:00",
       time_casa: "Iabirito",
