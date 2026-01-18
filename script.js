@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Mineiro",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "18/01",
       hora: "18:00",
       time_casa: "Atlético",
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Gaúcho",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "18/01",
       hora: "18:00",
       time_casa: "Ypiranga",
