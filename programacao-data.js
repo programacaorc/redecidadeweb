@@ -11,14 +11,14 @@ window.PROGRAMACAO = {
       { time: '11:00 - 11:05', title: 'Itatiaia Urgente' },
       { time: '11:05 - 11:30', title: 'Horário Livre 2ª Edição' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
-      { time: '13:00- 15:00', title: 'Sala de Redação' },
+      { time: '13:00 - 15:00', title: 'Sala de Redação' },
       { time: '15:00 - 16:00', title: 'Chamada Geral' },
       { time: '16:00 - 17:00', title: 'PARADÃO SERTANEJO' },
       { time: '17:00 - 19:00', title: 'Ponto Final CBN' },
       { time: '19:00 - 20:00', title: 'A VOZ DO BRASIL' },
       { time: '20:00 - 21:00', title: 'QUATRO EM CAMPO' },
       { time: '21:00 - 22:00', title: 'ASSUNTO FEDERAL' },
-      { time: '22:00 - 23:00' title: 'CBN Noite Total' }
+      { time: '22:00 - 23:00', title: 'CBN Noite Total' }
     ],
     sab: [
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
