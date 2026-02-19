@@ -24,7 +24,7 @@ window.PROGRAMACAO = {
       { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
       { time: '04:00 - 06:00', title: 'Café com Noticia' },
       { time: '06:00 - 10:00', title: 'JORNAL DA CBN' },
-      { time: '10:00 - 11:00', title: 'Horário Livre 2ª Edição (LOCAL))' }
+      { time: '10:00 - 11:00', title: 'Horário Livre 2ª Edição (LOCAL)' }
       { time: '11:00 - 11:03', title: 'Repórter CBN' },
       { time: '11:03 - 11:30', title: 'Horário Livre 3ª Edição (REDE)' },
       { time: '11:30 - 13:00', title: 'Rádio Esportes' },
