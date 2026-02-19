@@ -114,7 +114,7 @@ window.PROGRAMACAO = {
 
   pa: {
     'seg-sex': [
-     { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
       { time: '04:00 - 06:00', title: 'Café com Notícia' },
       { time: '06:00 - 07:00', title: 'Bom Dia Cidade' },
       { time: '07:00 - 09:00', title: 'Jornal da Itatiaia' },
