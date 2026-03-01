@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "18:00",
       time_casa: "Grêmio",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-      gols_casa: 1,
+      gols_casa: 2,
       time_fora: "Inter.",
       escudo_fora: "https://yt3.googleusercontent.com/ytc/AIdro_lqDgM1b0OOKybMFzUQxJkCoEhkf_w13HpWta9ji4qngIo=s900-c-k-c0x00ffffff-no-rj",
       gols_fora: 0
