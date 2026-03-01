@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
       time_casa: "Cruzeiro",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
       gols_casa: 1,
-      time_fora: "Pouso Alegre",
+      time_fora: "Pouso A.",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/99/Pouso_Alegre_Futebol_Clube.png/120px-Pouso_Alegre_Futebol_Clube.png",
       gols_fora: 0
     },
@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
       time_casa: "Grêmio",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
       gols_casa: null,
-      time_fora: "Interacional",
+      time_fora: "Inter.",
       escudo_fora: "https://yt3.googleusercontent.com/ytc/AIdro_lqDgM1b0OOKybMFzUQxJkCoEhkf_w13HpWta9ji4qngIo=s900-c-k-c0x00ffffff-no-rj",
       gols_fora: null
     },
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
       data: "01/03",
       hora: "18:00",
       time_casa: "América",
-      escudo_casa: "https://yt3.googleusercontent.com/ytc/AIdro_lqDgM1b0OOKybMFzUQxJkCoEhkf_w13HpWta9ji4qngIo=s900-c-k-c0x00ffffff-no-rj",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Am%C3%A9rica_de_Minas.png",
       gols_casa: null,
       time_fora: "Atlético",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
       time_casa: "Palmeiras",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYX-4tjMuJlTiHYqr-NqhEAe9NJUYCk-1TVw&s",
       gols_casa: null,
-      time_fora: "São Paulo",
+      time_fora: "São P.",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEGVO2YAys_bNBsb32WD12GmBio4s_J0wgA&s",
       gols_fora: null
     }
