@@ -294,10 +294,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "18:00",
       time_casa: "América",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Am%C3%A9rica_de_Minas.png",
-      gols_casa: 0,
+      gols_casa: 1,
       time_fora: "Atlético",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_fora: 1
+      gols_fora: 2
     },
     {
       campeonato: "Campeonato Paulista",
