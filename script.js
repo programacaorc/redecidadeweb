@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Mineiro",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "01/03",
       hora: "18:00",
       time_casa: "América",
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 2,
       time_fora: "Atlético",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_fora: 3
+      gols_fora: 4
     },
     {
       campeonato: "Campeonato Paulista",
