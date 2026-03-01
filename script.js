@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 0,
       time_fora: "Atlético",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Campeonato Paulista",
