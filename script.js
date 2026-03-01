@@ -266,50 +266,50 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       campeonato: "Campeonato Mineiro",
       status: "ENCERRADO",
-      data: "18/01",
-      hora: "11:00",
-      time_casa: "Iabirito",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/94/Logo_Itabirito.png/120px-Logo_Itabirito.png",
-      gols_casa: 1,
-      time_fora: "América",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Escudo_Am%C3%A9rica_de_Minas.png/250px-Escudo_Am%C3%A9rica_de_Minas.png",
-      gols_fora: 1
-    },
-    {
-      campeonato: "Copa Itatiaia",
-      status: "ENCERRADO",
-      data: "18/01",
-      hora: "14:00",
-      time_casa: "Ver.",
-      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4kVU9_yNgBWJx_EZA8d2mdAL0fdW58LhAQ&s",
-      gols_casa: 0,
-      time_fora: "Cru.",
-      escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFU_Glj2TS50FqdK4Gt87tc44h_ZiHHuQ0rQ&s",
-      gols_fora: 1
-    },
-    {
-      campeonato: "Campeonato Mineiro",
-      status: "ENCERRADO",
-      data: "18/01",
+      data: "01/03",
       hora: "18:00",
-      time_casa: "Atlético",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_casa: 0,
-      time_fora: "Tomb.",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/TombenseFC.png/120px-TombenseFC.png",
+      time_casa: "Cruzeiro",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
+      gols_casa: 1,
+      time_fora: "Pouso Alegre",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/99/Pouso_Alegre_Futebol_Clube.png/120px-Pouso_Alegre_Futebol_Clube.png",
       gols_fora: 0
     },
     {
       campeonato: "Campeonato Gaúcho",
-      status: "ENCERRADO",
-      data: "18/01",
+      status: "A SEGUIR",
+      data: "01/03",
       hora: "18:00",
-      time_casa: "Ypiranga",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ypiranga_FC_%28Erechim%29_%28Logo%29.png/120px-Ypiranga_FC_%28Erechim%29_%28Logo%29.png",
-      gols_casa: 2,
-      time_fora: "Inter",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/250px-Sport_Club_Internacional_logo.svg.png",
-      gols_fora: 1
+      time_casa: "Grêmio",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
+      gols_casa: null,
+      time_fora: "Interacional",
+      escudo_fora: "https://yt3.googleusercontent.com/ytc/AIdro_lqDgM1b0OOKybMFzUQxJkCoEhkf_w13HpWta9ji4qngIo=s900-c-k-c0x00ffffff-no-rj",
+      gols_fora: null
+    },
+    {
+      campeonato: "Campeonato Mineiro",
+      status: "A SEGUIR",
+      data: "01/03",
+      hora: "18:00",
+      time_casa: "América",
+      escudo_casa: "https://yt3.googleusercontent.com/ytc/AIdro_lqDgM1b0OOKybMFzUQxJkCoEhkf_w13HpWta9ji4qngIo=s900-c-k-c0x00ffffff-no-rj",
+      gols_casa: null,
+      time_fora: "Atlético",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
+      gols_fora: null
+    },
+    {
+      campeonato: "Campeonato Paulista",
+      status: "A SEGUIR",
+      data: "01/03",
+      hora: "20:30",
+      time_casa: "Palmeiras",
+      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYX-4tjMuJlTiHYqr-NqhEAe9NJUYCk-1TVw&s",
+      gols_casa: null,
+      time_fora: "São Paulo",
+      escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEGVO2YAys_bNBsb32WD12GmBio4s_J0wgA&s",
+      gols_fora: null
     }
   ];
 
