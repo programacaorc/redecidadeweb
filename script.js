@@ -277,12 +277,12 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Gaúcho",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "01/03",
       hora: "18:00",
       time_casa: "Grêmio",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-      gols_casa: 2,
+      gols_casa: 3,
       time_fora: "Inter.",
       escudo_fora: "https://yt3.googleusercontent.com/ytc/AIdro_lqDgM1b0OOKybMFzUQxJkCoEhkf_w13HpWta9ji4qngIo=s900-c-k-c0x00ffffff-no-rj",
       gols_fora: 0
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "18:00",
       time_casa: "América",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Am%C3%A9rica_de_Minas.png",
-      gols_casa: 1,
+      gols_casa: 2,
       time_fora: "Atlético",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
       gols_fora: 3
