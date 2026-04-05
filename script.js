@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 0,
       time_fora: "Santos",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Campeonato Mineiro",
