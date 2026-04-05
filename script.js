@@ -301,15 +301,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Brasileiro",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "05/04",
       hora: "20:30",
       time_casa: "Grêmio",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Remo",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Clube_do_Remo.svg/1280px-Clube_do_Remo.svg.png",
-      gols_fora: null
+      gols_fora: 0
     }
   ];
 
