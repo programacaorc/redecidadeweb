@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 2,
       time_fora: "Athletico Paranaense",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGxlV8YArL-xZNjYEK9ryZ9yRd2b50TIJQIg&s",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Campeonato Brasileiro",
