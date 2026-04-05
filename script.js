@@ -289,15 +289,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Mineiro",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "05/04",
       hora: "19:30",
       time_casa: "Inter.",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/1280px-Sport_Club_Internacional_logo.svg.png",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Corinthians",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnIzlL7KEJ1PPOVztPF-LCXkvVWW_jZtJeFg&s",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Campeonato Brasileiro",
