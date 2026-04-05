@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "17:30",
       time_casa: "Flamengo",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/9/96/Clube_de_Regatas_do_Flamengo_logo.svg",
-      gols_casa: 2,
+      gols_casa: 3,
       time_fora: "Santos",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
       gols_fora: 1
