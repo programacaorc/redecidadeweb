@@ -264,51 +264,51 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- PLACARES (dados e render) ----------
   const placares = [
     {
-      campeonato: "Campeonato Mineiro",
+      campeonato: "Campeonato Brasileiro",
       status: "ENCERRADO",
-      data: "01/03",
-      hora: "18:00",
-      time_casa: "Cruzeiro",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
+      data: "05/04",
+      hora: "17:30",
+      time_casa: "Atlético",
+      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGvsMeuDFuMN_RrW4MAIMbKbgi0DTOl2vUpA&s",
       gols_casa: 1,
-      time_fora: "Pouso A.",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/99/Pouso_Alegre_Futebol_Clube.png/120px-Pouso_Alegre_Futebol_Clube.png",
+      time_fora: "Athletico Paranaense",
+      escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGxlV8YArL-xZNjYEK9ryZ9yRd2b50TIJQIg&s",
       gols_fora: 0
     },
     {
-      campeonato: "Campeonato Gaúcho",
-      status: "ENCERRADO",
-      data: "01/03",
-      hora: "18:00",
+      campeonato: "Campeonato Brasileiro",
+      status: "AO VIVO",
+      data: "05/04",
+      hora: "17:30",
+      time_casa: "Flamengo",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/9/96/Clube_de_Regatas_do_Flamengo_logo.svg",
+      gols_casa: 0,
+      time_fora: "Santos",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
+      gols_fora: 0
+    },
+    {
+      campeonato: "Campeonato Mineiro",
+      status: "A SEGUIR",
+      data: "05/04",
+      hora: "19:30",
+      time_casa: "Inter.",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/1280px-Sport_Club_Internacional_logo.svg.png",
+      gols_casa: null,
+      time_fora: "Corinthians",
+      escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnIzlL7KEJ1PPOVztPF-LCXkvVWW_jZtJeFg&s",
+      gols_fora: null
+    },
+    {
+      campeonato: "Campeonato Brasileiro",
+      status: "A SEGUIR",
+      data: "05/04",
+      hora: "20:30",
       time_casa: "Grêmio",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-      gols_casa: 3,
-      time_fora: "Inter.",
-      escudo_fora: "https://yt3.googleusercontent.com/ytc/AIdro_lqDgM1b0OOKybMFzUQxJkCoEhkf_w13HpWta9ji4qngIo=s900-c-k-c0x00ffffff-no-rj",
-      gols_fora: 0
-    },
-    {
-      campeonato: "Campeonato Mineiro",
-      status: "ENCERRADO",
-      data: "01/03",
-      hora: "18:00",
-      time_casa: "América",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Am%C3%A9rica_de_Minas.png",
-      gols_casa: 2,
-      time_fora: "Atlético",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_fora: 4
-    },
-    {
-      campeonato: "Campeonato Paulista",
-      status: "A SEGUIR",
-      data: "01/03",
-      hora: "20:30",
-      time_casa: "Palmeiras",
-      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYX-4tjMuJlTiHYqr-NqhEAe9NJUYCk-1TVw&s",
       gols_casa: null,
-      time_fora: "São P.",
-      escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEGVO2YAys_bNBsb32WD12GmBio4s_J0wgA&s",
+      time_fora: "Remo",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Clube_do_Remo.svg/1280px-Clube_do_Remo.svg.png",
       gols_fora: null
     }
   ];
