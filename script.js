@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "17:30",
       time_casa: "Atlético",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGvsMeuDFuMN_RrW4MAIMbKbgi0DTOl2vUpA&s",
-      gols_casa: 1,
+      gols_casa: 2,
       time_fora: "Athletico Paranaense",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGxlV8YArL-xZNjYEK9ryZ9yRd2b50TIJQIg&s",
       gols_fora: 0
