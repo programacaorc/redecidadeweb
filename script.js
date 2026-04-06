@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Brasileiro",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "05/04",
       hora: "17:30",
       time_casa: "Flamengo",
