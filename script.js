@@ -588,3 +588,4 @@ document.addEventListener('DOMContentLoaded',function(){
     btn.classList.toggle('show', window.scrollY > 250);
   });
 })();
+(function(){const t=document.getElementById('theme-toggle'),e=document.querySelector('.theme-icon');if(!t)return;function a(i,o=!0){const r='escuro'===i;r?document.body.classList.remove('light-theme'):document.body.classList.add('light-theme'),localStorage.setItem('redeCidade-tema',i),e&&(o?(e.style.transform='rotate(180deg)',setTimeout(()=>{e.textContent=r?'🌙':'☀️',e.style.transform='rotate(0deg)'},150)):e.textContent=r?'🌙':'☀️')}t.addEventListener('click',()=>{const i=localStorage.getItem('redeCidade-tema')||'escuro';a('escuro'===i?'claro':'escuro',!0)}),a(localStorage.getItem('redeCidade-tema')||'escuro',!1)})();
