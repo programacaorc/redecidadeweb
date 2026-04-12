@@ -271,3 +271,127 @@ footer { background: var(--glass-bg); backdrop-filter: var(--glass-blur); text-a
 /* Scrollbar styling */
 ::-webkit-scrollbar { width: 10px; background: #22223b88; }
 ::-webkit-scrollbar-thumb { background: #ffd36944; border-radius: 6px; }
+
+/* ---- ULTRA MELHORIAS EFEITOS PREMIUM ---- */
+
+/* Fundo sutil animado */
+body:before {
+  content: "";
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 65% 10%, #ffd36933 0, transparent 40%),
+              radial-gradient(circle at 20% 85%, #e81e4d22 0, transparent 55%);
+  animation: bgMove 15s linear infinite alternate;
+}
+@keyframes bgMove {
+  0% { background-position: 60% 15%, 20% 85%;}
+  100% { background-position: 70% 5%, 10% 90%;}
+}
+body, .main, .container, main { position:relative; z-index:1; }
+
+/* Microinterações, hover up */
+.card, .noticia, .quick-card, .destaque-card, .placar-card2, .newsletter-card {
+  transition: transform .18s, box-shadow .18s, border-color .2s;
+  will-change: transform, box-shadow;
+}
+.card:hover, .noticia:hover, .quick-card:hover, .destaque-card:hover, .placar-card2:hover, .newsletter-card:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: 0 16px 46px #ffd36955, 0 2px 2px #23223b22;
+  border-color: #ffd36988;
+}
+.quick-card:active { transform: scale(.97); }
+
+/* Tag de categoria custom e gradiente */
+.noticia .data small, .latest-item .meta, .placar-campeonato {
+  background: linear-gradient(90deg, #ffca26 40%, #e81e4d 140%);
+  border-radius: 6px;
+  padding: 3px 10px;
+  color: #232526 !important;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  line-height: 1;
+  font-size: .91em;
+  box-shadow: 0 3px 12px #ffd36923;
+}
+
+/* Modal overlay (sobre/rede social) */
+#app-modal-overlay {
+  display:none; 
+  position:fixed; 
+  z-index:2000; 
+  top:0; left:0; right:0; bottom:0; 
+  background:rgba(34,34,59,0.75); 
+  backdrop-filter: blur(5px);
+  justify-content:center;
+  align-items:center;
+}
+#app-modal-overlay.active { display:flex; }
+#app-modal-content {
+  background: var(--glass-bg,#22223bcc);
+  border-radius: 18px;
+  max-width: 95vw; min-width: 300px; width:380px;
+  box-shadow:0 16px 60px #ffd36977;
+  padding:36px 28px;
+  position:relative;
+  color:#fff;
+  animation: fadeIn .35s;
+}
+#app-modal-content .modal-close {
+  position:absolute;top:12px; right:18px; background:none;border:none;
+  font-size:2rem; color:#ffd369; cursor:pointer; line-height:1;
+}
+#app-modal-content h2 { color: var(--cor-principal); margin-top:0; }
+#app-modal-content .social-list a { display:inline-block; margin: 0 10px 10px; color:var(--cor-principal); font-size:2rem; transition:color .18s;}
+#app-modal-content .social-list a:hover { color:#fff1b8; }
+@media (max-width:500px){ #app-modal-content{min-width:0;width:97vw;padding:14vw 2vw;} }
+
+/* Botão flutuante redes/sobre */
+#quick-fab {
+  position:fixed;
+  bottom:28px;
+  right:28px;
+  z-index:1100;
+  background:linear-gradient(120deg,#ffd369 55%, #e81e4d);
+  color:#22223b;
+  padding:12px 16px;
+  border-radius:50%;
+  border:none;
+  box-shadow:0 8px 32px #ffd36933, 0 1px 5px #e81e4d44;
+  font-size:1.92rem;
+  cursor:pointer;
+  transition: background .18s, color .18s, transform .22s cubic-bezier(.5,1.7,.5,.7);
+}
+#quick-fab:active{transform: scale(.89);}
+#quick-fab span{pointer-events:none;}
+
+/* Newsletter sucesso/falha visual */
+#newsletter-msg.success {color:#59e866;}
+#newsletter-msg.error {color:#ff5252;}
+@media (max-width: 700px) {
+  .newsletter-card {padding:6vw 4vw;}
+}
+
+/* Contraste maior em ícones sociais no footer */
+footer .footer-right a.social-link {color: #ffd369; transition: color .18s;}
+footer .footer-right a.social-link:hover{color:#fffbe9;} 
+
+.latest-item, .noticia { opacity:0; animation: fadeIn .9s cubic-bezier(.2,.75,.8,1) both;}
+.latest-item:nth-child(2){animation-delay:.07s;}
+.latest-item:nth-child(3){animation-delay:.12s;}
+.latest-item:nth-child(4){animation-delay:.15s;}
+.latest-item:nth-child(5){animation-delay:.19s;}
+.latest-item:nth-child(6){animation-delay:.23s;}
+
+/* Botão voltar ao topo */
+#scrollTopBtn {
+  position:fixed; bottom:80px; right:34px; z-index:900;
+  display:none;
+  background: #e81e4d;
+  color: #fff; 
+  border:none; border-radius:50%;
+  width:42px; height:42px; font-size:2rem;
+  box-shadow:0 3px 16px #ffd36933;
+}
+#scrollTopBtn.show {display:block;}

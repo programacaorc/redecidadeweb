@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="Rede Cidade WEB - Rádio online de BH e Pará de Minas. Notícias, esportes e programação." />
     <meta name="theme-color" content="#232526" />
+    <meta name="color-scheme" content="dark light">
+    <meta name="apple-mobile-web-app-status-bar" content="#232526">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="logo-cidade.png" />
-    <!-- Pequeno CSS local para filtros e lista de últimas notícias -->
     <style>
       .news-section { margin-top: 22px; }
       .news-filters { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; align-items:center; }
@@ -23,7 +24,6 @@
       .latest-item .excerpt { color:var(--cor-sec); font-size:0.95rem; }
       .see-all { margin-top:10px; display:inline-block; color:var(--cor-principal); font-weight:700; text-decoration:none; }
       @media (max-width:700px){ .latest-news-list { grid-template-columns:1fr; } }
-
       /* Skip link (accessibility) */
       .skip-link {
         position: absolute;
@@ -50,7 +50,6 @@
 </head>
 <body>
     <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
-
     <header>
         <div class="header-content">
             <img src="logo-cidade.png" alt="Logo Rede Cidade WEB" class="logo" loading="lazy" />
@@ -69,7 +68,6 @@
             </nav>
         </div>
     </header>
-
     <main id="main-content">
         <!-- HERO / Destaque -->
         <section class="hero">
@@ -89,12 +87,10 @@
                             <strong>AO VIVO</strong>
                         </div>
                         <div id="live-player-quick" class="live-player-quick">
-                            <!-- Quick player (Zeno BH default) -->
                             <audio controls src="https://stream.zeno.fm/9hmzagl0vcatv" preload="none"></audio>
                             <p class="small muted">Rádio Cidade BH — toque para reproduzir</p>
                         </div>
                     </div>
-
                     <div class="newsletter-card">
                         <h4>Receba as principais notícias</h4>
                         <p class="small muted">Receba um resumo diário no seu e-mail (placeholder).</p>
@@ -107,11 +103,9 @@
                 </div>
             </div>
         </section>
-
         <!-- PLACAR TICKER + CARDS -->
         <section class="placar-section">
             <div class="placar-ticker" aria-live="polite" id="placar-ticker"></div>
-
             <div class="placares-container">
                 <h2>Placar e próximos jogos</h2>
                 <p class="placar-caption">Resultados e partidas agendadas — acompanhe em tempo real</p>
@@ -120,7 +114,6 @@
                 </div>
             </div>
         </section>
-
         <!-- ÚLTIMAS NOTÍCIAS (carregadas do JSON) -->
         <section class="news-section">
           <h2>Últimas Notícias</h2>
@@ -128,15 +121,10 @@
             <span style="color:var(--muted);font-weight:700;">Filtrar:</span>
             <div id="news-filters" style="display:flex;gap:8px;"></div>
           </div>
-
           <div id="latest-news" class="latest-news-list" aria-live="polite">
-            <!-- Itens carregados via script.js -->
           </div>
-
           <p><a href="noticias.html" class="see-all">Ver todas as notícias →</a></p>
         </section>
-
-        <!-- LINKS RÁPIDOS -->
         <section class="quick-links">
             <a href="programacao.html" class="quick-card">
                 <h4>Programação</h4>
@@ -152,7 +140,6 @@
             </a>
         </section>
     </main>
-
     <footer>
         <div class="footer-inner">
             <div class="footer-left">
@@ -165,10 +152,7 @@
             </div>
         </div>
     </footer>
-
-    <!-- noticias.js continua opcional (preenche window.NOTICIAS). Mantive inclusão caso você use via file:// -->
     <script defer src="noticias.js"></script>
-    <!-- script.js (atualizado) — agora preenche destaque, últimas notícias, filtros e placares -->
     <script defer src="script.js"></script>
 </body>
 </html>

@@ -109,7 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ---------- PLAYERS FALLBACK helpers (implementação) ----------
-  // Torna os botões funcionais: alterna painéis, pausa outros players e faz lazy-load dos widgets Caster quando solicitado.
   (function initPlayers() {
     const stations = [
       { btn: '#btn-bh', panel: '#player-bh', id: 'bh', fallback: '' },
@@ -118,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
       { btn: '#btn-canoas', panel: '#player-canoas', id: 'canoas', fallback: CANOAS_FALLBACK_STREAM }
     ];
 
-    // flags para evitar cargas repetidas
     let casterScriptAppended = !!document.querySelector('script[src="https://cdn.cloud.caster.fm/widgets/embed.js"]');
     let spLoaded = false;
     let canoasLoaded = false;
@@ -139,13 +137,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!panel || !btn) return;
         if (s.panel === panelSelector) {
           panel.classList.add('active');
-          panel.style.display = ''; // allow CSS to control layout
+          panel.style.display = '';
           panel.setAttribute('aria-hidden', 'false');
           btn.classList.add('active');
           btn.setAttribute('aria-pressed', 'true');
         } else {
           panel.classList.remove('active');
-          // Some panels might have inline display:none in markup; set to none to hide
           panel.style.display = 'none';
           panel.setAttribute('aria-hidden', 'true');
           btn.classList.remove('active');
@@ -157,36 +154,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function ensureCasterWidgets() {
       if (casterScriptAppended) return;
-      // append script once to render any .cstrEmbed on the page
       const s = document.createElement('script');
       s.src = 'https://cdn.cloud.caster.fm/widgets/embed.js';
       s.async = true;
       s.onload = () => { casterScriptAppended = true; };
       s.onerror = () => { console.warn('Falha ao carregar widget Caster (embed.js)'); };
       document.body.appendChild(s);
-      // mark as appended immediately to avoid duplicate append attempts
       casterScriptAppended = true;
     }
 
     function tryLoadCasterFor(panelId) {
       const panel = $(`#player-${panelId}`);
       if (!panel) return;
-      // se houver um bloco .cstrEmbed dentro do painel, garantir que o script seja executado
       const embed = panel.querySelector('.cstrEmbed');
       if (embed) {
-        // se o widget já foi renderizado (atributo data-rendered), nada a fazer
         const rendered = embed.getAttribute('data-rendered');
         if (rendered === 'true') return;
         ensureCasterWidgets();
-        // é possível que o widget precise de um tempo para inicializar; deixamos o atributo e confiamos no script
-        // algumas implementações podem requerer re-dispatch de eventos, mas o embed.js geralmente varre o DOM ao carregar
         return;
       }
-
-      // se não há cstrEmbed e temos um stream de fallback, inserir um <audio>
       const fallback = panelId === 'sp' ? SP_FALLBACK_STREAM : (panelId === 'canoas' ? CANOAS_FALLBACK_STREAM : '');
       if (fallback) {
-        // evitar inserir múltiplos players de fallback
         if (!panel.querySelector('audio[data-fallback="true"]')) {
           const audio = document.createElement('audio');
           audio.controls = true;
@@ -196,7 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
           panel.appendChild(audio);
         }
       } else {
-        // sem fallback: mostrar instrução de carregar
         if (!panel.querySelector('.loader-help')) {
           const p = document.createElement('p');
           p.className = 'loader-help';
@@ -211,7 +198,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function onStationClick(ev, station) {
       ev && ev.preventDefault && ev.preventDefault();
       showPanel(station.panel);
-      // lazy load widgets if needed
       if (station.id === 'sp' && !spLoaded) {
         tryLoadCasterFor('sp');
         spLoaded = true;
@@ -222,22 +208,18 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // bind buttons
     stations.forEach(station => {
       const btn = $(station.btn);
       if (!btn) return;
       btn.addEventListener('click', (ev) => onStationClick(ev, station));
-      // keyboard: Enter/Space already trigger click on button elements
     });
 
-    // Bind the "Carregar player" buttons inside SP/Canoas panels (if present)
     const loadSpBtn = $('#load-player-sp');
     if (loadSpBtn) {
       loadSpBtn.addEventListener('click', (e) => {
         e.preventDefault();
         tryLoadCasterFor('sp');
         spLoaded = true;
-        // also make the sp panel visible so user sees result
         onStationClick(null, stations.find(s => s.id === 'sp'));
       });
     }
@@ -251,7 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    // Initialize view: ensure BH panel visible if exists (matches markup default)
     const defaultBtn = $('#btn-bh') || document.querySelector('.player-btn.active');
     if (defaultBtn) {
       const station = stations.find(s => s.btn === `#${defaultBtn.id}`);
@@ -354,7 +335,6 @@ document.addEventListener('DOMContentLoaded', () => {
     el.innerHTML = '';
     placares.forEach(j => el.appendChild(placarCard(j)));
 
-    // ticker
     const ticker = $('#placar-ticker');
     if (ticker) {
       ticker.innerHTML = placares.map(j => {
@@ -375,7 +355,6 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         if (!Array.isArray(noticias)) noticias = [];
 
-        // Normalize: respeitar "categoria" se fornecida; se ausente, aplicar heurística
         noticias = noticias.map(n => {
           const normalized = Object.assign({}, n);
           const combined = (n.titulo || '') + ' ' + (stripTagsToText(n.texto || '') || '');
@@ -515,3 +494,97 @@ document.addEventListener('DOMContentLoaded', () => {
   // Export util (opcional)
   window.__redeCidade = Object.assign(window.__redeCidade || {}, { guessCategory, renderPlacares });
 });
+
+// =============== ULTRA MELHORIAS ==========================
+(function(){
+  if (document.getElementById('quick-fab')) return; // só 1 vez
+  const fab = document.createElement('button');
+  fab.id = 'quick-fab'; fab.title = 'Redes & Sobre';
+  fab.innerHTML = '<span aria-hidden="true">⚡</span>';
+  document.body.appendChild(fab);
+
+  const overlay = document.createElement('div');
+  overlay.id = 'app-modal-overlay';
+  overlay.tabIndex = -1;
+  overlay.innerHTML = `<div id="app-modal-content" role="dialog" aria-modal="true" aria-label="Sobre a Rede Cidade WEB">
+    <button class="modal-close" aria-label="Fechar">&times;</button>
+    <h2>Sobre a Rede Cidade WEB</h2>
+    <p>Jornalismo moderno, esportes e música 24h — cobertura instantânea e sem enrolação. <br><strong>Presente em BH, PA, SP e Canoas.</strong></p>
+    <h3 style="margin-bottom:4px;">Nossas redes:</h3>
+    <div class="social-list">
+      <a href="https://www.instagram.com/redecidadeweb2024/" target="_blank" aria-label="Instagram" rel="noopener"><svg width="28" height="28" fill="currentColor"><use href="#icon-instagram"/></svg></a>
+      <a href="https://www.youtube.com/@RedeCidadeWEB" target="_blank" aria-label="YouTube" rel="noopener"><svg width="28" height="28" fill="currentColor"><use href="#icon-youtube"/></svg></a>
+      <a href="mailto:radiocidadeweb.2024@gmail.com" aria-label="E-mail"><svg width="28" height="28" fill="currentColor"><use href="#icon-mail"/></svg></a>
+    </div>
+    <p style="font-size:.98em;color:#ffd369">Contato comercial: radiocidadeweb.2024@gmail.com</p>
+  </div>
+  <svg style="display:none">
+    <symbol id="icon-instagram" viewBox="0 0 24 24">
+      <path d="M12 5.838c-3.403 0-6.163 2.761-6.163 6.163s2.76 6.162 6.163 6.162 6.162-2.76 6.162-6.162-2.759-6.163-6.162-6.163zm0 10.162c-2.208 0-4-1.792-4-4s1.792-4 4-4 4 1.792 4 4-1.792 4-4 4zm6.406-10.845c-.796 0-1.443.646-1.443 1.444s.647 1.444 1.443 1.444c.797 0 1.445-.646 1.445-1.444s-.648-1.444-1.445-1.444zm4.594 1.444c0-2.2-1.79-3.99-3.99-3.99h-12.02c-2.201 0-3.99 1.79-3.99 3.99v12.02c0 2.201 1.79 3.99 3.99 3.99h12.02c2.2 0 3.99-1.789 3.99-3.99v-12.02zm-1.8 12.02c0 1.209-.982 2.191-2.191 2.191h-12.02c-1.209 0-2.19-.982-2.19-2.191v-12.02c0-1.208.981-2.19 2.19-2.19h12.02c1.209 0 2.191.982 2.191 2.19v12.02z"/>
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 24 24">
+      <path d="M23.498 6.186a2.971 2.971 0 0 0-2.09-2.093C19.211 3.521 12 3.5 12 3.5s-7.211.021-9.408.593A2.971 2.971 0 0 0 .502 6.186C0 8.364 0 12 0 12s0 3.637.502 5.814a2.971 2.971 0 0 0 2.09 2.093C4.789 20.48 12 20.5 12 20.5s7.211-.021 9.408-.593a2.97 2.97 0 0 0 2.09-2.093C24 15.637 24 12 24 12s0-3.636-.502-5.814zm-11.498 9.115v-6.603l6.518 3.301-6.518 3.302z"/>
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24">
+      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+    </symbol>
+  </svg>`;
+  document.body.appendChild(overlay);
+
+  fab.onclick = function(){
+    overlay.classList.add('active');
+    setTimeout(function(){qS('#app-modal-content .modal-close').focus();},400);
+  };
+  overlay.addEventListener('click', e=>{
+    if(e.target===overlay) overlay.classList.remove('active');
+  });
+  overlay.querySelector('.modal-close').onclick = function(){
+    overlay.classList.remove('active');
+    fab.focus();
+  };
+  function qS(s){ return document.querySelector(s);}
+  window.addEventListener('keydown', function(ev){
+    if(ev.key==='Escape' && overlay.classList.contains('active')) {
+      overlay.classList.remove('active');
+      fab.focus();
+    }
+  });
+})();
+
+document.addEventListener('DOMContentLoaded',function(){
+  let form = document.getElementById('newsletter-form');
+  let msg = document.getElementById('newsletter-msg');
+  if(form && msg) {
+    form.onsubmit = async function(ev){
+      ev.preventDefault();
+      msg.style.display = 'block';
+      msg.className = '';
+      let email = form.querySelector('input[type="email"]').value.trim();
+      if(!email || !/\S+@\S+\.\S+/.test(email)) {
+        msg.textContent = 'Por favor, insira um e-mail válido.';
+        msg.className = 'error';
+        form.querySelector('input[type="email"]').focus();
+        return;
+      }
+      msg.textContent = 'Enviando...';
+      await new Promise(r=>setTimeout(r,800));
+      msg.textContent = 'Inscrição realizada! Você receberá novidades em breve 🎉';
+      msg.className = 'success';
+      form.reset();
+    };
+  }
+});
+
+(function(){
+  if(document.getElementById('scrollTopBtn')) return;
+  const btn = document.createElement('button');
+  btn.id = 'scrollTopBtn';
+  btn.title = 'Topo';
+  btn.setAttribute('aria-label','Topo');
+  btn.innerHTML = '↑';
+  document.body.appendChild(btn);
+  btn.addEventListener('click', ()=>window.scrollTo({top:0,behavior:'smooth'}));
+  window.addEventListener('scroll', ()=>{
+    btn.classList.toggle('show', window.scrollY > 250);
+  });
+})();
