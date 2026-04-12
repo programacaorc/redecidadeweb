@@ -282,15 +282,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Brasileiro",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "12/04",
       hora: "18:30",
       time_casa: "SCCP.",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "SEP.",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/250px-SE_Palmeiras_2025_crest.png",
-      gols_fora: null
+      gols_fora: 0
     }
   ];
 
