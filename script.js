@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Campeonato Brasileiro",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "12/04",
       hora: "18:30",
       time_casa: "SCCP.",
