@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 0,
       time_fora: "Corinthians",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Copa do Brasil",
