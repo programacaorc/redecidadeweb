@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "19:00",
       time_casa: "Goias",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Goi%C3%A1s_Esporte_Clube_logo.svg/250px-Goi%C3%A1s_Esporte_Clube_logo.svg.png",
-      gols_casa: 1,
+      gols_casa: 2,
       time_fora: "Cruzeiro",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg",
       gols_fora: 2
