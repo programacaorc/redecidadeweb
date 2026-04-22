@@ -245,52 +245,52 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- PLACARES (dados e render) ----------
   const placares = [
     {
-      campeonato: "Campeonato Brasileiro",
+      campeonato: "Copa do Brasil",
       status: "ENCERRADO",
-      data: "05/04",
-      hora: "20:30",
-      time_casa: "Inter",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/1280px-Sport_Club_Internacional_logo.svg.png",
-      gols_casa: 0,
-      time_fora: "Grêmio",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
-      gols_fora: 0
-    },
-    {
-      campeonato: "Campeonato Brasileiro",
-      status: "ENCERRADO",
-      data: "12/04",
-      hora: "20:00",
-      time_casa: "Santos",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png",
-      gols_casa: 1,
-      time_fora: "Atlético",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_fora: 0
-    },
-    {
-      campeonato: "Campeonato Mineiro",
-      status: "ENCERRADO",
-      data: "12/04",
-      hora: "16:30",
-      time_casa: "Vitória",
-      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1VOPpDMQEOqBzB6u8InTfBMK073ozgU0hWQ&s",
+      data: "21/04",
+      hora: "19:30",
+      time_casa: "Grêmio",
+      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgP3M1sOXUBD8YHreSahpTlXZHdpBcvdZEWQ&s",
       gols_casa: 2,
-      time_fora: "São Paulo",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/250px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
+      time_fora: "Confiança",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/d/dd/AD_Confian%C3%A7a_shield.png",
       gols_fora: 0
     },
     {
-      campeonato: "Campeonato Brasileiro",
-      status: "ENCERRADO",
-      data: "12/04",
-      hora: "18:30",
-      time_casa: "SCCP.",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
+      campeonato: "Copa do Brasil",
+      status: "AO VIVO",
+      data: "21/04",
+      hora: "21:30",
+      time_casa: "Barra",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/4/40/Barra_FC_2021_crest.png",
       gols_casa: 0,
-      time_fora: "SEP.",
-      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/250px-SE_Palmeiras_2025_crest.png",
+      time_fora: "Corinthians",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
       gols_fora: 0
+    },
+    {
+      campeonato: "Copa do Brasil",
+      status: "A SEGUIR",
+      data: "22/04",
+      hora: "19:00",
+      time_casa: "Goias",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Goi%C3%A1s_Esporte_Clube_logo.svg/250px-Goi%C3%A1s_Esporte_Clube_logo.svg.png",
+      gols_casa: null,
+      time_fora: "Cruzeiro",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg",
+      gols_fora: null
+    },
+    {
+      campeonato: "Copa do Brasil",
+      status: "A SEGUIR",
+      data: "23/04",
+      hora: "19:00",
+      time_casa: "Atlético",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
+      gols_casa: null,
+      time_fora: "Ceará",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cear%C3%A1_Sporting_Club_logo.svg/1280px-Cear%C3%A1_Sporting_Club_logo.svg.png",
+      gols_fora: null
     }
   ];
 
