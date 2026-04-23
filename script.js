@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "22/04",
       hora: "19:00",
       time_casa: "Goias",
