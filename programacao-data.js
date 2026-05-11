@@ -86,7 +86,7 @@ window.PROGRAMACAO = {
       { time: '23:00 - 00:00', title: 'Love Songs' }
     ]
   },
-  belo_horizonte: {
+  bh: {
     'seg-sex': [
       { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
       { time: '04:00', title: 'PARADÃO SERTANEJO' },
@@ -131,7 +131,7 @@ window.PROGRAMACAO = {
       { time: '23:00 - 00:00', title: 'Love Songs' }
     ]
   },
-  para_de_minas: {
+  pa: {
     'seg-sex': [
       { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
       { time: '04:00', title: 'PARADÃO SERTANEJO' },
