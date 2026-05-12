@@ -18,27 +18,36 @@ window.PROGRAMACAO = {
       { time: '22:00', title: 'CBN Noite Total' },
       { time: '23:00', title: 'Love Songs' }
     ],
-    'sabado': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Sábado' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Sábado Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Sábado à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'sab': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '11:30', title: 'Rádio Esportes' },
+      { time: '13:00', title: 'Itatiaia Agora' },
+      { time: '14:00', title: 'Sábado Retrô' },
+      { time: '15:00', title: 'CBN Show da Noticia' },
+      { time: '21:00', title: 'Noite Livre/JORNADA ESPORTIVA' },
+      { time: '23:00', title: 'Love Songs' }
     ],
-    'domingo': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Domingo' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Domingo Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Domingo à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'dom': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '12:00', title: 'PARADÃO SERTANEJO' },
+      { time: '13:00', title: 'Domingão Esportivo' },
+      { time: '15:00', title: 'Futebol Globo CBN/CBN Show da Noticia' },
+      { time: '22:00', title: 'Noite Livre' },
+      { time: '23:00', title: 'Love Songs' }
     ]
   },
   canoas: {
@@ -63,27 +72,39 @@ window.PROGRAMACAO = {
       { time: '22:00', title: 'Noite Livre' },
       { time: '23:00', title: 'Love Songs' }
     ],
-    'sabado': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Sábado' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Sábado Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Sábado à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'sab': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '11:30', title: 'Rádio Esportes' },
+      { time: '13:00', title: 'Itatiaia Agora' },
+      { time: '14:00', title: 'Sábado Retrô' },
+      { time: '16:00', title: 'PARADÃO SERTANEJO' },
+      { time: '17:00', title: 'Cidade Não Para/JORNADA ESPORTIVA' },
+      { time: '18:00', title: 'Turma do Bate Bola/JORNADA ESPORTIVA' },
+      { time: '20:00', title: 'Noite Livre/JORNADA ESPORTIVA' },
+      { time: '23:00', title: 'Love Songs' }
     ],
-    'domingo': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Domingo' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Domingo Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Domingo à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'dom': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '12:00', title: 'PARADÃO SERTANEJO' },
+      { time: '13:00', title: 'Domingão Esportivo' },
+      { time: '14:00', title: 'Pré Jornada' },
+      { time: '15:30', title: 'Futebol da Gaúcha' },
+      { time: '22:00', title: 'Noite Livre' },
+      { time: '23:00', title: 'Love Songs' }
     ]
   },
   bh: {
@@ -108,27 +129,38 @@ window.PROGRAMACAO = {
       { time: '22:00', title: 'Noite Livre' },
       { time: '23:00', title: 'Love Songs' }
     ],
-    'sabado': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Sábado' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Sábado Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Sábado à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'sab': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '11:30', title: 'Rádio Esportes' },
+      { time: '13:00', title: 'Itatiaia Agora' },
+      { time: '14:00', title: 'Sábado Retrô' },
+      { time: '16:00', title: 'PARADÃO SERTANEJO' },
+      { time: '17:00', title: 'Cidade Não Para/JORNADA ESPORTIVA' },
+      { time: '18:00', title: 'Turma do Bate Bola/JORNADA ESPORTIVA' },
+      { time: '20:00', title: 'Noite Livre/JORNADA ESPORTIVA' },
+      { time: '23:00', title: 'Love Songs' }
     ],
-    'domingo': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Domingo' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Domingo Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Domingo à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'dom': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '12:00', title: 'PARADÃO SERTANEJO' },
+      { time: '13:00', title: 'Domingão Esportivo' },
+      { time: '15:00', title: 'Jornada Esportiva' },
+      { time: '22:00', title: 'Noite Livre' },
+      { time: '23:00', title: 'Love Songs' }
     ]
   },
   pa: {
@@ -153,27 +185,38 @@ window.PROGRAMACAO = {
       { time: '22:00', title: 'Noite Livre' },
       { time: '23:00', title: 'Love Songs' }
     ],
-    'sabado': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Sábado' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Sábado Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Sábado à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'sab': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '11:30', title: 'Rádio Esportes' },
+      { time: '13:00', title: 'Itatiaia Agora' },
+      { time: '14:00', title: 'Sábado Retrô' },
+      { time: '16:00', title: 'PARADÃO SERTANEJO' },
+      { time: '17:00', title: 'Cidade Não Para/JORNADA ESPORTIVA' },
+      { time: '18:00', title: 'Turma do Bate Bola/JORNADA ESPORTIVA' },
+      { time: '20:00', title: 'Noite Livre/JORNADA ESPORTIVA' },
+      { time: '23:00', title: 'Love Songs' }
     ],
-    'domingo': [
-      { time: '00:00 - 04:00', title: 'Itatiaia é a Dona da Noite' },
-      { time: '04:00 - 06:00', title: 'Programação Especial' },
-      { time: '06:00 - 08:00', title: 'Jornal da CBN' },
-      { time: '08:00 - 12:00', title: 'Programação do Domingo' },
-      { time: '12:00 - 14:00', title: 'Variedades' },
-      { time: '14:00 - 18:00', title: 'Domingo Animado' },
-      { time: '18:00 - 19:00', title: 'A VOZ DO BRASIL' },
-      { time: '19:00 - 23:00', title: 'Domingo à Noite' },
-      { time: '23:00 - 00:00', title: 'Love Songs' }
+    'dom': [
+      { time: '00:00', title: 'Itatiaia é a Dona da Noite' },
+      { time: '04:00', title: 'Café com Noticia' },
+      { time: '06:00', title: 'Jornal da CBN' },
+      { time: '07:00', title: 'Jornal da Itatiaia' },
+      { time: '09:00', title: 'Horário Livre 1ª Edição' },
+      { time: '10:00', title: 'Horário Livre 2ª Edição' },
+      { time: '11:00', title: 'REPÓRTER CBN' },
+      { time: '11:03', title: 'Horário Livre 3ª Edição' },
+      { time: '12:00', title: 'PARADÃO SERTANEJO' },
+      { time: '13:00', title: 'Domingão Esportivo' },
+      { time: '15:00', title: 'Jornada Esportiva' },
+      { time: '22:00', title: 'Noite Livre' },
+      { time: '23:00', title: 'Love Songs' }
     ]
   }
 };
