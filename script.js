@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const placares = [
     {
       campeonato: "Copa do Brasil",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "12/05",
       hora: "21:30",
       time_casa: "Cruzeriro",
