@@ -258,20 +258,20 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "13/05",
       hora: "21:30",
       time_casa: "Ceará",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cear%C3%A1_Sporting_Club_logo.svg/1280px-Cear%C3%A1_Sporting_Club_logo.svg.png",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Atlétco",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Copa do Brasil",
       status: "A SEGUIR",
-      data: "21/04",
+      data: "14/05",
       hora: "19:30",
       time_casa: "ConfI.",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/d/dd/AD_Confian%C3%A7a_shield.png",
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
       status: "A SEGUIR",
       data: "23/04",
       hora: "21:30",
-      time_casa: "Jacuipense",
+      time_casa: "Jacu.",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdD04IXPLOqvPgBwjqiAQLuBMbC4CdV5Mgxg&s",
       gols_casa: null,
       time_fora: "Palmeiras",
