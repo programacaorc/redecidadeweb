@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "13/05",
       hora: "21:30",
       time_casa: "Ceará",
@@ -275,10 +275,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "19:30",
       time_casa: "ConfI.",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/d/dd/AD_Confian%C3%A7a_shield.png",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Grêmio",
       escudo_fora: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgP3M1sOXUBD8YHreSahpTlXZHdpBcvdZEWQ&s",
-      gols_fora: null
+      gols_fora: 3
     },
     {
       campeonato: "Copa do Brasil",
@@ -287,10 +287,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "21:30",
       time_casa: "Corinthians",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Corinthians_simbolo.png/250px-Corinthians_simbolo.png",
-      gols_casa: null,
-      time_fora: "barra",
+      gols_casa: 0,
+      time_fora: "Barra",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/4/40/Barra_FC_2021_crest.png",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Copa do Brasil",
