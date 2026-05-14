@@ -294,15 +294,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "23/04",
       hora: "21:30",
       time_casa: "Jacu.",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdD04IXPLOqvPgBwjqiAQLuBMbC4CdV5Mgxg&s",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Palmeiras",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/250px-SE_Palmeiras_2025_crest.png",
-      gols_fora: null
+      gols_fora: 2
     }
   ];
 
