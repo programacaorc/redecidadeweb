@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "23/04",
       hora: "21:30",
       time_casa: "Jacu.",
