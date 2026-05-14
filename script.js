@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gols_casa: 0,
       time_fora: "Palmeiras",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/250px-SE_Palmeiras_2025_crest.png",
-      gols_fora: 2
+      gols_fora: 4
     }
   ];
 
