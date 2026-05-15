@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "14/05",
       hora: "21:30",
       time_casa: "Corinthians",
