@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8" />
-    <title>Rádio Super — Ouça-nos</title>
+    <title>Rede Cidade WEB — Ouça-nos</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
@@ -10,18 +10,18 @@
 <body>
     <header>
         <div class="header-content">
-            <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 200 200%27%3E%3Crect fill=%27%23FFC107%27 width=%27100%27 height=%27200%27/%3E%3Crect fill=%27%23D32F2F%27 x=%27100%27 width=%27100%27 height=%27200%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 font-size=%27100%27 font-weight=%27bold%27 fill=%27%23000%27 font-family=%27Arial%27%3ES%3C/text%3E%3C/svg%3E" alt="Logo Rádio Super" class="logo" loading="lazy" />
+            <img src="logo-cidade.png" alt="Logo" class="logo" />
             <div class="brand">
-                <h1>Rádio Super</h1>
-                <p class="subtitle">Ouça-nos</p>
+                <h1>Rede Cidade WEB</h1>
+                <p class="subtitle">Ouça nossas rádios</p>
             </div>
             <nav aria-label="Principal">
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="ouca.html" class="active">Ouça-nos</a></li>
-                    <li><a href="noticias.html">Notícias</a></li>
-                    <li><a href="programacao.html">Programação</a></li>
-                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="index.html" id="nav-inicio">Início</a></li>
+                    <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
+                    <li><a href="noticias.html" id="nav-noticias">Notícias</a></li>
+                    <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
+                    <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,18 +29,41 @@
 
     <main>
         <section class="ouca-section">
-            <h2>Ouça-nos ao vivo</h2>
-            <p class="lead">Sintonize a Rádio Super agora e acompanhe notícias, música e entretenimento 24 horas do Rio de Janeiro.</p>
+            <h2>Ouça-nos</h2>
+            <p class="lead">Escolha a estação desejada. Os players de São Paulo e Canoas carregam quando solicitados (lazy-load).</p>
 
-            <div class="player-container active" role="tabpanel">
-                <h3>Rádio Super — Rio de Janeiro</h3>
-                <div id="rj-embed-placeholder" style="min-height:140px;">
-                    <div data-type="newStreamPlayer" 
-                         data-publicToken="ad4a7317-ccbc-4991-bc18-95fbd64e0049" 
-                         data-theme="light" 
-                         data-color="D32F2F" 
-                         data-channelId="" 
-                         data-rendered="false" 
+            <div class="players-select" role="tablist" aria-label="Estacoes">
+                <button id="btn-bh" class="player-btn active" aria-pressed="true" title="Rádio Cidade BH"><span>BH</span></button>
+                <button id="btn-pa" class="player-btn" aria-pressed="false" title="Rádio Cidade PA"><span>PA</span></button>
+                <button id="btn-sp" class="player-btn" aria-pressed="false" title="Rádio Cidade SP"><span>SP</span></button>
+                <button id="btn-canoas" class="player-btn" aria-pressed="false" title="Rádio Cidade Canoas"><span>Canoas</span></button>
+            </div>
+
+            <div id="player-bh" class="player-container active" role="tabpanel">
+                <h3>Rádio Cidade BH</h3>
+                <audio controls src="https://stream.zeno.fm/9hmzagl0vcatv"></audio>
+            </div>
+
+            <div id="player-pa" class="player-container" role="tabpanel" aria-hidden="true">
+                <h3>Rádio Cidade PA</h3>
+                <audio controls src="https://stream.zeno.fm/jrznwa68wxtvv"></audio>
+            </div>
+
+            <div id="player-sp" class="player-container" role="tabpanel" aria-hidden="true" style="display:none;">
+                <h3>Rádio Cidade SP</h3>
+
+                <div id="sp-controls" style="margin-bottom:8px;">
+                    <button id="load-player-sp" class="player-btn">Carregar player SP</button>
+                </div>
+
+                <!-- Embed SP: mantenha exatamente o bloco .cstrEmbed -->
+                <div id="sp-embed-placeholder" style="min-height:120px;">
+                    <div data-type="newStreamPlayer"
+                         data-publicToken="e35bb27b-eea5-49ec-98eb-908684ded76c"
+                         data-theme="dark"
+                         data-color="e81e4d"
+                         data-channelId=""
+                         data-rendered="false"
                          class="cstrEmbed">
                         <a href="https://www.caster.fm">Shoutcast Hosting</a>
                         <a href="https://www.caster.fm">Stream Hosting</a>
@@ -48,30 +71,41 @@
                     </div>
                     <script src="https://cdn.cloud.caster.fm/widgets/embed.js"></script>
                 </div>
+
+                <noscript>
+                    <p>Se o player não carregar automaticamente, visite <a href="https://www.caster.fm" target="_blank" rel="noopener">caster.fm</a>.</p>
+                </noscript>
+            </div>
+
+            <div id="player-canoas" class="player-container" role="tabpanel" aria-hidden="true" style="display:none;">
+                <h3>Rádio Cidade Canoas</h3>
+
+                <div id="canoas-controls" style="margin-bottom:8px;">
+                    <button id="load-player-canoas" class="player-btn">Carregar player Canoas</button>
+                </div>
+
+                <!-- Embed Canoas: NÃO MODIFICAR O CONTEÚDO INTERNO DO .cstrEmbed -->
+                <div id="canoas-embed-placeholder" style="min-height:120px;">
+                    <div data-type="newStreamPlayer" data-publicToken="9fbbae92-f12a-418f-80aa-de86c07eacd8" data-theme="dark" data-color="e81e4d" data-channelId="" data-rendered="false" class="cstrEmbed"><a href="https://www.caster.fm">Shoutcast Hosting</a> <a href="https://www.caster.fm">Stream Hosting</a> <a href="https://www.caster.fm">Radio Server Hosting</a></div>
+                    <!-- Use HTTPS absoluto para evitar mixed-content -->
+                    <script src="https://cdn.cloud.caster.fm/widgets/embed.js"></script>
+                </div>
+
                 <noscript>
                     <p>Se o player não carregar automaticamente, visite <a href="https://www.caster.fm" target="_blank" rel="noopener">caster.fm</a>.</p>
                 </noscript>
             </div>
 
             <div class="redes-sociais">
-                <h3>Siga a Rádio Super:</h3>
-                <a href="https://www.instagram.com/" target="_blank" class="social-link">Instagram</a>
-                <a href="https://www.youtube.com/" target="_blank" class="social-link">YouTube</a>
+                <h3>Siga a Rede Cidade WEB:</h3>
+                <a href="https://www.instagram.com/redecidadeweb2024/" target="_blank" class="social-link instagram">Instagram</a>
+                <a href="https://www.youtube.com/@RedeCidadeWEB" target="_blank" class="social-link youtube">YouTube</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="footer-inner">
-            <div class="footer-left">
-                <p>&copy; 2026 Rádio Super</p>
-                <p class="small muted">Todos os direitos reservados.</p>
-            </div>
-            <div class="footer-right">
-                <a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a class="social-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
-            </div>
-        </div>
+        <p>&copy; 2025 Rede Cidade WEB. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
