@@ -1,17 +1,20 @@
 :root {
-    --cor-principal: #ff0066;
-    --cor-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    --cor-secundaria: #fff;
-    --cor-acento: #0f3460;
-    --cor-hover: #ff0066;
-    --cor-btn: #16213e;
-    --glass-bg: rgba(15, 52, 96, 0.55);
+    --cor-principal: #ff6600;
+    --cor-secundaria: #ffd369;
+    --cor-destaque: #cc0000;
+    --cor-bg: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    --cor-acento: #1a1a1a;
+    --cor-btn: #ff6600;
+    --glass-bg: rgba(26, 26, 26, 0.55);
     --glass-blur: blur(10px);
-    --shadow-strong: 0 8px 32px 0 rgba(31,38,135,0.37);
-    --bg-dark-1: #0f0f17;
-    --bg-dark-2: #16213e;
+    --placar-ao-vivo: #cc0000;
+    --placar-encerrado: #59e866;
+    --placar-a-seguir: #ffd369;
+    --shadow-strong: 0 8px 32px 0 rgba(0,0,0,0.37);
+    --bg-dark-1: #0a0a0a;
+    --bg-dark-2: #1a1a1a;
     --cor-sec: #f7f5f2;
-    --accent: #ff0066;
+    --accent: #ff6600;
     --muted: #a0a0a0;
 }
 
@@ -37,7 +40,7 @@ header {
     border-radius: 0 0 32px 32px;
     padding: 18px 16px 8px 16px;
     margin-bottom: 18px;
-    border-bottom: 2px solid #ff006644;
+    border-bottom: 2px solid #ff660044;
 }
 
 .header-content {
@@ -55,8 +58,8 @@ header {
     border-radius: 12px;
     background: #fff;
     object-fit: cover;
-    box-shadow: 0 0 12px #ff006680;
-    border: 3px solid #ff0066;
+    box-shadow: 0 0 12px #ff660080;
+    border: 3px solid #ff6600;
     transition: box-shadow 0.3s;
     flex-shrink: 0;
 }
@@ -88,8 +91,8 @@ nav ul {
     background: var(--glass-bg);
     backdrop-filter: var(--glass-blur);
     border-radius: 30px;
-    border: 1px solid #ff006633;
-    box-shadow: 0 2px 8px #ff006622;
+    border: 1px solid #ff660033;
+    box-shadow: 0 2px 8px #ff660022;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -111,7 +114,7 @@ nav a {
 
 nav a.active, nav a:hover {
     background: var(--cor-principal);
-    color: #1a1a2e;
+    color: #0a0a0a;
     box-shadow: 0 6px 18px #0006;
 }
 
@@ -122,12 +125,12 @@ main {
 }
 
 .hero {
-    background: linear-gradient(180deg, rgba(255,0,102,0.06), transparent);
+    background: linear-gradient(180deg, rgba(255,102,0,0.06), transparent);
     border-radius: 14px;
     padding: 22px;
     margin-bottom: 20px;
     box-shadow: var(--shadow-strong);
-    border: 1px solid #ff006620;
+    border: 1px solid #ff660020;
 }
 
 .hero-inner {
@@ -162,12 +165,12 @@ main {
 
 .btn-primary {
     background: var(--cor-principal);
-    color: #1a1a2e;
+    color: #0a0a0a;
     padding: 10px 16px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: 700;
-    box-shadow: 0 8px 28px #ff006633;
+    box-shadow: 0 8px 28px #ff660033;
     border: none;
     cursor: pointer;
     transition: all 0.3s;
@@ -176,7 +179,8 @@ main {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 36px #ff006644;
+    box-shadow: 0 12px 36px #ff660044;
+    background: #ff7722;
 }
 
 .btn-outline {
@@ -191,7 +195,7 @@ main {
 }
 
 .btn-outline:hover {
-    border-color: #ff0066;
+    border-color: #ff6600;
     color: var(--cor-principal);
 }
 
@@ -208,7 +212,7 @@ main {
     backdrop-filter: var(--glass-blur);
     padding: 16px;
     border-radius: 10px;
-    border: 1px solid #ff006622;
+    border: 1px solid #ff660022;
 }
 
 .live-header {
@@ -222,8 +226,8 @@ main {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #ff0066;
-    box-shadow: 0 0 8px #ff006688;
+    background: #cc0000;
+    box-shadow: 0 0 8px #cc000088;
     animation: pulse 2s infinite;
 }
 
@@ -238,14 +242,14 @@ main {
     border-radius: 16px;
     margin-bottom: 24px;
     padding: 24px;
-    box-shadow: 0 8px 32px 0 #ff006611, 0 2px 8px #0f346080;
-    border: 1.5px solid #ff006644;
+    box-shadow: 0 8px 32px 0 #ff660011, 0 2px 8px #1a1a1a80;
+    border: 1.5px solid #ff660044;
     transition: transform 0.18s, box-shadow 0.18s;
 }
 
 .noticia:hover {
     transform: translateY(-4px) scale(1.012);
-    box-shadow: 0 12px 48px #ff006644;
+    box-shadow: 0 12px 48px #ff660044;
 }
 
 .noticia h4 {
@@ -257,7 +261,7 @@ main {
 
 .noticia .data {
     font-size: 0.98em;
-    color: #ff0066;
+    color: #ff6600;
     margin-bottom: 6px;
     display: block;
     font-weight: 600;
@@ -268,6 +272,36 @@ main {
     line-height: 1.5;
     margin: 0;
 }
+
+.placar-section { margin-top: 18px; }
+.placar-ticker { background: #00000030; border-radius:8px; padding:10px; margin-bottom:14px; border:1px solid #ffffff10; overflow:hidden; }
+.placar-ticker .ticker-item { display:inline-block; padding:6px 12px; margin-right:10px; background:rgba(255,255,255,0.03); border-radius:8px; color:var(--cor-principal); font-weight:700; }
+
+.placares-list { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.placar-card2 {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    border: 2px solid #ff660055;
+    border-radius: 22px;
+    box-shadow: 0 8px 28px #ff660022, 0 2px 8px #1a1a1a66;
+    padding: 18px 20px;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.placar-card2:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(0,0,0,0.6); }
+.placar-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+.placar-campeonato { color:#ffaa44; font-weight:700; }
+.placar-status2 { padding:6px 14px; border-radius:20px; font-weight:700; }
+.status-ao-vivo { background: var(--placar-ao-vivo); color: #fff; }
+.status-encerrado { background: var(--placar-encerrado); color: #233f1f; }
+.status-a-seguir { background: var(--placar-a-seguir); color: #4d3b07; }
+.placar-times { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:7px; }
+.placar-time { display:flex; align-items:center; gap:8px; }
+.placar-escudo2 { width:44px; height:44px; border-radius:50%; object-fit:contain; background:#fff; padding:4px; border:2px solid #ff660033; }
+.placar-gols2 { color: var(--cor-principal); font-size:1.6rem; font-weight:800; }
+.placar-x2 { color: var(--cor-principal); font-weight:700; margin: 0 4px; }
+.placar-nome2 { font-size: 0.95rem; }
+.placar-hora2 { margin-top:10px; font-size:1.05em; color:#ffaa44cc; font-style:italic; letter-spacing:0.7px; text-align:center; }
+.placar-resultado { display:flex; align-items:center; gap:8px; }
 
 .quick-links {
     display: flex;
@@ -290,7 +324,7 @@ main {
 
 .quick-card:hover {
     transform: translateY(-4px);
-    border-color: #ff0066;
+    border-color: #ff6600;
 }
 
 .quick-card h4 {
@@ -314,18 +348,18 @@ main {
 }
 
 .social-link:hover {
-    color: #ff99bb;
+    color: #ffaa44;
 }
 
 footer {
     background: var(--glass-bg);
     backdrop-filter: var(--glass-blur);
     text-align: center;
-    color: #ff0066;
+    color: #ff6600;
     font-size: 1.05em;
     padding: 18px 16px;
     margin-top: 40px;
-    border-top: 2px solid #ff006644;
+    border-top: 2px solid #ff660044;
 }
 
 .footer-inner {
@@ -364,8 +398,8 @@ body:before {
     bottom: 0;
     z-index: 0;
     pointer-events: none;
-    background: radial-gradient(circle at 65% 10%, #ff006633 0, transparent 40%),
-                radial-gradient(circle at 20% 85%, #ff006622 0, transparent 55%);
+    background: radial-gradient(circle at 65% 10%, #ff660033 0, transparent 40%),
+                radial-gradient(circle at 20% 85%, #ff660022 0, transparent 55%);
 }
 
 @keyframes fadeIn {
@@ -383,14 +417,14 @@ body:before {
     right: 34px;
     z-index: 900;
     display: none;
-    background: #ff0066;
+    background: #ff6600;
     color: #fff;
     border: none;
     border-radius: 50%;
     width: 42px;
     height: 42px;
     font-size: 2rem;
-    box-shadow: 0 3px 16px #ff006633;
+    box-shadow: 0 3px 16px #ff660033;
     cursor: pointer;
 }
 
@@ -400,7 +434,7 @@ body:before {
 
 .theme-toggle-btn {
     background: rgba(255, 255, 255, 0.1);
-    border: 1px solid #ff006633;
+    border: 1px solid #ff660033;
     padding: 8px 14px;
     border-radius: 10px;
     cursor: pointer;
@@ -413,7 +447,7 @@ body:before {
 }
 
 .theme-toggle-btn:hover {
-    background: rgba(255, 0, 102, 0.2);
+    background: rgba(255, 102, 0, 0.2);
 }
 
 @media (max-width: 900px) {
@@ -471,10 +505,10 @@ body:before {
 
 ::-webkit-scrollbar {
     width: 10px;
-    background: #0f346088;
+    background: #0a0a0a88;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ff006644;
+    background: #ff660044;
     border-radius: 6px;
 }

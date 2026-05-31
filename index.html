@@ -5,29 +5,16 @@
     <title>Rádio Super — Início</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="Rádio Super - A primeira afiliada da Rede Cidade. Notícias, música e entretenimento 24h." />
-    <meta name="theme-color" content="#1a1a2e" />
+    <meta name="theme-color" content="#0a0a0a" />
     <meta name="color-scheme" content="dark light">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .news-section { margin-top: 22px; }
-      .news-filters { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; align-items:center; }
-      .filter-btn { background: rgba(255,255,255,0.02); border:1px solid #ffffff12; color:var(--cor-principal); padding:8px 12px; border-radius:10px; cursor:pointer; font-weight:700; }
-      .filter-btn.active { background:var(--cor-principal); color:#1a1a2e; box-shadow:0 10px 26px rgba(0,0,0,0.45); transform:translateY(-2px); }
-      .latest-news-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
-      .latest-item { background:var(--glass-bg); padding:12px; border-radius:10px; border:1px solid #ff006655; box-shadow:0 8px 22px rgba(0,0,0,0.45); }
-      .latest-item h5 { margin:0 0 6px 0; color:var(--cor-principal); font-size:1rem; }
-      .latest-item .meta { color:var(--muted); font-size:0.92rem; margin-bottom:8px; display:block; }
-      .latest-item .excerpt { color:var(--cor-sec); font-size:0.95rem; }
-      .see-all { margin-top:10px; display:inline-block; color:var(--cor-principal); font-weight:700; text-decoration:none; }
-      @media (max-width:700px){ .latest-news-list { grid-template-columns:1fr; } }
-    </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 200 200%27%3E%3Crect fill=%27%231a1a2e%27 width=%27200%27 height=%27200%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 font-size=%27120%27 font-weight=%27bold%27 fill=%27%23ff0066%27 font-family=%27Arial%27%3ESuper%3C/text%3E%3C/svg%3E" alt="Logo Rádio Super" class="logo" loading="lazy" />
+            <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 200 200%27%3E%3Crect fill=%27%23ffd369%27 width=%27100%27 height=%27200%27/%3E%3Crect fill=%27%23ff6600%27 x=%27100%27 width=%27100%27 height=%27200%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 font-size=%27100%27 font-weight=%27bold%27 fill=%27%23000%27 font-family=%27Arial%27%3ES%3C/text%3E%3C/svg%3E" alt="Logo Rádio Super" class="logo" loading="lazy" />
             <div class="brand">
                 <h1>Rádio Super</h1>
                 <p class="subtitle">A primeira afiliada da Rede Cidade!</p>
@@ -35,7 +22,7 @@
             <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar tema"><span class="theme-icon">🌙</span></button>
             <nav aria-label="Principal">
                 <ul>
-                    <li><a href="index.html" id="nav-inicio">Início</a></li>
+                    <li><a href="index.html" id="nav-inicio" class="active">Início</a></li>
                     <li><a href="noticias.html" id="nav-noticias">Notícias</a></li>
                     <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
                     <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
@@ -65,12 +52,20 @@
                 </div>
             </div>
         </section>
-        <section class="news-section">
+
+        <section class="placar-section">
+            <h2>Placar ao Vivo</h2>
+            <div id="placar-ticker" class="placar-ticker"></div>
+            <div id="placares-list" class="placares-list"></div>
+        </section>
+
+        <section class="news-section" style="margin-top: 22px;">
           <h2>Últimas Notícias</h2>
           <div id="latest-news" class="latest-news-list" aria-live="polite">
           </div>
-          <p><a href="noticias.html" class="see-all">Ver todas as notícias →</a></p>
+          <p><a href="noticias.html" style="color: var(--cor-principal); font-weight: 700; text-decoration: none;">Ver todas as notícias →</a></p>
         </section>
+
         <section class="quick-links">
             <a href="noticias.html" class="quick-card">
                 <h4>Últimas Notícias</h4>
