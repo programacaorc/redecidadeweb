@@ -2,12 +2,12 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8" />
-    <title>Rede Cidade WEB — Início</title>
+    <title>Rádio Super — Início</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Rede Cidade WEB - Rádio online de BH e Pará de Minas. Notícias, esportes e programação." />
-    <meta name="theme-color" content="#232526" />
+    <meta name="description" content="Rádio Super - A primeira afiliada da Rede Cidade. Notícias, música e entretenimento 24h." />
+    <meta name="theme-color" content="#1a1a2e" />
     <meta name="color-scheme" content="dark light">
-    <meta name="apple-mobile-web-app-status-bar" content="#232526">
+    <meta name="apple-mobile-web-app-status-bar" content="#1a1a2e">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
@@ -16,9 +16,9 @@
       .news-section { margin-top: 22px; }
       .news-filters { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; align-items:center; }
       .filter-btn { background: rgba(255,255,255,0.02); border:1px solid #ffffff12; color:var(--cor-principal); padding:8px 12px; border-radius:10px; cursor:pointer; font-weight:700; }
-      .filter-btn.active { background:var(--cor-principal); color:#232526; box-shadow:0 10px 26px rgba(0,0,0,0.45); transform:translateY(-2px); }
+      .filter-btn.active { background:var(--cor-principal); color:#1a1a2e; box-shadow:0 10px 26px rgba(0,0,0,0.45); transform:translateY(-2px); }
       .latest-news-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
-      .latest-item { background:var(--glass-bg); padding:12px; border-radius:10px; border:1px solid #ffd36922; box-shadow:0 8px 22px rgba(0,0,0,0.45); }
+      .latest-item { background:var(--glass-bg); padding:12px; border-radius:10px; border:1px solid #ff006655; box-shadow:0 8px 22px rgba(0,0,0,0.45); }
       .latest-item h5 { margin:0 0 6px 0; color:var(--cor-principal); font-size:1rem; }
       .latest-item .meta { color:var(--muted); font-size:0.92rem; margin-bottom:8px; display:block; }
       .latest-item .excerpt { color:var(--cor-sec); font-size:0.95rem; }
@@ -41,7 +41,7 @@
         height: auto;
         padding: 8px 12px;
         background: var(--cor-principal);
-        color: #232526;
+        color: #1a1a2e;
         border-radius: 6px;
         box-shadow: 0 8px 20px rgba(0,0,0,0.5);
         text-decoration: none;
@@ -52,10 +52,10 @@
     <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
     <header>
         <div class="header-content">
-            <img src="logo-cidade.png" alt="Logo Rede Cidade WEB" class="logo" loading="lazy" />
+            <img src="logo-cidade.png" alt="Logo Rádio Super" class="logo" loading="lazy" />
             <div class="brand">
-                <h1>Rede Cidade WEB</h1>
-                <p class="subtitle">A Rede das Grandes Novidades!</p>
+                <h1>Rádio Super</h1>
+                <p class="subtitle">A primeira afiliada da Rede Cidade!</p>
             </div>
             <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar tema"><span class="theme-icon">🌙</span></button><nav aria-label="Principal">
                 <ul>
@@ -73,8 +73,8 @@
         <section class="hero">
             <div class="hero-inner">
                 <div class="hero-text">
-                    <h2>Rádio, notícias e esportes 24h — direto para você</h2>
-                    <p class="lead">Cobertura completa de Belo Horizonte, Pará de Minas e das principais notícias do Brasil. Ouça a melhor curadoria musical e acompanhe os placares ao vivo.</p>
+                    <h2>Notícias e Música 24h — Rádio Super</h2>
+                    <p class="lead">A primeira afiliada da Rede Cidade traz a melhor cobertura de notícias, as melhores músicas e entretenimento sem parar. Sintonize e não perca nada!</p>
                     <div class="hero-cta">
                         <a class="btn-primary" href="ouca.html">Ouça Agora</a>
                         <a class="btn-outline" href="noticias.html">Últimas Notícias</a>
@@ -87,31 +87,20 @@
                             <strong>AO VIVO</strong>
                         </div>
                         <div id="live-player-quick" class="live-player-quick">
-                            <audio controls src="https://stream.zeno.fm/9hmzagl0vcatv" preload="none"></audio>
-                            <p class="small muted">Rádio Cidade BH — toque para reproduzir</p>
+                            <audio controls src="" preload="none"></audio>
+                            <p class="small muted">Rádio Super — toque para reproduzir</p>
                         </div>
                     </div>
                     <div class="newsletter-card">
                         <h4>Receba as principais notícias</h4>
-                        <p class="small muted">Receba um resumo diário no seu e-mail (placeholder).</p>
+                        <p class="small muted">Receba um resumo diário no seu e-mail.</p>
                         <form id="newsletter-form" class="newsletter-form" aria-label="Inscrição newsletter">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0OWw31ovbIkH9Y8kMPHLNvEY98s0TmHrs_Ecb3URnT3TE-g/viewform?usp=dialog" target="_blank" class="btn-primary" style="display:inline-block; padding:10px 16px; border-radius:10px; text-decoration:none; font-weight:700; text-align:center; width:100%;">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0OWw31ovbIkH9Y8kMPHLNvEY98s0TmHrs_Ecb3URnT3TE-g/viewform?usp=dialog" target="_blank" class="btn-primary" style="display:inline-block; text-decoration:none;">
                                 Inscrever na Newsletter
                             </a>
                         </form>
                         <p id="newsletter-msg" class="small muted" style="display:none;"></p>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- PLACAR TICKER + CARDS -->
-        <section class="placar-section">
-            <div class="placar-ticker" aria-live="polite" id="placar-ticker"></div>
-            <div class="placares-container">
-                <h2>Placar e próximos jogos</h2>
-                <p class="placar-caption">Resultados e partidas agendadas — acompanhe em tempo real</p>
-                <div id="placares-list" class="placares-list">
-                    <div class="loading-placar">Carregando placares...</div>
                 </div>
             </div>
         </section>
@@ -133,23 +122,23 @@
             </a>
             <a href="ouca.html" class="quick-card">
                 <h4>Ouça-nos</h4>
-                <p>Players dedicados para BH, PA, São Paulo e Canoas (widget lazy-load).</p>
+                <p>Player dedicado para sintonizar Rádio Super em tempo real.</p>
             </a>
             <a href="noticias.html" class="quick-card">
                 <h4>Últimas Notícias</h4>
-                <p>As manchetes mais importantes do dia em jornalismo local e esportes.</p>
+                <p>As manchetes mais importantes do dia em jornalismo local e entretenimento.</p>
             </a>
         </section>
     </main>
     <footer>
         <div class="footer-inner">
             <div class="footer-left">
-                <p>&copy; 2025 Rede Cidade WEB</p>
-                <p class="small muted">Todos os direitos reservados.</p>
+                <p>&copy; 2026 Rádio Super</p>
+                <p class="small muted">Primeira afiliada da Rede Cidade. Todos os direitos reservados.</p>
             </div>
             <div class="footer-right">
-                <a class="social-link instagram" href="https://www.instagram.com/redecidadeweb2024/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a class="social-link youtube" href="https://www.youtube.com/@RedeCidadeWEB" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a class="social-link instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a class="social-link youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
             </div>
         </div>
     </footer>
