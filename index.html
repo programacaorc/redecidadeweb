@@ -7,11 +7,9 @@
     <meta name="description" content="Rádio Super - A primeira afiliada da Rede Cidade. Notícias, música e entretenimento 24h." />
     <meta name="theme-color" content="#1a1a2e" />
     <meta name="color-scheme" content="dark light">
-    <meta name="apple-mobile-web-app-status-bar" content="#1a1a2e">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="logo-cidade.png" />
     <style>
       .news-section { margin-top: 22px; }
       .news-filters { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px; align-items:center; }
@@ -24,43 +22,20 @@
       .latest-item .excerpt { color:var(--cor-sec); font-size:0.95rem; }
       .see-all { margin-top:10px; display:inline-block; color:var(--cor-principal); font-weight:700; text-decoration:none; }
       @media (max-width:700px){ .latest-news-list { grid-template-columns:1fr; } }
-      /* Skip link (accessibility) */
-      .skip-link {
-        position: absolute;
-        left: -999px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        z-index: 1000;
-      }
-      .skip-link:focus {
-        left: 12px;
-        top: 12px;
-        width: auto;
-        height: auto;
-        padding: 8px 12px;
-        background: var(--cor-principal);
-        color: #1a1a2e;
-        border-radius: 6px;
-        box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-        text-decoration: none;
-      }
     </style>
 </head>
 <body>
-    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
     <header>
         <div class="header-content">
-            <img src="logo-cidade.png" alt="Logo Rádio Super" class="logo" loading="lazy" />
+            <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 200 200%27%3E%3Crect fill=%27%231a1a2e%27 width=%27200%27 height=%27200%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 font-size=%27120%27 font-weight=%27bold%27 fill=%27%23ff0066%27 font-family=%27Arial%27%3ESuper%3C/text%3E%3C/svg%3E" alt="Logo Rádio Super" class="logo" loading="lazy" />
             <div class="brand">
                 <h1>Rádio Super</h1>
                 <p class="subtitle">A primeira afiliada da Rede Cidade!</p>
             </div>
-            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar tema"><span class="theme-icon">🌙</span></button><nav aria-label="Principal">
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar tema"><span class="theme-icon">🌙</span></button>
+            <nav aria-label="Principal">
                 <ul>
                     <li><a href="index.html" id="nav-inicio">Início</a></li>
-                    <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
                     <li><a href="noticias.html" id="nav-noticias">Notícias</a></li>
                     <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
                     <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
@@ -69,14 +44,13 @@
         </div>
     </header>
     <main id="main-content">
-        <!-- HERO / Destaque -->
         <section class="hero">
             <div class="hero-inner">
                 <div class="hero-text">
                     <h2>Notícias e Música 24h — Rádio Super</h2>
                     <p class="lead">A primeira afiliada da Rede Cidade traz a melhor cobertura de notícias, as melhores músicas e entretenimento sem parar. Sintonize e não perca nada!</p>
                     <div class="hero-cta">
-                        <a class="btn-primary" href="ouca.html">Ouça Agora</a>
+                        <a class="btn-primary" href="#noticias">Ouça Agora</a>
                         <a class="btn-outline" href="noticias.html">Últimas Notícias</a>
                     </div>
                 </div>
@@ -86,47 +60,29 @@
                             <span class="live-dot" aria-hidden="true"></span>
                             <strong>AO VIVO</strong>
                         </div>
-                        <div id="live-player-quick" class="live-player-quick">
-                            <audio controls src="" preload="none"></audio>
-                            <p class="small muted">Rádio Super — toque para reproduzir</p>
-                        </div>
-                    </div>
-                    <div class="newsletter-card">
-                        <h4>Receba as principais notícias</h4>
-                        <p class="small muted">Receba um resumo diário no seu e-mail.</p>
-                        <form id="newsletter-form" class="newsletter-form" aria-label="Inscrição newsletter">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0OWw31ovbIkH9Y8kMPHLNvEY98s0TmHrs_Ecb3URnT3TE-g/viewform?usp=dialog" target="_blank" class="btn-primary" style="display:inline-block; text-decoration:none;">
-                                Inscrever na Newsletter
-                            </a>
-                        </form>
-                        <p id="newsletter-msg" class="small muted" style="display:none;"></p>
+                        <p class="small muted">Rádio Super — sintonize agora</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- ÚLTIMAS NOTÍCIAS (carregadas do JSON) -->
         <section class="news-section">
           <h2>Últimas Notícias</h2>
-          <div id="news-controls" class="news-filters" aria-label="Filtrar notícias">
-            <span style="color:var(--muted);font-weight:700;">Filtrar:</span>
-            <div id="news-filters" style="display:flex;gap:8px;"></div>
-          </div>
           <div id="latest-news" class="latest-news-list" aria-live="polite">
           </div>
           <p><a href="noticias.html" class="see-all">Ver todas as notícias →</a></p>
         </section>
         <section class="quick-links">
+            <a href="noticias.html" class="quick-card">
+                <h4>Últimas Notícias</h4>
+                <p>As manchetes mais importantes do dia em jornalismo local e entretenimento.</p>
+            </a>
             <a href="programacao.html" class="quick-card">
                 <h4>Programação</h4>
                 <p>Confira a grade completa e os horários de seus programas preferidos.</p>
             </a>
-            <a href="ouca.html" class="quick-card">
-                <h4>Ouça-nos</h4>
-                <p>Player dedicado para sintonizar Rádio Super em tempo real.</p>
-            </a>
-            <a href="noticias.html" class="quick-card">
-                <h4>Últimas Notícias</h4>
-                <p>As manchetes mais importantes do dia em jornalismo local e entretenimento.</p>
+            <a href="quem-somos.html" class="quick-card">
+                <h4>Quem Somos</h4>
+                <p>Conheça a história e missão da Rádio Super.</p>
             </a>
         </section>
     </main>
@@ -134,15 +90,14 @@
         <div class="footer-inner">
             <div class="footer-left">
                 <p>&copy; 2026 Rádio Super</p>
-                <p class="small muted">Primeira afiliada da Rede Cidade. Todos os direitos reservados.</p>
+                <p class="small muted">Primeira afiliada da Rede Cidade.</p>
             </div>
             <div class="footer-right">
-                <a class="social-link instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a class="social-link youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a class="social-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
             </div>
         </div>
     </footer>
-    <script defer src="noticias.js"></script>
     <script defer src="script.js"></script>
 </body>
 </html>

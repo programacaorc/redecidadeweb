@@ -9,60 +9,50 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="logo-cidade.png" />
   <style>
-    body { font-family: 'Poppins', Arial, sans-serif; background: #0f0f17; color:#efecec; margin:0; padding:18px; }
+    .page-header { display:flex; align-items:center; gap:12px; margin-bottom:18px; flex-wrap: wrap; padding: 0 16px; }
+    .logo-mini { width:60px; height:60px; border-radius:10px; border:3px solid #ff0066; flex-shrink: 0; }
+    .header-info { flex: 1; min-width: 150px; }
+    .page-nav { margin-left:auto; }
+    .page-nav ul { list-style:none; display:flex; gap:12px; padding:0; margin:0; flex-wrap: wrap; }
+    .page-nav a { color:#ff0066; text-decoration:none; padding:6px 10px; border-radius:8px; font-weight:700; font-size: 0.95rem; }
+    .page-nav a.active { background:#ff0066; color:#1a1a2e; }
     .container { max-width:1100px; margin:0 auto; }
-    header { display:flex; align-items:center; gap:12px; margin-bottom:18px; }
-    .logo-mini { width:60px; height:60px; border-radius:10px; border:3px solid #ff0066; object-fit:cover; }
-    nav ul { list-style:none; display:flex; gap:12px; padding:0; margin:0; }
-    nav a { color:var(--cor-principal, #ff0066); text-decoration:none; padding:6px 10px; border-radius:8px; font-weight:700; }
-    nav a.active { background:var(--cor-principal, #ff0066); color:#1a1a2e; }
-    main h2 { color:var(--cor-principal, #ff0066); }
-    .noticias-list { display:flex; flex-direction:column; gap:14px; margin-top:12px; }
+    main h2 { color:#ff0066; padding: 0 16px; }
+    .noticias-list { display:flex; flex-direction:column; gap:14px; margin-top:12px; padding: 0 16px; }
     .noticia { background: rgba(255,255,255,0.02); padding:18px; border-radius:12px; border:1px solid #333; }
-    .noticia h4 { margin:0 0 6px 0; color:var(--cor-principal,#ff0066); }
-    .noticia .data { display:block; color:#ff0066; margin-bottom:10px; font-weight:700; }
-    .news-info p { color:#e8e8e8; line-height:1.5; margin:8px 0; }
-    footer { margin-top:28px; color:#a0a0a0; text-align:center; }
-
-    .skip-link { position:absolute; left:-999px; }
-    .skip-link:focus { left:12px; top:12px; background:var(--cor-principal); color:#1a1a2e; padding:8px 12px; border-radius:6px; z-index:1000; }
+    footer { margin-top:28px; color:#a0a0a0; text-align:center; padding: 18px 16px; }
   </style>
 </head>
 <body>
-  <a class="skip-link" href="#noticias-list">Pular para as notícias</a>
-  <div class="container">
-    <header>
-      <img src="logo-cidade.png" alt="Logo Rádio Super" class="logo-mini" loading="lazy" />
-      <div>
-        <h1 style="margin:0;color:var(--cor-principal,#ff0066)">Rádio Super</h1>
-        <p style="margin:4px 0 0;color:#a0a0a0">Notícias</p>
+  <header>
+    <div class="header-content">
+      <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 200 200%27%3E%3Crect fill=%27%231a1a2e%27 width=%27200%27 height=%27200%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 font-size=%27120%27 font-weight=%27bold%27 fill=%27%23ff0066%27 font-family=%27Arial%27%3ESuper%3C/text%3E%3C/svg%3E" alt="Logo Rádio Super" class="logo" loading="lazy" />
+      <div class="brand">
+        <h1>Rádio Super</h1>
+        <p class="subtitle">Notícias</p>
       </div>
-      <nav style="margin-left:auto" aria-label="Principal">
+      <nav aria-label="Principal">
         <ul>
-          <li><a href="index.html" id="nav-inicio">Início</a></li>
-          <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
-          <li><a href="noticias.html" id="nav-noticias" class="active">Notícias</a></li>
-          <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
-          <li><a href="quem-somos.html" id="nav-quem">Quem Somos</a></li>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="noticias.html" class="active">Notícias</a></li>
+          <li><a href="programacao.html">Programação</a></li>
+          <li><a href="quem-somos.html">Quem Somos</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
+  <div class="container">
     <main>
-      <section>
-        <h2>Últimas Notícias</h2>
-
-        <div id="noticias-list" class="noticias-list" aria-live="polite">
-          <!-- Conteúdo será carregado via script.js -->
-          <noscript><p>Para ver as últimas notícias, ative o JavaScript.</p></noscript>
-        </div>
-      </section>
+      <h2>Últimas Notícias</h2>
+      <div id="noticias-list" class="noticias-list" aria-live="polite">
+        <p>Carregando notícias...</p>
+      </div>
     </main>
 
     <footer>
-      <p>&copy; 2026 Rádio Super. Primeira afiliada da Rede Cidade. Todos os direitos reservados.</p>
+      <p>&copy; 2026 Rádio Super. Primeira afiliada da Rede Cidade.</p>
     </footer>
   </div>
 

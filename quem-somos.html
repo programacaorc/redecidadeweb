@@ -9,51 +9,47 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="logo-cidade.png" />
   <style>
-    .container { max-width:900px; margin:0 auto; padding:20px; }
-    header { display:flex; align-items:center; gap:12px; margin-bottom:18px; }
-    .logo-mini { width:60px; height:60px; border-radius:10px; border:3px solid #ff0066; }
-    nav ul { list-style:none; display:flex; gap:12px; padding:0; margin:0; margin-left:auto; }
-    nav a { color:#ff0066; text-decoration:none; font-weight:700; }
-    nav a.active { background:#ff0066; color:#1a1a2e; padding:6px 10px; border-radius:8px; }
+    .container { max-width:900px; margin:0 auto; padding: 0 16px; }
     main { margin-top:20px; }
     main h2 { color:#ff0066; }
     main p { line-height:1.7; color:#e8e8e8; }
     .about-card { background:rgba(255,0,102,0.1); padding:20px; border-radius:12px; border:1px solid #ff006633; margin:18px 0; }
     .about-card h3 { color:#ff0066; margin-top:0; }
+    footer { margin-top:40px; color:#a0a0a0; text-align:center; padding-top:20px; border-top:1px solid #ff006633; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="logo-cidade.png" alt="Logo Rádio Super" class="logo-mini" loading="lazy" />
-      <div>
-        <h1 style="margin:0;color:#ff0066">Rádio Super</h1>
-        <p style="margin:4px 0 0;color:#a0a0a0">Sobre</p>
+  <header>
+    <div class="header-content">
+      <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 200 200%27%3E%3Crect fill=%27%231a1a2e%27 width=%27200%27 height=%27200%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 font-size=%27120%27 font-weight=%27bold%27 fill=%27%23ff0066%27 font-family=%27Arial%27%3ESuper%3C/text%3E%3C/svg%3E" alt="Logo Rádio Super" class="logo" loading="lazy" />
+      <div class="brand">
+        <h1>Rádio Super</h1>
+        <p class="subtitle">Sobre</p>
       </div>
       <nav aria-label="Principal">
         <ul>
-          <li><a href="index.html" id="nav-inicio">Início</a></li>
-          <li><a href="ouca.html" id="nav-ouca">Ouça-nos</a></li>
-          <li><a href="noticias.html" id="nav-noticias">Notícias</a></li>
-          <li><a href="programacao.html" id="nav-programacao">Programação</a></li>
-          <li><a href="quem-somos.html" id="nav-quem" style="background:#ff0066;color:#1a1a2e;padding:6px 10px;border-radius:8px;">Quem Somos</a></li>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="programacao.html">Programação</a></li>
+          <li><a href="quem-somos.html" class="active">Quem Somos</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
+  <div class="container">
     <main>
       <h2>Sobre a Rádio Super</h2>
       <p>Bem-vindo à Rádio Super, a primeira afiliada da Rede Cidade de rádios! Somos uma emissora moderna, dinâmica e comprometida com a qualidade no jornalismo, música e entretenimento.</p>
 
       <div class="about-card">
         <h3>🎙️ Nossa Missão</h3>
-        <p>Levar informação de qualidade, as melhores músicas e entretenimento para nossos ouvintes 24 horas por dia, 7 dias por semana. Somos a ponte entre você e o melhor conteúdo da região.</p>
+        <p>Levar informação de qualidade, as melhores músicas e entretenimento para nossos ouvintes 24 horas por dia, 7 dias por semana. Somos a ponte entre você e o melhor conteúdo.</p>
       </div>
 
       <div class="about-card">
-        <h3>🌟 Nossa Visão</h3>
+        <h3>⭐ Nossa Visão</h3>
         <p>Ser a rádio mais confiável, inovadora e próxima do público, oferecendo uma experiência de áudio premium com tecnologia de ponta e conteúdo relevante para toda a família.</p>
       </div>
 
@@ -63,13 +59,13 @@
       </div>
 
       <h3 style="color:#ff0066">Filiada à Rede Cidade</h3>
-      <p>A Rádio Super faz parte da Rede Cidade, uma rede de rádios que já conta com 4 emissoras filiais de grande alcance. Juntos, formamos um ecossistema de comunicação forte, comprometido com a excelência em jornalismo, música e entretenimento.</p>
+      <p>A Rádio Super faz parte da Rede Cidade, uma rede de rádios que já conta com 4 emissoras filiais de grande alcance. Juntos, formamos um ecossistema de comunicação forte.</p>
 
       <hr style="border-color:#ff006633;margin:28px 0;">
       <p style="text-align:center;color:#a0a0a0;"><strong>Rádio Super:</strong> Notícias e Música que conectam você ao mundo! 🎵📻</p>
     </main>
 
-    <footer style="text-align:center;color:#a0a0a0;margin-top:40px;padding-top:20px;border-top:1px solid #ff006633;">
+    <footer>
       <p>&copy; 2026 Rádio Super. Todos os direitos reservados.</p>
     </footer>
   </div>
