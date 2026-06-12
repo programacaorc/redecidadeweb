@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "11/06",
       hora: "23:00",
       time_casa: "Coreia do Sul",
