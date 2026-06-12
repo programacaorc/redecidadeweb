@@ -263,10 +263,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "23:00",
       time_casa: "Coreia do Sul",
       escudo_casa: "https://media.istockphoto.com/id/1445565161/pt/vetorial/vector-illustration-of-flat-round-shaped-of-south-korea-flag-official-national-flag-in.jpg?s=612x612&w=0&k=20&c=C0ts8oTHEJ0oIZ1lsXjqHsn4TOT5mT3igtTVBo_Q9H4=",
-      gols_casa: 0,
+      gols_casa: 2,
       time_fora: "R. Tchéquia",
       escudo_fora: "https://img.freepik.com/vetores-premium/republica-tcheca-desenho-de-icone-de-vetor-de-bandeira-redonda-bandeira-circular-da-republica-tcheca_1118204-435.jpg",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
