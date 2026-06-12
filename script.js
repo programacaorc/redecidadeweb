@@ -246,27 +246,27 @@ document.addEventListener('DOMContentLoaded', () => {
   const placares = [
     {
       campeonato: "Copa do Mundo FIFA 2026",
-      status: "A SEGUIR",
+      status: "ENCERRADO",
       data: "11/06",
       hora: "16:00",
       time_casa: "México",
       escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9oyWNeJCXF10_THGhgmkt93nwqBPrEBxGzvZF17jjA&s",
-      gols_casa: null,
+      gols_casa: 2,
       time_fora: "África",
       escudo_fora: "https://thumbs.dreamstime.com/b/bandeira-redonda-de-%C3%A1frica-do-sul-134375843.jpg",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "11/06",
       hora: "23:00",
       time_casa: "Coreia do Sul",
       escudo_casa: "https://media.istockphoto.com/id/1445565161/pt/vetorial/vector-illustration-of-flat-round-shaped-of-south-korea-flag-official-national-flag-in.jpg?s=612x612&w=0&k=20&c=C0ts8oTHEJ0oIZ1lsXjqHsn4TOT5mT3igtTVBo_Q9H4=",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "R. Tchéquia",
       escudo_fora: "https://img.freepik.com/vetores-premium/republica-tcheca-desenho-de-icone-de-vetor-de-bandeira-redonda-bandeira-circular-da-republica-tcheca_1118204-435.jpg",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
