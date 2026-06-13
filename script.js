@@ -282,27 +282,27 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
-      status: "A SEGUIR",
+      status: "ENCERRADO",
       data: "13/06",
       hora: "16:00",
       time_casa: "Catar",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a9/Associa%C3%A7%C3%A3o_do_Qatar_de_Futebol.png/250px-Associa%C3%A7%C3%A3o_do_Qatar_de_Futebol.png",
-      gols_casa: null,
+      gols_casa: 1,
       time_fora: "Suiça",
       escudo_fora: "https://static.vecteezy.com/system/resources/previews/011/571/518/non_2x/circle-flag-of-switzerland-free-png.png",
-      gols_fora: null
+      gols_fora: 1
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "13/06",
       hora: "19:00",
       time_casa: "Brasil",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Brazilian_Flag_-_round.svg/500px-Brazilian_Flag_-_round.svg.png",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Marrocos",
       escudo_fora: "https://thumbs.dreamstime.com/b/%C3%ADcone-liso-redondo-do-vetor-da-bandeira-de-marrocos-107113573.jpg",
-      gols_fora: null
+      gols_fora: 1
     }
   ];
 
