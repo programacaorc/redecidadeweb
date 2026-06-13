@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
       status: "ENCERRADO",
       data: "11/06",
       hora: "23:00",
-      time_casa: "Coreia do Sul",
+      time_casa: "C. do Sul",
       escudo_casa: "https://media.istockphoto.com/id/1445565161/pt/vetorial/vector-illustration-of-flat-round-shaped-of-south-korea-flag-official-national-flag-in.jpg?s=612x612&w=0&k=20&c=C0ts8oTHEJ0oIZ1lsXjqHsn4TOT5mT3igtTVBo_Q9H4=",
       gols_casa: 2,
       time_fora: "R. Tchéquia",
