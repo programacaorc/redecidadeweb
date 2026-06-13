@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hora: "19:00",
       time_casa: "Brasil",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Brazilian_Flag_-_round.svg/500px-Brazilian_Flag_-_round.svg.png",
-      gols_casa: 0,
+      gols_casa: 1,
       time_fora: "Marrocos",
       escudo_fora: "https://thumbs.dreamstime.com/b/%C3%ADcone-liso-redondo-do-vetor-da-bandeira-de-marrocos-107113573.jpg",
       gols_fora: 1
