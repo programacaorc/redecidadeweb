@@ -270,15 +270,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
-      status: "A SEGUIR",
+      status: "ENCERRADO",
       data: "12/06",
       hora: "16:00",
       time_casa: "Canadá",
       escudo_casa: "https://media.istockphoto.com/id/1246325394/pt/vetorial/flag-of-canada-round-icon-badge-or-button-canadian-national-symbol-template-design-vector.jpg?s=612x612&w=0&k=20&c=zt9Fbmn3edR4HA3k_S4U4MZNmlKui1GioFk0Y0y5Vd0=",
-      gols_casa: null,
+      gols_casa: 1,
       time_fora: "Bósnia",
       escudo_fora: "https://png.pngtree.com/png-vector/20220507/ourmid/pngtree-round-country-flag-bosnia-png-image_4564902.png",
-      gols_fora: null
+      gols_fora: 1
     },
     {
       campeonato: "Copa do Mundo FIFA 2026",
