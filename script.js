@@ -245,64 +245,64 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- PLACARES (dados e render) ----------
   const placares = [
     {
-      campeonato: "Copa do Mundo FIFA 2026",
-      status: "ENCERRADO",
-      data: "11/06",
-      hora: "16:00",
-      time_casa: "México",
-      escudo_casa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9oyWNeJCXF10_THGhgmkt93nwqBPrEBxGzvZF17jjA&s",
-      gols_casa: 2,
-      time_fora: "África",
-      escudo_fora: "https://thumbs.dreamstime.com/b/bandeira-redonda-de-%C3%A1frica-do-sul-134375843.jpg",
-      gols_fora: 0
+      campeonato: "Copa Libertadores",
+      status: "A SEGUIR",
+      data: "19/09",
+      hora: "21:30",
+      time_casa: "Flamengo",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_casa: null,
+      time_fora: "Cruzeiro",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_fora: null
     },
     {
-      campeonato: "Copa do Mundo FIFA 2026",
-      status: "ENCERRADO",
-      data: "11/06",
-      hora: "23:00",
-      time_casa: "C. do Sul",
-      escudo_casa: "https://media.istockphoto.com/id/1445565161/pt/vetorial/vector-illustration-of-flat-round-shaped-of-south-korea-flag-official-national-flag-in.jpg?s=612x612&w=0&k=20&c=C0ts8oTHEJ0oIZ1lsXjqHsn4TOT5mT3igtTVBo_Q9H4=",
-      gols_casa: 2,
-      time_fora: "Tchéquia",
-      escudo_fora: "https://img.freepik.com/vetores-premium/republica-tcheca-desenho-de-icone-de-vetor-de-bandeira-redonda-bandeira-circular-da-republica-tcheca_1118204-435.jpg",
-      gols_fora: 1
-    },
-    {
-      campeonato: "Copa do Mundo FIFA 2026",
-      status: "ENCERRADO",
-      data: "12/06",
-      hora: "16:00",
-      time_casa: "Canadá",
-      escudo_casa: "https://media.istockphoto.com/id/1246325394/pt/vetorial/flag-of-canada-round-icon-badge-or-button-canadian-national-symbol-template-design-vector.jpg?s=612x612&w=0&k=20&c=zt9Fbmn3edR4HA3k_S4U4MZNmlKui1GioFk0Y0y5Vd0=",
-      gols_casa: 1,
-      time_fora: "Bósnia",
-      escudo_fora: "https://png.pngtree.com/png-vector/20220507/ourmid/pngtree-round-country-flag-bosnia-png-image_4564902.png",
-      gols_fora: 1
-    },
-    {
-      campeonato: "Copa do Mundo FIFA 2026",
-      status: "ENCERRADO",
-      data: "13/06",
-      hora: "16:00",
-      time_casa: "Catar",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a9/Associa%C3%A7%C3%A3o_do_Qatar_de_Futebol.png/250px-Associa%C3%A7%C3%A3o_do_Qatar_de_Futebol.png",
-      gols_casa: 1,
-      time_fora: "Suiça",
-      escudo_fora: "https://static.vecteezy.com/system/resources/previews/011/571/518/non_2x/circle-flag-of-switzerland-free-png.png",
-      gols_fora: 1
-    },
-    {
-      campeonato: "Copa do Mundo FIFA 2026",
-      status: "ENCERRADO",
-      data: "13/06",
+      campeonato: "Copa Sul Americana",
+      status: "AO VIVO",
+      data: "19/08",
       hora: "19:00",
-      time_casa: "Brasil",
-      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Brazilian_Flag_-_round.svg/500px-Brazilian_Flag_-_round.svg.png",
-      gols_casa: 1,
-      time_fora: "Marrocos",
-      escudo_fora: "https://thumbs.dreamstime.com/b/%C3%ADcone-liso-redondo-do-vetor-da-bandeira-de-marrocos-107113573.jpg",
-      gols_fora: 1
+      time_casa: "Atlético",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logo_of_Clube_Atl%C3%A9tico_Mineiro.svg/250px-Logo_of_Clube_Atl%C3%A9tico_Mineiro.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_casa: null,
+      time_fora: "Bragantino",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_fora: null
+    },
+    {
+      campeonato: "Brasileirão",
+      status: "A SEGUIR",
+      data: "23/08",
+      hora: "16:00",
+      time_casa: "Palmeiras",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/250px-SE_Palmeiras_2025_crest.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_casa: null,
+      time_fora: "Vasco",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/250px-EscudoDoVascoDaGama.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_fora: null
+    },
+    {
+      campeonato: "Brasileirão",
+      status: "A SEGUIR",
+      data: "22/08",
+      hora: "16:00",
+      time_casa: "Cruzeiro",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_casa: null,
+      time_fora: "Flamengo",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_fora: null
+    },
+    {
+      campeonato: "Brasileirão",
+      status: "A SEGUIR",
+      data: "22/08",
+      hora: "18:30",
+      time_casa: "Internacional",
+      escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/250px-Sport_Club_Internacional_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_casa: null,
+      time_fora: "Atlético",
+      escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logo_of_Clube_Atl%C3%A9tico_Mineiro.svg/250px-Logo_of_Clube_Atl%C3%A9tico_Mineiro.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      gols_fora: null
     }
   ];
 
