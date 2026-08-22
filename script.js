@@ -282,19 +282,19 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Brasileirão",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "22/08",
       hora: "16:00",
       time_casa: "Cruzeiro",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/250px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Fla.",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/250px-Clube_de_Regatas_do_Flamengo_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Brasileirão",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "22/08",
       hora: "18:30",
       time_casa: "Internacional",
