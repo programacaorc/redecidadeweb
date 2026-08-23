@@ -270,15 +270,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Brasileirão",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "23/08",
       hora: "16:00",
       time_casa: "Palmeiras",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/SE_Palmeiras_2025_crest.png/250px-SE_Palmeiras_2025_crest.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      gols_casa: 3,
+      gols_casa: 4,
       time_fora: "Vasco",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/8b/EscudoDoVascoDaGama.svg/250px-EscudoDoVascoDaGama.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      gols_fora: 0
+      gols_fora: 1
     },
     {
       campeonato: "Brasileirão",
