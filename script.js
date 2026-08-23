@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
       time_casa: "Atlético",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logo_of_Clube_Atl%C3%A9tico_Mineiro.svg/250px-Logo_of_Clube_Atl%C3%A9tico_Mineiro.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       gols_casa: 2,
-      time_fora: "Bragantino",
+      time_fora: "Braga.",
       escudo_fora: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/RedBullBragantino.png/250px-RedBullBragantino.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       gols_fora: 1
     },
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
       status: "ENCERRADO",
       data: "22/08",
       hora: "18:30",
-      time_casa: "Internacional",
+      time_casa: "Inter.",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/250px-Sport_Club_Internacional_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       gols_casa: 0,
       time_fora: "Atlético",
