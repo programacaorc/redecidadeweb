@@ -282,15 +282,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "A SEGUIR",
+      status: "AO VIVO",
       data: "27/08",
       hora: "20:00",
       time_casa: "Grêmio",
       escudo_casa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      gols_casa: null,
+      gols_casa: 0,
       time_fora: "Inter.",
       escudo_fora: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sport_Club_Internacional_logo.svg/960px-Sport_Club_Internacional_logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      gols_fora: null
+      gols_fora: 0
     },
     {
       campeonato: "Brasileirão",
