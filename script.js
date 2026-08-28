@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       campeonato: "Copa do Brasil",
-      status: "AO VIVO",
+      status: "ENCERRADO",
       data: "27/08",
       hora: "20:00",
       time_casa: "Grêmio",
